@@ -43,18 +43,68 @@
     <a class="item">
       About Us
     </a>
-
+    <a class="header item" href="titles1.php">
+      1st semester
+    </a>
+    <a class="header item" href="titles2.php">
+      2nd semester
+    </a>
     <a class="header item" href="titles3.php">
       3rd semester
     </a>
+    <a class="header item" href="titles4.php">
+      4th semester
+    </a>
     <a class="header item" href="titles5.php">
       5th semester
+    </a>
+    <a class="header item" href="titles6.php">
+      6th semester
+    </a>
+    <a class="header item" href="titles7.php">
+      7th semester
     </a>
   </div>
   </div>
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div class="ui container" id="CardGrid">
     <div class="ui stackable grid">
+      <div class="four wide column">
+        <div class="ui raised card" id="car1">
+          <div class="content" id="Card1">
+            <div class="header">
+              <a href="cpps.php">
+               C Programming For Problem Solving
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+            Contains educational videos on C Programming For Problem Solving (CPPS)
+            </span>
+            <br><br>
+            <a class="ui button" href="cpps.php">Go</a>
+          </div>
+        </div>
+      </div>
+       <div class="four wide column">
+        <div class="ui raised card" id="car1">
+          <div class="content" id="Card1">
+            <div class="header">
+              <a href="cpl.php">
+               C Programming Laboratory
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Contains 6 Programs with Applications in C Programming Language
+            </span>
+            <br><br>
+            <a class="ui button" href="cpl.php">Go</a>
+          </div>
+        </div>
+      </div>
       <div class="four wide column">
         <div class="ui raised card" id="car1">
           <div class="content" id="Card1">
