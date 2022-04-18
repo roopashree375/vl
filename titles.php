@@ -476,6 +476,25 @@
         </div>
       </div>
 
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="os.php">
+                operating system
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              operating system
+            </span>
+            <br><br>
+            <a class="ui button" href="os.php">Go</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
