@@ -75,7 +75,7 @@
  <div class="twelve wide stretched column">
     <div class="ui segment">
       
-      <div id="int">
+      <div id="int"><u> Arrays</u><br>
       Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. To create an array, define the data type (like int ) and specify the name of the array followed by square brackets [].
         <br><br>
         <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/watch?v=55l-aZ7_F24" frameborder="0">
