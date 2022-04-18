@@ -435,9 +435,9 @@
             <br><br>
             <a class="ui button" href="placement.php">Go</a>
           </div>
-
         </div>
       </div>
+
       <div class="four wide column">
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
@@ -454,14 +454,31 @@
             <br><br>
             <a class="ui button" href="cpp.php">Go</a>
           </div>
+        </div>
+      </div>
 
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="bda.php">
+                Big Data Analytics
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Big Data Analytics
+            </span>
+            <br><br>
+            <a class="ui button" href="bda.php">Go</a>
+          </div>
         </div>
       </div>
 
     </div>
   </div>
-  </div>
-  </div>
+
 </body>
 
 </html>
