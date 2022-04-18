@@ -305,6 +305,25 @@
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
             <div class="header">
+              <a href="os.php">
+                Operating system
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Operating system
+            </span>
+            <br><br>
+            <a class="ui button" href="os.php">Go</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
               <a href="cn.php">
                 Computer Networks Laboratory
               </a>
@@ -480,17 +499,55 @@
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
             <div class="header">
-              <a href="os.php">
-                Operating system
+              <a href="wsn.php">
+                Wireless Sensor Networks
               </a>
             </div>
           </div>
           <div class="content">
             <span class="CardBody">
-              Operating system
+              Wireless Sensor Networks
             </span>
             <br><br>
-            <a class="ui button" href="os.php">Go</a>
+            <a class="ui button" href="wsn.php">Go</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="bct.php">
+                Blockchain Technologies
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Blockchain Technologies
+            </span>
+            <br><br>
+            <a class="ui button" href="bct.php">Go</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="cba.php">
+                Cloud and Big Data Laboratory
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Cloud and Big Data Laboratory
+            </span>
+            <br><br>
+            <a class="ui button" href="cba.php">Go</a>
           </div>
         </div>
       </div>
