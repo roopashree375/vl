@@ -481,13 +481,13 @@
           <div class="content" id="Card5">
             <div class="header">
               <a href="os.php">
-                operating system
+                Operating system
               </a>
             </div>
           </div>
           <div class="content">
             <span class="CardBody">
-              operating system
+              Operating system
             </span>
             <br><br>
             <a class="ui button" href="os.php">Go</a>
