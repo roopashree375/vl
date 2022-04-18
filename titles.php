@@ -1,3 +1,4 @@
+<!-- Hello evveryone -->
 <!DOCTYPE html>
 <?php
 // if(session_status()==PHP_SESSION_NONE)
@@ -74,25 +75,25 @@
           <div class="content" id="Card1">
             <div class="header">
               <a href="cpps.php">
-               C Programming For Problem Solving
+                C Programming For Problem Solving
               </a>
             </div>
           </div>
           <div class="content">
             <span class="CardBody">
-            Contains educational videos on C Programming For Problem Solving (CPPS)
+              Contains educational videos on C Programming For Problem Solving (CPPS)
             </span>
             <br><br>
             <a class="ui button" href="cpps.php">Go</a>
           </div>
         </div>
       </div>
-       <div class="four wide column">
+      <div class="four wide column">
         <div class="ui raised card" id="car1">
           <div class="content" id="Card1">
             <div class="header">
               <a href="cpl.php">
-               C Programming Laboratory
+                C Programming Laboratory
               </a>
             </div>
           </div>
