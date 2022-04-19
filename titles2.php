@@ -39,27 +39,11 @@
  <a class="item">
     About Us
   </a> 
-  <a class="header item" href="titles1.php">
-      1st semester
-    </a>
+ 
     <a class="header item" href="titles2.php">
       2nd semester
     </a>
-    <a class="header item" href="titles3.php">
-      3rd semester
-    </a>
-    <a class="header item" href="titles4.php">
-      4th semester
-    </a>
-    <a class="header item" href="titles5.php">
-      5th semester
-    </a>
-    <a class="header item" href="titles6.php">
-      6th semester
-    </a>
-    <a class="header item" href="titles7.php">
-      7th semester
-    </a>
+    
 </div>
 </div>
 <div id="toTop"><i class="chevron up icon"></i></div>
