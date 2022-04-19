@@ -480,7 +480,7 @@
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
             <div class="header">
-              <a href="bda.php">
+              <a href="BDA/bda.php">
                 Big Data Analytics
               </a>
             </div>
@@ -490,7 +490,7 @@
               Big Data Analytics
             </span>
             <br><br>
-            <a class="ui button" href="bda.php">Go</a>
+            <a class="ui button" href="BDA/bda.php">Go</a>
           </div>
         </div>
       </div>
@@ -499,7 +499,7 @@
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
             <div class="header">
-              <a href="wsn.php">
+              <a href="WSN/wsn.php">
                 Wireless Sensor Networks
               </a>
             </div>
@@ -509,7 +509,7 @@
               Wireless Sensor Networks
             </span>
             <br><br>
-            <a class="ui button" href="wsn.php">Go</a>
+            <a class="ui button" href="WSN/wsn.php">Go</a>
           </div>
         </div>
       </div>

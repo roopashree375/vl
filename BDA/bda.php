@@ -1,11 +1,11 @@
 <?php
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-    if (!isset($_SESSION['username'])) {
-        header("Location: index.php");
-        exit;
-    }
-}
+// if (session_status() == PHP_SESSION_NONE) {
+//     session_start();
+//     if (!isset($_SESSION['username'])) {
+//         header("Location: index.php");
+//         exit;
+//     }
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,18 +14,18 @@ if (session_status() == PHP_SESSION_NONE) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="css/Semantic/semantic.min.css">
-    <script src="js/semantic.min.js"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="icon" href="images\dscelogo.png">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/semantic.min.js"></script>
+    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="icon" href="../images/dscelogo.png">
     <title>BDA</title>
 </head>
 
 <body>
     <h1 class="ui header" style="text-align:center" id="head">
-        <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+        <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
         <a href="titles.php">Virtual Labs</a>
     </h1>
     <div id="toTop"><i class="chevron up icon"></i></div>
@@ -36,6 +36,9 @@ if (session_status() == PHP_SESSION_NONE) {
             </a>
             <a class="item">
                 About Us
+            </a>
+            <a class="header item" href="../titles7.php">
+                Go Back
             </a>
             <!-- <a class="item">
     Item
