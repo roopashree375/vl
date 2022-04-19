@@ -82,13 +82,13 @@
                     <div id="lis" style="display: none;">
                         <div class="ui bulleted list">
 
-                            <a class="item" href="https://www.youtube.com/embed/ZwjlONyV05Q">What is Wireless Sensor Network?</a>
-                            <a class="item" href="https://youtu.be/PtyGmx4jucY">WSN Characteristics</a>
-                            <a class="item" href="https://youtu.be/-L9P2wgm_-M">Network architecture</a>
-                            <a class="item" href="https://youtu.be/FmE1b7ETVd0">S-MAC Protocol</a>
-                            <a class="item" href="https://youtu.be/-GkH_n9_YTI">Contention based and Scheduled based Protocols</a>
-                            <a class="item" href="https://youtu.be/eUHeHgwVIr4">Multicast Routing</a>
-                            <a class="item" href="https://youtu.be/dP5c6Kr0WV8">Quality of service in WSN</a>
+                            <a class="item" href="./wsnv1.php">What is Wireless Sensor Network?</a>
+                            <a class="item" href="./wsnv2.php">WSN Characteristics</a>
+                            <a class="item" href="./wsnv3.php">Network architecture</a>
+                            <a class="item" href="./wsnv4.php">S-MAC Protocol</a>
+                            <a class="item" href="./wsnv5.php">Contention based and Scheduled based Protocols</a>
+                            <a class="item" href="./wsnv6.php">Multicast Routing</a>
+                            <a class="item" href="./wsnv7.php">Quality of service in WSN</a>
 
                         </div>
                     </div>

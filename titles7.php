@@ -99,7 +99,7 @@
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                        Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.
+                            Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.
                         </span>
                         <br><br>
                         <a class="ui button" href="BCT/bct.php">Go</a>
@@ -119,7 +119,7 @@
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                        Contain 6 Experiment based on cloud & BigData Concepts.
+                            Contain 6 Experiment based on cloud & BigData Concepts.
                         </span>
                         <br><br>
                         <a class="ui button" href="CLOUD&BIGDATA-LAB/cba.php">Go</a>

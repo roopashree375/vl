@@ -38,7 +38,7 @@
                 About Us
             </a>
             <a class="header item" href="../titles7.php">
-            Go Back
+                Go Back
             </a>
             <!-- <a class="item">
     Item
@@ -76,10 +76,10 @@
                 <div class="ui segment">
 
                     <div id="int" align="justify">
-                    Blockchain is the technology that covers digital currency (like Bitcoin, Litecoin, Ethereum, and others). 
-                    This technology allows digital information to be distributed and decentralized, but can’t be manipulated. That means each piece of data can only have one owner but many holders of the same data. 
+                        Blockchain is the technology that covers digital currency (like Bitcoin, Litecoin, Ethereum, and others).
+                        This technology allows digital information to be distributed and decentralized, but can’t be manipulated. That means each piece of data can only have one owner but many holders of the same data.
                         <br>
-                        Blockchain is a shared, distributed ledger that facilitates the process of recording transactions and tracking assets in a business network. An asset can be tangible — a house, a car, cash, land  — or intangible like intellectual property, such as patents, copyrights, or branding. Virtually anything of value can be tracked and traded on a blockchain network, reducing risk and cutting costs for all involved.
+                        Blockchain is a shared, distributed ledger that facilitates the process of recording transactions and tracking assets in a business network. An asset can be tangible — a house, a car, cash, land — or intangible like intellectual property, such as patents, copyrights, or branding. Virtually anything of value can be tracked and traded on a blockchain network, reducing risk and cutting costs for all involved.
                     </div>
 
                     <div id="lis" style="display: none;">
@@ -88,22 +88,22 @@
                             <a class="item" href="bctv1.php">What is Blockchain</a>
                             <a class="item" href="bctv2.php">How does Blockchain work</a>
                             <a class="item" href="bctv3.php">What is Cryptocurrency</a>
-                            <a class="item" href="bctv4.php">Bitcoin vs Ethereum</a>                    
+                            <a class="item" href="bctv4.php">Bitcoin vs Ethereum</a>
                             <a class="item" href="bctv5.php">What is Smart Contracts</a>
-                            <a class="item" href="bctv6.php">What is DAO in Crypto?</a>              
+                            <a class="item" href="bctv6.php">What is DAO in Crypto?</a>
                             <a class="item" href="bctv7.php">Use cases for Blockchain</a>
                         </div>
                     </div>
 
                     <div id="pre" style="display: none;">
-                    
+
                         <ol>
-                          <li>Understanding the Fundamentals of Block Chains</li>
-                          <li>Apply the concept of cryptography to hash functions in cryptocurrency</li>
-                          <li>Articulate the decentralized architecture of block chains and its incentives</li>
-                          <li>Understand the evolution of block chains</li>
-                          <li>Develop block chain based solutions using smart contracts</li>
-                          <li>Formulate solutions for real life problems using block chains.</li>
+                            <li>Understanding the Fundamentals of Block Chains</li>
+                            <li>Apply the concept of cryptography to hash functions in cryptocurrency</li>
+                            <li>Articulate the decentralized architecture of block chains and its incentives</li>
+                            <li>Understand the evolution of block chains</li>
+                            <li>Develop block chain based solutions using smart contracts</li>
+                            <li>Formulate solutions for real life problems using block chains.</li>
                         </ol>
                     </div>
 
@@ -156,8 +156,8 @@
                                 </p>
                             </div>
 
-                            
-                            
+
+
                         </div>
                     </div>
 

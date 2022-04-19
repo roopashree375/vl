@@ -26,12 +26,12 @@
 <body>
     <h1 class="ui header" style="text-align:center" id="head">
         <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
-        <a href="titles.php">Virtual Labs</a>
+        <a href="../titles.php">Virtual Labs</a>
     </h1>
     <div id="toTop"><i class="chevron up icon"></i></div>
     <div>
         <div class="ui  light grey inverted secondary huge menu">
-            <a class="header item" href="index.php">
+            <a class="header item" href="../index.php">
                 Home
             </a>
             <a class="item">
@@ -83,13 +83,13 @@
                     <div id="lis" style="display: none;">
                         <div class="ui bulleted list">
 
-                            <a class="item" href="https://youtu.be/bAyrObl7TYE">What is Big Data Analytics?</a>
-                            <a class="item" href="https://youtu.be/nogE5tOt3g8">Big Data Applications</a>
-                            <a class="item" href="https://youtu.be/0buKQHokLK8">How do NoSQL databases work?</a>
-                            <a class="item" href="https://youtu.be/iANBytZ26MI">Introduction to Hadoop</a>
-                            <a class="item" href="https://youtu.be/FLOU5gnXHAA">MapReduce Explanation</a>
-                            <a class="item" href="https://youtu.be/GJYEsEEfjvk">Hadoop Distributed File System (HDFS) Introduction</a>
-                            <a class="item" href="https://youtu.be/HHR0-iJp2sM">Big Data Use cases</a>
+                            <a class="item" href="./bdav1.php">What is Big Data Analytics?</a>
+                            <a class="item" href="./bdav2.php">Big Data Applications</a>
+                            <a class="item" href="./bdav3.php">How do NoSQL databases work?</a>
+                            <a class="item" href="./bdav4.php">Introduction to Hadoop</a>
+                            <a class="item" href="./bdav5.php">MapReduce Explanation</a>
+                            <a class="item" href="./bdav6.php">Hadoop Distributed File System (HDFS) Introduction</a>
+                            <a class="item" href="./bdav7.php">Big Data Use cases</a>
 
                         </div>
                     </div>
