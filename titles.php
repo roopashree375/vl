@@ -1,5 +1,5 @@
-<!-- Hello evveryone -->
-<!--hi-->
+
+
 <!DOCTYPE html>
 <?php
 // if(session_status()==PHP_SESSION_NONE)
