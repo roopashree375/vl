@@ -92,17 +92,17 @@
                 <div class="ui raised card" id="car3">
                     <div class="content" id="Card3">
                         <div class="header">
-                            <a href="nlp.php">
+                            <a href="BCT/bct.php">
                                 Blockchain Technologies
                             </a>
                         </div>
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                            NLP is concerned with giving computers the ability to understand text and spoken words.
+                        Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.
                         </span>
                         <br><br>
-                        <a class="ui button" href="nlp.php">Go</a>
+                        <a class="ui button" href="BCT/bct.php">Go</a>
                     </div>
 
                 </div>
@@ -112,17 +112,17 @@
                 <div class="ui raised card" id="car4">
                     <div class="content" id="Card4">
                         <div class="header">
-                            <a href="sf.php">
+                            <a href="CLOUD&BIGDATA-LAB/cba.php">
                                 Cloud and Big Data Laboratory
                             </a>
                         </div>
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                            Software engineering is the systematic application of engineering for development of software.
+                        Contain 6 Experiment based on cloud & BigData Concepts.
                         </span>
                         <br><br>
-                        <a class="ui button" href="sf.php">Go</a>
+                        <a class="ui button" href="CLOUD&BIGDATA-LAB/cba.php">Go</a>
                     </div>
 
                 </div>

@@ -518,17 +518,17 @@
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
             <div class="header">
-              <a href="bct.php">
+              <a href="BCT/bct.php">
                 Blockchain Technologies
               </a>
             </div>
           </div>
           <div class="content">
             <span class="CardBody">
-              Blockchain Technologies
+            Blockchain Technologies
             </span>
             <br><br>
-            <a class="ui button" href="bct.php">Go</a>
+            <a class="ui button" href="BCT/bct.php">Go</a>
           </div>
         </div>
       </div>
@@ -537,17 +537,17 @@
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
             <div class="header">
-              <a href="cba.php">
+              <a href="CLOUD&BIGDATA-LAB/cba.php">
                 Cloud and Big Data Laboratory
               </a>
             </div>
           </div>
           <div class="content">
             <span class="CardBody">
-              Cloud and Big Data Laboratory
+            Cloud and Big Data Laboratory
             </span>
             <br><br>
-            <a class="ui button" href="cba.php">Go</a>
+            <a class="ui button" href="CLOUD&BIGDATA-LAB/cba.php">Go</a>
           </div>
         </div>
       </div>
