@@ -55,7 +55,7 @@
                     <div class="content" id="Card1">
                         <div class="header">
                             <a href="dbmstheory/dbmstheory.php">
-                                Database Management System
+                                Database Management System Theory
                             </a>
                         </div>
                     </div>

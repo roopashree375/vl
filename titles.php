@@ -302,25 +302,7 @@
         </div>
       </div>
 
-      <div class="four wide column">
-        <div class="ui  raised card" id="car5">
-          <div class="content" id="Card5">
-            <div class="header">
-              <a href="os.php">
-                Operating system
-              </a>
-            </div>
-          </div>
-          <div class="content">
-            <span class="CardBody">
-              Operating system
-            </span>
-            <br><br>
-            <a class="ui button" href="os.php">Go</a>
-          </div>
-        </div>
-      </div>
-
+      
       <div class="four wide column">
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
@@ -337,10 +319,10 @@
             <br><br>
             <a class="ui button" href="cn.php">Go</a>
           </div>
-
+          
         </div>
       </div>
-
+      
       <div class="four wide column">
         <div class="ui raised card" id="car6">
           <div class="content" id="Card6">
@@ -357,10 +339,10 @@
             <br><br>
             <a class="ui button" href="oomd.php">Go</a>
           </div>
-
+          
         </div>
       </div>
-
+      
       <div class="four wide column">
         <div class="ui raised card">
           <div class="content" id="Card7">
@@ -473,6 +455,101 @@
             </span>
             <br><br>
             <a class="ui button" href="cpp.php">Go</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="Automata Theory/automata_theory.php">
+                Automata Theory and Formal Languages
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Automata Theory and Formal Languages
+            </span>
+            <br><br>
+            <a class="ui button" href="Automata Theory/automata_theory.php">Go</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="Microprocessor/microprocessor.php">
+                Microprocessors and Microcontrollers
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Microprocessors and Microcontrollers
+            </span>
+            <br><br>
+            <a class="ui button" href="Microprocessor/microprocessor.php">Go</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="dbmstheory/dbmstheory.php">
+                Database Management System Theory
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Database Management System Theory
+            </span>
+            <br><br>
+            <a class="ui button" href="dbmstheory/dbmstheory.php">Go</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="OS/os.php">
+                Operating system
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Operating system
+            </span>
+            <br><br>
+            <a class="ui button" href="OS/os.php">Go</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+          <div class="content" id="Card5">
+            <div class="header">
+              <a href="Daa/daa.php">
+                Design and Analysis of Algorithm
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Design and Analysis of Algorithm
+            </span>
+            <br><br>
+            <a class="ui button" href="Daa/daa.php">Go</a>
           </div>
         </div>
       </div>
