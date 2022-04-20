@@ -15,28 +15,31 @@ if(session_status()==PHP_SESSION_NONE)
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <link rel="stylesheet" href="css/Semantic/semantic.min.css">
-  <script src="js/semantic.min.js"></script>
-  <script src="js/script.js"></script>
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="icon" href="images\dscelogo.png">
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <link rel="../stylesheet" href="css/Semantic/semantic.min.css">
+  <script src="../js/semantic.min.js"></script>
+  <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="icon" href="../images\dscelogo.png">
   <title>Microprocessors and Microcontrollers</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
-  <a href="titles.php">Virtual Labs</a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
+  <a href="../titles.php">Virtual Labs</a>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
  <a class="item">
     About Us
   </a> 
+  <a class="header item" href="../titles4.php">
+                Go Back
+            </a>
    <!-- <a class="item">
     Item
   </a>
@@ -80,13 +83,13 @@ if(session_status()==PHP_SESSION_NONE)
       <div id="lis" style="display: none;">
         <div class="ui bulleted list">
      
-          <a class="item" href="mpv1.php">Introduction to Microprocessors</a>
-          <a class="item" href="mpv2.php">8086 Microprocessor Architecture</a>
-          <a class="item" href="mpv3.php">8085 Microprocessor Architecture </a>
-          <a class="item" href="mpv4.php">Interrupt Instructions of 8086 </a>
-          <a class="item" href="mpv5.php">Programmable Peripheral Interface 8255 (I/O interface) </a>
-          <a class="item" href="mpv6.php">8051 Microcontroller Architecture </a>
-          <a class="item" href="mpv7.php">8051 | Instruction Set | Data Transfer group  </a>
+          <a class="item" href="./mpv1.php">Introduction to Microprocessors</a>
+          <a class="item" href="./mpv2.php">8086 Microprocessor Architecture</a>
+          <a class="item" href="./mpv3.php">8085 Microprocessor Architecture </a>
+          <a class="item" href="./mpv4.php">Interrupt Instructions of 8086 </a>
+          <a class="item" href="./mpv5.php">Programmable Peripheral Interface 8255 (I/O interface) </a>
+          <a class="item" href="./mpv6.php">8051 Microcontroller Architecture </a>
+          <a class="item" href="./mpv7.php">8051 | Instruction Set | Data Transfer group  </a>
           
         </div>
       </div>

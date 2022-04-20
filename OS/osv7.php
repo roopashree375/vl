@@ -16,26 +16,26 @@ if(session_status()==PHP_SESSION_NONE)
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/Semantic/semantic.min.css">
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="css/Semantic/semantic.min.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/questions.js"></script>
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="icon" href="images\dscelogo.png">
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../css/Semantic/semantic.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/questions.js"></script>
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="icon" href="../images\dscelogo.png">
   <title>Paging technique</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
-  <a href="titles.php">Virtual Labs</a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
+  <a href="../titles.php">Virtual Labs</a>
 </h1>
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
- <a href="os.php" class="item">
+ <a href="../os.php" class="item">
     Operating System
   </a> 
    <a class="item">

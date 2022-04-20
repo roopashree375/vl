@@ -15,28 +15,31 @@ if(session_status()==PHP_SESSION_NONE)
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <link rel="stylesheet" href="css/Semantic/semantic.min.css">
-  <script src="js/semantic.min.js"></script>
-  <script src="js/script.js"></script>
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="icon" href="images\dscelogo.png">
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <link rel="../stylesheet" href="css/Semantic/semantic.min.css">
+  <script src="../js/semantic.min.js"></script>
+  <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="icon" href="../images\dscelogo.png">
   <title>Design and Analysis of Algorith</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
-  <a href="titles.php">Virtual Labs</a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
+  <a href="../titles.php">Virtual Labs</a>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
  <a class="item">
     About Us
   </a> 
+  <a class="header item" href="../titles4.php">
+                Go Back
+            </a>
    <!-- <a class="item">
     Item
   </a>
@@ -80,27 +83,27 @@ if(session_status()==PHP_SESSION_NONE)
       <div id="lis" style="display: none;">
         <div class="ui bulleted list">
      
-          <a class="item" href="daav1.php">what is Algorithm?</a>
-          <a class="item" href="daav2.php">differnt types of algorithms?</a>
-          <a class="item" href="daav3.php">what is divide and conquer technique?</a>
-          <a class="item" href="daav4.php">what is differnt types of sorting techniques?</a>
-          <a class="item" href="daav5.php">what is dynamic programming?</a>
-          <a class="item" href="daav6.php">Warshall's-Floyd's Algorith?</a>
-          <a class="item" href="daav7.php">Bellam-ford Algorithm?</a>
-          <a class="item" href="daav8.php">Dijkstra Algorithm?</a>
-          <a class="item" href="daav9.php">Backtracking N Queens problem?</a>
+          <a class="item" href="./daav1.php">what is Algorithm?</a>
+          <a class="item" href="./daav2.php">differnt types of algorithms?</a>
+          <a class="item" href="./daav3.php">what is divide and conquer technique?</a>
+          <a class="item" href="./daav4.php">what is differnt types of sorting techniques?</a>
+          <a class="item" href="./daav5.php">what is dynamic programming?</a>
+          <a class="item" href="./daav6.php">Warshall's-Floyd's Algorith?</a>
+          <a class="item" href="./daav7.php">Bellam-ford Algorithm?</a>
+          <a class="item" href="./daav8.php">Dijkstra Algorithm?</a>
+          <a class="item" href="./daav9.php">Backtracking N Queens problem?</a>
 
 
           
         </div>
       </div>
       
-      <div id="pre" style="display: none;">1. The student will be able to understand and use asymptotic notation to formulate the time 
-                                           and space requirements of algorithm.<br>
-                                        2. The student will be able to analyze and compare complexity for different types of 
-                                           algorithms for different types of problems.<br> 
-                                        3. The student will be able to apply and implement major different algorithm design 
-                                        techniques to solve problems and analyze time complexity of those problems. <br>
+      <div id="pre" style="display: none;"><p>1. The student will be able to understand and use asymptotic notation to formulate the time 
+                                           and space requirements of algorithm.</p>
+                                        <p>2. The student will be able to analyze and compare complexity for different types of 
+                                           algorithms for different types of problems.</p> 
+                                       <p> 3. The student will be able to apply and implement major different algorithm design 
+                                        techniques to solve problems and analyze time complexity of those problems. </p>
                                         4. Ability to apply and implement learned algorithm design techniques and data structures to 
                                         solve problem.<br></div>
       

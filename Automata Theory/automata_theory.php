@@ -14,29 +14,32 @@ if (session_status() == PHP_SESSION_NONE) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/semantic.min.js"></script>
-  <script src="js/script.js"></script>
-  <link rel="stylesheet" href="css/Semantic/semantic.min.css">
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="icon" href="images\dscelogo.png">
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/semantic.min.js"></script>
+  <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="icon" href="../images\dscelogo.png">
   <title>Automata Theory and Formal Languages</title>
 </head>
 
 <body>
   <h1 class="ui header" style="text-align:center" id="head">
-    <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
-    <a href="titles.php">Virtual Labs</a>
+    <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
+    <a href="../titles.php">Virtual Labs</a>
   </h1>
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
     <div class="ui  light grey inverted secondary huge menu">
-      <a class="header item" href="index.php">
+      <a class="header item" href="../index.php">
         Home
       </a>
       <a class="item">
         About Us
       </a>
+      <a class="header item" href="../titles4.php">
+                Go Back
+            </a>
       <!-- <a class="item">
     Item
   </a>
@@ -80,14 +83,14 @@ if (session_status() == PHP_SESSION_NONE) {
           <div id="lis" style="display: none;">
             <div class="ui bulleted list">
 
-              <a class="item" href="atv1.php">Introduction to Automata Theory and Its Applications</a>
-              <a class="item" href="atv2.php">Basic Notations & Representations in Automata Theory || BASICS OF AUTOMATA </a>
-              <a class="item" href="atv3.php">Finite Automata and Representation of Finite Automata</a>
-              <a class="item" href="atv4.php">Deterministic Finite Automata</a>
-              <a class="item" href="atv5.php">Regular Expressions in Automata Theory</a>
-              <a class="item" href="atv6.php">Context Free Grammar in Automata Theory</a>
-              <a class="item" href="atv7.php">Push Down Automata in Automata Theory</a>
-              <a class="item" href="atv8.php">Push Down Automata Example</a>
+              <a class="item" href="./atv1.php">Introduction to Automata Theory and Its Applications</a>
+              <a class="item" href="./atv2.php">Basic Notations & Representations in Automata Theory || BASICS OF AUTOMATA </a>
+              <a class="item" href="./atv3.php">Finite Automata and Representation of Finite Automata</a>
+              <a class="item" href="./atv4.php">Deterministic Finite Automata</a>
+              <a class="item" href="./atv5.php">Regular Expressions in Automata Theory</a>
+              <a class="item" href="./atv6.php">Context Free Grammar in Automata Theory</a>
+              <a class="item" href="./atv7.php">Push Down Automata in Automata Theory</a>
+              <a class="item" href="./atv8.php">Push Down Automata Example</a>
 
             </div>
           </div>
