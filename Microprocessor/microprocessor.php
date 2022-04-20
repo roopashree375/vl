@@ -80,13 +80,13 @@ if(session_status()==PHP_SESSION_NONE)
       <div id="lis" style="display: none;">
         <div class="ui bulleted list">
      
-          <a class="item" href="intro_to_microprocessor.php">Introduction to Microprocessors</a>
-          <a class="item" href="intro_to_8086_microprocessor.php">8086 Microprocessor Architecture</a>
-          <a class="item" href="intro_to_8085_microprocessor.php">8085 Microprocessor Architecture </a>
-          <a class="item" href="intro_to_interrupts.php">Interrupt Instructions of 8086 </a>
-          <a class="item" href="io_interface.php">Programmable Peripheral Interface 8255 (I/O interface) </a>
-          <a class="item" href="intro_to_8051_microcontroller.php">8051 Microcontroller Architecture </a>
-          <a class="item" href="intro_to_instruction_set_8051.php">8051 | Instruction Set | Data Transfer group  </a>
+          <a class="item" href="mpv1.php">Introduction to Microprocessors</a>
+          <a class="item" href="mpv2.php">8086 Microprocessor Architecture</a>
+          <a class="item" href="mpv3.php">8085 Microprocessor Architecture </a>
+          <a class="item" href="mpv4.php">Interrupt Instructions of 8086 </a>
+          <a class="item" href="mpv5.php">Programmable Peripheral Interface 8255 (I/O interface) </a>
+          <a class="item" href="mpv6.php">8051 Microcontroller Architecture </a>
+          <a class="item" href="mpv7.php">8051 | Instruction Set | Data Transfer group  </a>
           
         </div>
       </div>
