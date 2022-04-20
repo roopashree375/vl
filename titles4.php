@@ -54,17 +54,17 @@
                 <div class="ui raised card" id="car1">
                     <div class="content" id="Card1">
                         <div class="header">
-                            <a href="BDA/bda.php">
-                                Big Data Analytics
+                            <a href="dbmstheory/dbmstheory.php">
+                                Database Management System
                             </a>
                         </div>
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                            Big Data Analytics involves the design of highly scalable algorithms and systems to integrate the data and uncover large hidden values from datasets that are diverse, complex and of a massive scale.
+                        It contains the topics related to database managment system.
                         </span>
                         <br><br>
-                        <a class="ui button" href="BDA/bda.php">Go</a>
+                        <a class="ui button" href="dbmstheory/dbmstheory.php">Go</a>
                     </div>
                 </div>
             </div>
@@ -73,17 +73,17 @@
                 <div class="ui raised card" id="car2">
                     <div class="content" id="Card2">
                         <div class="header">
-                            <a href="WSN/wsn.php">
-                                Wireless Sensor Networks
+                            <a href="Automata Theory/automata_theory.php">
+                                Automata Theory and Formal Languages
                             </a>
                         </div>
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                            Wireless sensor networks involves spatially dispersed sensors that monitor and record the physical conditions of the environment and forward the collected data to a central location.
+                        It contains the topics related to Automata Theory and Formal Languages.
                         </span>
                         <br><br>
-                        <a class="ui button" href="WSN/wsn.php">Go</a>
+                        <a class="ui button" href="Automata Theory/automata_theory.php">Go</a>
                     </div>
                 </div>
             </div>
@@ -92,17 +92,17 @@
                 <div class="ui raised card" id="car3">
                     <div class="content" id="Card3">
                         <div class="header">
-                            <a href="BCT/bct.php">
-                                Blockchain Technologies
+                            <a href="Daa/daa.php">
+                                Design and Analysis of Algorithms
                             </a>
                         </div>
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                            Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.
+                        It contains the topics related to Design and Analysis of Algorithms
                         </span>
                         <br><br>
-                        <a class="ui button" href="BCT/bct.php">Go</a>
+                        <a class="ui button" href="Daa/daa.php">Go</a>
                     </div>
 
                 </div>
@@ -112,17 +112,37 @@
                 <div class="ui raised card" id="car4">
                     <div class="content" id="Card4">
                         <div class="header">
-                            <a href="CLOUD&BIGDATA-LAB/cba.php">
-                                Cloud and Big Data Laboratory
+                            <a href="OS/os.php">
+                                Operating System (OS)
                             </a>
-                        </div>
+                        </div> 
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                            Contain 6 Experiment based on cloud & BigData Concepts.
+                        It contains the topics related to Operating Systems
                         </span>
                         <br><br>
-                        <a class="ui button" href="CLOUD&BIGDATA-LAB/cba.php">Go</a>
+                        <a class="ui button" href="OS/os.php">Go</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="four wide column">
+                <div class="ui raised card" id="car4">
+                    <div class="content" id="Card4">
+                        <div class="header">
+                            <a href="Microprocessor/microprocessor.php">
+                                Microprocessors and Microcontrollers.
+                            </a>
+                        </div> 
+                    </div>
+                    <div class="content">
+                        <span class="CardBody">
+                        It contains the topics related to Microprocessors and Microcontrollers
+                        </span>
+                        <br><br>
+                        <a class="ui button" href="Microprocessor/microprocessor.php">Go</a>
                     </div>
 
                 </div>
