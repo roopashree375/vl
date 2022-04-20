@@ -16,9 +16,10 @@ if(session_status()==PHP_SESSION_NONE)
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="../js/jquery-3.4.1.min.js"></script>
-  <link rel="../stylesheet" href="css/Semantic/semantic.min.css">
+  
   <script src="../js/semantic.min.js"></script>
   <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
   <title>Operating Sysytem</title>
@@ -114,21 +115,18 @@ operating system.</p> <br></div>
           </div>
           
           <div class="title" >
-            <i class="dropdown icon"></i>what are the various types of algorithm methods used in machine learning?</div>
+            <i class="dropdown icon"></i>What are advantages of operating system?</div>
           <div class="content">
-            <p class="transition hidden">There are four types of machine learning algorithms: supervised, semi-supervised, unsupervised and reinforcement.</p>
+            <p class="transition hidden">An operating system acts as an interface between the user and the hardware. It allows users to input data, process it, and access the output.</p>
           </div>
 
           <div class="title" >
-            <i class="dropdown icon"></i>different types of algorithm in data structure? </div>
+            <i class="dropdown icon"></i>what are types of operating system? </div>
           <div class="content">
-            <p class="transition hidden"> Brute Force algorithm.
-Greedy algorithm.
-Recursive algorithm.
-Backtracking algorithm.
-Divide & Conquer algorithm.
-Dynamic programming algorithm.
-Randomised algorithm.<br>
+            <p class="transition hidden"> <p>Batch operating system.</p>
+            <p>time sharing operating system</p>
+            <p>Distributed operating system</p>
+            <p>Real-Time Operating system</p><br>
 
             </p>
           </div>

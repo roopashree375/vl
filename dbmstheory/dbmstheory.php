@@ -16,9 +16,10 @@ if(session_status()==PHP_SESSION_NONE)
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="../js/jquery-3.4.1.min.js"></script>
-  <link rel="../stylesheet" href="css/Semantic/semantic.min.css">
+  
   <script src="../js/semantic.min.js"></script>
   <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
   <title>Database Managment System Theory</title>
