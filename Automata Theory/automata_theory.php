@@ -80,14 +80,14 @@ if (session_status() == PHP_SESSION_NONE) {
           <div id="lis" style="display: none;">
             <div class="ui bulleted list">
 
-              <a class="item" href="intro_to_automata.php">Introduction to Automata Theory and Its Applications</a>
-              <a class="item" href="automata_basic_notation.php">Basic Notations & Representations in Automata Theory || BASICS OF AUTOMATA </a>
-              <a class="item" href="automata_finite.php">Finite Automata and Representation of Finite Automata</a>
-              <a class="item" href="automata_deterministic.php">Deterministic Finite Automata</a>
-              <a class="item" href="automata_regular_exp.php">Regular Expressions in Automata Theory</a>
-              <a class="item" href="automata_context_free.php">Context Free Grammar in Automata Theory</a>
-              <a class="item" href="automata_push_down.php">Push Down Automata in Automata Theory</a>
-              <a class="item" href="automata_push_down_example.php">Push Down Automata Example</a>
+              <a class="item" href="atv1.php">Introduction to Automata Theory and Its Applications</a>
+              <a class="item" href="atv2.php">Basic Notations & Representations in Automata Theory || BASICS OF AUTOMATA </a>
+              <a class="item" href="atv3.php">Finite Automata and Representation of Finite Automata</a>
+              <a class="item" href="atv4.php">Deterministic Finite Automata</a>
+              <a class="item" href="atv5.php">Regular Expressions in Automata Theory</a>
+              <a class="item" href="atv6.php">Context Free Grammar in Automata Theory</a>
+              <a class="item" href="atv7.php">Push Down Automata in Automata Theory</a>
+              <a class="item" href="atv8.php">Push Down Automata Example</a>
 
             </div>
           </div>
