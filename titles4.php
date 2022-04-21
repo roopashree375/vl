@@ -61,7 +61,7 @@
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                        It contains the topics related to database managment system.
+                            It contains the topics related to database managment system.
                         </span>
                         <br><br>
                         <a class="ui button" href="dbmstheory/dbmstheory.php">Go</a>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                        It contains the topics related to Automata Theory and Formal Languages.
+                            It contains the topics related to Automata Theory and Formal Languages.
                         </span>
                         <br><br>
                         <a class="ui button" href="Automata Theory/automata_theory.php">Go</a>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                        It contains the topics related to Design and Analysis of Algorithms
+                            It contains the topics related to Design and Analysis of Algorithms
                         </span>
                         <br><br>
                         <a class="ui button" href="Daa/daa.php">Go</a>
@@ -115,11 +115,11 @@
                             <a href="OS/os.php">
                                 Operating System (OS)
                             </a>
-                        </div> 
+                        </div>
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                        It contains the topics related to Operating Systems
+                            It contains the topics related to Operating Systems
                         </span>
                         <br><br>
                         <a class="ui button" href="OS/os.php">Go</a>
@@ -135,11 +135,11 @@
                             <a href="Microprocessor/microprocessor.php">
                                 Microprocessors and Microcontrollers.
                             </a>
-                        </div> 
+                        </div>
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                        It contains the topics related to Microprocessors and Microcontrollers
+                            It contains the topics related to Microprocessors and Microcontrollers
                         </span>
                         <br><br>
                         <a class="ui button" href="Microprocessor/microprocessor.php">Go</a>
