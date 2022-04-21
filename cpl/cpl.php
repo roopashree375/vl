@@ -15,24 +15,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/Semantic/semantic.min.css">
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="css/Semantic/semantic.min.js"></script> 
-  <script src="js/script.js"></script>
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="icon" href="images\dscelogo.png">
+  <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../css/Semantic/semantic.min.js"></script> 
+  <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="icon" href="../images/dscelogo.png">
   <title>C-Lab</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
       <a href="titles.php">Virtual Labs</a> 
   <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
  <a class="item">
@@ -86,100 +86,77 @@
       <div id="lis" style="display: none;">
       <div style="display:inline-block;">
       <button class="ui icon dropdown button">
-        <span class="text">Calculator simulation using switch</span>
-        <div class="menu">
-          <a class="item" href="DSA\stack.php">Stack</a>
-        </div>
-      </button><br>
-      <button class="ui icon dropdown button">
         <span class="text">Quadratic Equation</span>
         <div class="menu">
-          <a class="item" href="DSA\queue.php">Queue</a>
+          <a class="item" href="quadratic.php">Quadratic</a>
         </div>
       </button><br>
       <div class="ui icon dropdown button">
         <span class="text">electricity board charges</span>
         <div class="menu">
-          <a class="item" href="DSA\singlylinkedlist.php">Singly Linked List</a>
+          <a class="item" href="electricity.php">electricity</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
-        <span class="text">Check palindrome</span>
+        <span class="text">Reverse and Check for palindrome</span>
         <div class="menu">
-          <a class="item" href="DSA\doublell.php"> Doubly Linked List</a>
-        </div>
-      </div><br>
-      <div class="ui icon dropdown button">
-        <span class="text"> sin(x) using Taylor series
-approximation</span>
-        <div class="menu">
-          <a class="item" href="DSA\Btree.php">Binary Search</a>
+          <a class="item" href="palindrome.php">Palindrome</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
         <span class="text">Bubble Sort.</span>
         <div class="menu">
-          <a class="item" href="DSA\BST.php">Matrix multiplication</a>
+          <a class="item" href="bubblesort.php">BubbleSort</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
-        <span class="text">Linear search</span>
+        <span class="text">Binary search technique</span>
         <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
+          <a class="item" href="bst.php">Binary Search</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
-        <span class="text">Binary search</span>
+        <span class="text">Matrix Multiplication</span>
         <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
-        </div>
-      </div><br>
-      <div class="ui icon dropdown button">
-        <span class="text">Matrix Multiplicatiom</span>
-        <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
+          <a class="item" href="matrixmultiplication.php">Matrix Multiplication</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
         <span class="text">String Concatination</span>
         <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
-        </div>
-      </div><br>
-      <div class="ui icon dropdown button">
-        <span class="text">Program to remove white-spaces</span>
-        <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
+          <a class="item" href="stringconcatination.php">Binary Search Tree</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
         <span class="text">Check if prime</span>
         <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
+          <a class="item" href="isprime.php">IsPRime</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
         <span class="text">Structure-Employee</span>
         <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
+          <a class="item" href="struct.php">Struct</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
         <span class="text">Pointers</span>
         <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
-        </div>
-      </div><br>
-      <div class="ui icon dropdown button">
-        <span class="text">recursive program to convert binary to decimal</span>
-        <div class="menu">
-          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
+          <a class="item" href="pointers.php">Pointers</a>
         </div>
       </div><br>
       </div>
       </div>
       
-      <div id="pre" style="display: none;">To make students get better at understanding of C-programming.</div>
+      <div id="pre" style="display: none;">
+      1. Analyze and design problem solving techniques using flowcharts and algorithms.
+      <br/>
+2. Develop programs using different data types in C
+<br/>
+3. Develop programs to solve real time problems
+<br/>
+4. Lean to test and debug a program
+<br/></div>
       
       <div id="faqs" style="display: none;">
       <div class="ui styled accordion">

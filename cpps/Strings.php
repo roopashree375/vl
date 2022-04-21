@@ -27,14 +27,14 @@
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
       <a href="titles.php">Virtual Labs</a> 
   <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
   <a class="item" href="datastructures.php">
@@ -78,7 +78,7 @@
       <div id="int">
       In C programming, a string is a sequence of characters terminated with a null character \0 . For example: char c[] = "c string"; When the compiler encounters a sequence of characters enclosed in the double quotation marks, it appends a null character \0 at the end by default. 
         <br><br>
-        <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/watch?v=IlqiTmcK1Eg&list=PLBlnK6fEyqRhwQbYrTDZYJaB4z1YgsAPW" frameborder="0">
+        <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/IlqiTmcK1Eg&list=PLBlnK6fEyqRhwQbYrTDZYJaB4z1YgsAPW" frameborder="0">
 </iframe>
 <br><br>
 Declaring a string is as simple as declaring a one-dimensional array. Below is the basic syntax for declaring a string.<br>

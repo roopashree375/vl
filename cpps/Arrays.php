@@ -27,17 +27,17 @@
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
       <a href="titles.php">Virtual Labs</a> 
   <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
-  <a class="item" href="datastructures.php">
+  <a class="item" href="../.php">
   C Programming For Problem Solving
   </a>
  <a class="item">
@@ -78,7 +78,7 @@
       <div id="int"><u> Arrays</u><br>
       Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. To create an array, define the data type (like int ) and specify the name of the array followed by square brackets [].
         <br><br>
-        <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/watch?v=55l-aZ7_F24" frameborder="0">
+        <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/55l-aZ7_F24" frameborder="0">
 </iframe>
 <br><br>
 To insert values to it, use a comma-separated list, inside curly braces:<br>

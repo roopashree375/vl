@@ -93,7 +93,7 @@
         <div class="ui raised card" id="car1">
           <div class="content" id="Card1">
             <div class="header">
-              <a href="cpl.php">
+              <a href="cpl/cpl.php">
                 C Programming Laboratory
               </a>
             </div>
@@ -103,7 +103,7 @@
               Contains 6 Programs with Applications in C Programming Language
             </span>
             <br><br>
-            <a class="ui button" href="cpl.php">Go</a>
+            <a class="ui button" href="cpl/cpl.php">Go</a>
           </div>
         </div>
       </div>

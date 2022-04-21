@@ -27,14 +27,14 @@
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
       <a href="titles.php">Virtual Labs</a> 
   <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
   <a class="item" href="cpps.php">
@@ -78,7 +78,7 @@
       <div id="int">
       C is a procedural programming language. It was initially developed by Dennis Ritchie in the year 1972. It was mainly developed as a system programming language to write an operating system. The main features of the C language include low-level memory access, a simple set of keywords, and a clean style, these features make C language suitable for system programmings like an operating system or compiler development.
         <br><br>
-        <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/watch?v=fO4FwJOShdc&list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR" frameborder="0">
+        <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/fO4FwJOShdc&list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR" frameborder="0">
 </iframe>
 <br><br>
 Header Files Inclusion: The first and foremost component is the inclusion of the Header files in a C program. 

@@ -11,12 +11,12 @@
   <script src="../js/script.js"></script>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
-  <title>Stack Operations</title>
+  <title>ElectricityBill</title>
   
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
       <a href="titles.php">Virtual Labs</a> 
   <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
@@ -26,8 +26,8 @@
   <a class="header item" href="index.php">
     Home
   </a>
-  <a class="item" href="datastructures.php">
-    Data Structures
+  <a class="item" href="cpl.php">
+    C programming laboratory
   </a>
  <a class="item">
     About Us
@@ -45,13 +45,13 @@
 </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-    Operations on Stack
+     Reverse And Check If Palindrome
     </h2>
     <div class="ui stackable grid">
   <div class="four wide column">
     <div class="ui secondary vertical pointing menu" id="Menus">
       <a class="active item" id="intro">
-        Introduction
+        ProblemStatement
       </a>
       <a class="item" id="prereq">
         Theory
@@ -68,30 +68,57 @@
     <div class="ui segment">
       
       <div id="int">
-      Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+      Design and develop a C program to find the reverse of an integer number NUM and
+check whether it is PALINDROME or NOT. Implement a C program for the developed algorithm
+that takes an integer number as input and output the reverse of the same with suitable
+messages. Ex: Num: 1234, Reverse: 4321, Not a Palindrome.
         <br><br>
-        <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/d_ryNeRGD8U" frameborder="0">
-</iframe>
-<br><br>
-There are many real-life examples of a stack. Consider an example of plates stacked over one another in the canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO(Last In First Out)/FILO(First In Last Out) order.
       </div>
       
       <div id="pre" style="display: none;">
         <div class="ui bulleted list">
           <div class="item">
-          Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
-          Mainly the following three basic operations are performed in the stack:<br><br>
-            
-            <div class="GrayBlock">
-              <div class="item"><strong>Push:</strong> Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition. (Insert)</div>
-              <div class="item"><strong>Pop:</strong> Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition. (Delete)</div>
-              <div class="item"><strong>Display:</strong> Displays the content of the stack.</div>
-            </div></div>
-            <br>
-            <img id="theoryImage" src="images/stack.png">
+             <strong>Programming Approach:</strong>
+             <br>
+             <p>
+             A number is a palindrome if the reverse of that number is equal to the original number. 
+             To check whether a number is palindrome or not first we reverse it and then compare the
+             number obtained with the original; if both are same then number is palindrome otherwise not.
+             </p>
+            </div>
             <br>
             <div class="item">
-              Stacks are implemented using arrays or Linked Lists. Stacks are Easy to implement and Memory is saved as pointers are not involved. But, it is not dynamic. It doesn’t grow and shrink depending on needs at runtime.
+              <strong>Algorithm:
+                <br>
+                Input: A number.
+                <br>
+                Output: Reverse of the number. Also check whether the given number is palindromeor not.
+              </strong>
+              <pre>
+              Step1: [Initialization] Start
+              Step2: [Input]Read n
+              Step3: [Set number n to a variable temp]
+                     temp←n
+              Step4: [Iterate until n not equal to zero]
+                     while (n!=0) do
+                     digit←n%10
+                     rev=digit+10*r
+                     evn=n/10
+              Step5: [Print reverse number]
+                     Print rev
+              Step6: [Check if original number and reverse number is same. 
+                     If it is, number ispalindrome. Otherwise, number is not palindrome]
+                     if (rev==temp)
+                        Print palindrome
+                     Else
+                        Print not Palindrome
+              Step7: [Finished]
+                     End
+              </pre>
+            </div>
+            <strong>Flow Chart:</strong>
+            <div>
+            <img height="50%" width="70%"  src="images/p3.png" frameborder="0"></img>
             </div>
           </div>
           <br>
@@ -100,26 +127,21 @@ There are many real-life examples of a stack. Consider an example of plates stac
       <div id="lis" style="display: none;">
       <div class="ui form">
         <div id="compilerData">
-        Write a program in C to simulate the working of a stack of integers using an array. Provide the following operations:<br>
-         a. Insert<br> b. Delete<br> c. Display.<br><br>
-         <strong>Input Format:</strong><br>
-         Every line consists of one argument, a character. If the character is 'a', the next argument is an integer.<br>
-         The Character denotes the operation. 'a' is to Insert, 'b' is to Delete, and 'c' is to Display.<br>
-         The Integer denotes the value to Insert into the stack.<br>
-         Note: The program ends only when a character which is not any of the above options is entered.<br><br>
-         <strong>Output Format:</strong><br>
-         Print one/more array of integers, denoting the composition of the stack.<br> 
-        </div><br>
+        Program 3: Design and develop a C program to find the reverse of an integer number NUM and
+check whether it is PALINDROME or NOT. Implement a C program for the developed algorithm
+that takes an integer number as input and output the reverse of the same with suitable
+messages. Ex: Num: 1234, Reverse: 4321, Not a Palindrome.
 
+<br>
         <div class="ui segment">
          <div class="ui two column very relaxed grid">
               <div class="column">
                 <strong>Sample Input</strong><br>
-                a 5<br>a 8<br>c<br>b<br>a 7<br>c<br>q
+                Enter an integer :<br>3443
               </div>
               <div class="column">
                 <strong>Sample Output</strong><br>
-                8 5 <br>7 5 <br>
+                Given number is 3443 <br>It’s reverse is 3443 <br>This number 3443 is a palindrome <br>
               </div>
          </div>
          <div class="ui vertical divider">and</div>
@@ -127,7 +149,7 @@ There are many real-life examples of a stack. Consider an example of plates stac
         </div><br>
 
         <a href="https://www.onlinegdb.com/" target=_blank style="font-size:20px; margin: 10px; float: left;" class="ui green button">Online Compiler</a>
-        <a href="https://www.youtube.com/embed/dOU26BDrbQ0" target=_blank style="font-size:20px; margin: 10px; float: right;" class="ui green button">Solution</a><br><br><br>
+        <a href="https://www.youtube.com/embed/G3cHdSSw7JU" target=_blank style="font-size:20px; margin: 10px; float: right;" class="ui green button">Solution</a><br><br><br>
 
         <!-- <form action="compile.php" id="form" name="f2" method="POST" ><br>
           <label class="writeCode">Write Your Code</label><br><br>
