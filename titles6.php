@@ -46,12 +46,12 @@
     <a class="header item" href="titles.php">
       Go Back
     </a>
-    <a class="item">
+    <!-- <a class="item">
       <?php echo $_SESSION["username"]; ?>
     </a>
     <a class="item" href="logoutprocess.php">
       Logout
-    </a>
+    </a> -->
   </div>
   </div>
 
