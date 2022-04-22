@@ -134,6 +134,26 @@
         </div>
       </div>
 
+
+      <div class="four wide column">
+        <div class="ui raised card" id="car1">
+          <div class="content" id="Card1">
+            <div class="header">
+              <a href="SSLAB/ssl.php">
+              System Software LAB 
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+            System Software _ Operating System Lab with Mini-project
+            </span>
+            <br><br>
+            <a class="ui button" href="SSLAB/ssl.php">Go</a>
+          </div>
+        </div>
+      </div>
+
       <div class="four wide column">
         <div class="ui raised card" id="car1">
           <div class="content" id="Card1">
