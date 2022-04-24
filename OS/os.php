@@ -36,7 +36,7 @@ if(session_status()==PHP_SESSION_NONE)
     Home
   </a>
  <a class="item">
-    About Us
+    About Us 
   </a> 
   <a class="header item" href="../titles4.php">
                 Go Back
