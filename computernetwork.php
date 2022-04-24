@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <?php
-// if(session_status()==PHP_SESSION_NONE)
-// {
-//   session_start();
-//   if(!isset($_SESSION['username']))
-//   {
-//     header("Location: index.php");
-//     exit;
-//   }
-// }
+ if(session_status()==PHP_SESSION_NONE)
+ {
+   session_start();
+   if(!isset($_SESSION['username']))
+   {
+     header("Location: index.php");
+     exit;
+   }
+ }
 ?>
 <html lang="en">
 <head>
@@ -38,13 +38,13 @@
     About Us
   </a>
   <?php
-    // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-    // else
-    // {
-    //   echo "<a class=\"item\">";
-    //   echo $_SESSION['username'];
-    //   echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-    // }
+     if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
+     else
+     {
+       echo "<a class=\"item\">";
+       echo $_SESSION['username'];
+       echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
+     }
     ?>
 </div>
 </div>

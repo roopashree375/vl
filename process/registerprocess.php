@@ -15,8 +15,8 @@ if ($conn->connect_error) {
 }
 
 // prepare and bind
-$stmt = $conn->prepare("INSERT INTO userdata (`usn`, `name` ,`sem`,`mbno`,`email`,`password`) VALUES (?, ?, ?, ?, ?, ?)");
-$stmt->bind_param("sssiss",$usn, $username, $semester, $mobile_no, $email, $passwd);
+$stmt = $conn->prepare("INSERT INTO userdata (username, semester ,usn, mobile_no, email, passwd) VALUES ( ?, ?, ?, ?, ?, ?)");
+$stmt->bind_param("sssiss", $username, $semester,$usn, $mobile_no, $email, $passwd);
 
 // set parameters and execute
 $username = $_POST['name'];

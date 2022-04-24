@@ -1,18 +1,18 @@
 <?php
-// if(session_status()==PHP_SESSION_NONE)
-// {
-//   session_start();
-//   if(isset($_SESSION['username']))
-//   {
-//     header("Location: titles.php");
-//     exit;
-//   }
-//   if(isset($_SESSION["login_error"]))
-//   {
-//     echo "<script>alert(\"Incorrect credentials!\")</script>";
-//     unset($_SESSION["login_error"]);
-//   }
-// }
+if(session_status()==PHP_SESSION_NONE)
+ {
+   session_start();
+   if(isset($_SESSION['username']))
+   {
+     header("Location: titles.php");
+     exit;
+   }
+   if(isset($_SESSION["login_error"]))
+   {
+     echo "<script>alert(\"Incorrect credentials!\")</script>";
+     unset($_SESSION["login_error"]);
+   }
+ }
 ?>
 <!DOCTYPE html>
 <html>

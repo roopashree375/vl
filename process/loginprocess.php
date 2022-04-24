@@ -5,7 +5,7 @@ $password = "";
 $dbname = "demoproject";
 
 // Create connection
-$conn = mysqli_connect($servername, $db_username, $password, $dbname);
+$conn = new mysqli($servername, $db_username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
@@ -15,13 +15,13 @@ if ($conn->connect_error) {
 $usn = $_POST['usn'];
 $passwd = $_POST['password'];
 
-$sql = "SELECT * FROM userdata where `usn` = '$usn' and `password` = '$passwd'"; 
+$sql = "SELECT username FROM userdata where usn = \"$usn\" and passwd = \"$passwd\" ";
 $result = $conn->query($sql);
 
 if ($result->num_rows == 1)
 {
     $row = $result->fetch_assoc();
-    $_POST['name']=$row["name"];
+    $_POST['name']=$row["username"];
     
 
 } else {

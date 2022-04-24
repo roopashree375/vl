@@ -33,14 +33,14 @@
         About Us
       </a>
       <?php
-      // session_start();
-      // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-      // else 
-      // { 
-      //   echo "<a class=\"item\">"; 
-      //   echo $_SESSION['username'];
-      //   echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-      // }
+      session_start();
+       if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
+       else 
+       { 
+         echo "<a class=\"item\">"; 
+         echo $_SESSION['username'];
+         echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
+       }
       ?>
 
     </div>
