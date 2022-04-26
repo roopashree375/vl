@@ -3,7 +3,14 @@
     margin-left: -100px;
     padding-top: 10px;
   }
-  
+
+#quizbutton{
+    background-color: turquoise; 
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    padding: 15px 32px; border-radius: 12px;
+  }
   .ui.card {
     padding:5px;
     margin-left:auto;
@@ -184,5 +191,4 @@
       margin-top: 25px;
     }
   }
-  
   
