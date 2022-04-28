@@ -33,9 +33,21 @@ function checkAnswer() {
     // increment i for next question
     i++;
     if(jsonData.length-1 < i){
-        document.write("<body style='background-color:#348322;'>");
-        document.write("<div style='color:#ffffff;font-size:18pt;text-align:center;'>*****Your score is : "+correctCount+"*****</div>");
-        document.write("</body>");
+      var  percent = (correctCount/i)*100;
+      document.write("<div style = 'margin : 250px ;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); transition: 0.3s;'><div id ='it' style='font-size : 80px ;padding: 2px 16px;'><strong>Your Score is ");
+      document.write(correctCount+" out of "+i);
+      document.write("</strong></div></div>");
+      if(percent<=33)
+      {
+        document.getElementById("it").style.backgroundColor = "#FFCCCB";
+      }
+      if(percent>33&&percent<65)
+      document.getElementById("it").style.backgroundColor = 'yellow';
+      if(percent>=65)
+      document.getElementById("it").style.backgroundColor = '#90EE90';
+        // document.write("<body style='background-color:#348322;'>");
+        // document.write("<div style='color:#ffffff;font-size:18pt;text-align:center;'>*****Your score is : "+correctCount+"*****</div>");
+        // document.write("</body>");
     }
     // callback to generate
     generate(i);

@@ -46,7 +46,7 @@ if (session_status() == PHP_SESSION_NONE) {
             </a>
         </div>
         <div>
-            <h1>QUIZ</h1>
+            <h1>QUIZ ON CCOMPUTER HARDWARE AND SOFTWARE</h1>
         </div>
         <br>
         <br>
@@ -63,6 +63,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div><input type="radio" id="opt3" name="options">
                 <span id="optt3"></span>
             </div>
+            <br>
             <div class="rgtCss">
                 <button class="preBtn" onclick="goBack()">< back</button>
             </div>
@@ -70,8 +71,8 @@ if (session_status() == PHP_SESSION_NONE) {
                 <button class="nxtBtn" onclick="checkAnswer()">next ></button>
             </div>
         </div>
-        <script src="data.js"></script>
-        <script src="index.js"></script>
+        <script src="chsdata.js"></script>
+        <script src="chsindex.js"></script>
     </div>
 </body>
 
