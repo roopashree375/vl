@@ -71,7 +71,7 @@ if (session_status() == PHP_SESSION_NONE) {
             </div>
         </div>
         <script src="data.js"></script>
-        <script src="index.js"></script>
+        <script src="../../quizlogic.js"></script>
     </div>
 </body>
 

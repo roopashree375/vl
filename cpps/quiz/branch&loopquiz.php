@@ -46,7 +46,7 @@ if (session_status() == PHP_SESSION_NONE) {
             </a>
         </div>
         <div>
-            <h1>QUIZ ON ARRAYS</h1>
+            <h1>QUIZ ON BRANCH & LOOP STATEMENTS</h1>
         </div>
         <br>
         <br>
@@ -71,7 +71,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <button class="nxtBtn" onclick="checkAnswer()">next ></button>
             </div>
         </div>
-        <script src="arraysdata.js"></script>
+        <script src="branch&loopdata.js"></script>
         <script src="../../quizlogic.js"></script>
     </div>
 </body>

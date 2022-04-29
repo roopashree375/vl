@@ -43,6 +43,7 @@
  <a class="item">
     About Us
   </a> 
+  
  <?php
     // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
     // else 
@@ -67,9 +68,9 @@
       <a class="item" id="prereq">
         Theory
       </a>
-          <!-- <a class="item" id="faq">
-        Quiz
-      </a> -->
+      <a class="item" id="faq">
+            Quiz
+          </a>
     </div>
   </div>
  <div class="twelve wide stretched column">
@@ -215,80 +216,32 @@ x = b ;<br>
 Now, this if else statement can be written by using conditional operator as:<br>
 
 x = (a > b) ? a : b ;<br><br>
+<script type="text/javascript">
+                $(document).ready(function() {
+                  $("#st").click(function() {
+                    $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
+                    document.f2.extra.value = "runn";
+                  });
+                });
+              </script>
+              <script type="text/javascript">
+                $(document).ready(function() {
+                  $("#subb").click(function() {
+                    $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
+                    document.f2.extra.value = "subb";
+                  });
+                });
+              </script>
 
-          </div>
-          <br>
-      </div>
- </div>
-      
-      
+              <script type="text/javascript">
+                $(document).ready(function() {
+                  //listen for form submission
+                  $('form').on('submit', function(e) {
+                    //prevent form from submitting and leaving page
+                    e.preventDefault();
 
-       
-        <!-- <form action="compile.php" id="form" name="f2" method="POST" ><br>
-          <label class="writeCode">Write Your Code</label><br><br>
-          <div class="ui  large segment"  id="editor" style="height:500px;">
-          <textarea class="field codeBlock"  id="editor" name="code" rows="10" cols="50">
-#include&lt;stdio.h&gt;
-void main()
-{
-
-}</textarea><br><br>
-
-<div class="ui large segment" style="height:500px;">
-<div id="editor">/*Type your code here: */
-#include&lt;stdio.h&gt;
-void main()
-{
-
-}
-</div>
-</div>
-<div>
-<textarea name="editor" style="display: none;" >
-</div>
-<textarea style="display: none;"></textarea>
-
-<button class="ui left floated button" onclick="myFunction()">Custom Input</button>
-          <div id="inputs" style="display:None;">
-          <br><br>
-          <label for="in" class="writeCode"><br>Enter Your Input</label><br><br>
-          <textarea class="field codeBlock" name="input" rows="10" cols="50"></textarea><br><br><br>
-          </div>
-
-        <input type="hidden" name="extra" value="Content of the extra variable" >
-         <input type="hidden" name="lang" value="c" >
-         <input type="hidden" name="prog" value="stack" >
-          <input type="submit" id="st" class="ui left floated button" value="Run Code" onclick="myFunction2()">
-          <input type="submit" id="subb" class="ui left floated button" value="Submit" onclick="myFunction2()"><br><br><br>
-
-          </form> -->
-
-         <script type="text/javascript">
-          $(document).ready(function(){
-            $("#st").click(function(){
-                  $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
-                  document.f2.extra.value = "runn";
-            });
-          });
-          </script>
-          <script type="text/javascript">
-          $(document).ready(function(){
-            $("#subb").click(function(){
-                  $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
-                  document.f2.extra.value = "subb";
-            });
-          });
-          </script>
-
-          <script type="text/javascript">
-            $(document).ready(function(){
-              //listen for form submission
-              $('form').on('submit', function(e){
-                //prevent form from submitting and leaving page
-                e.preventDefault();
-                 
-                // AJAX 
-                $.ajax({
+                    // AJAX 
+                    $.ajax({
                       type: "POST", //type of submit
                       cache: false, //important or else you might get wrong data returned to you
                       url: "compile.php", //destination
@@ -296,39 +249,41 @@ void main()
                       data: $('form').serialize(), //target your form's data and serialize for a POST
                       success: function(result) { // data is the var which holds the output of your process.php
 
-                          // locate the div with #result and fill it with returned data from process.php
-                          $('#outputBox').html(result);
+                        // locate the div with #result and fill it with returned data from process.php
+                        $('#outputBox').html(result);
                       }
+                    });
                   });
-              });
-          });
-          </script>
-          <br>
-          <div id="outputBox" style="display:None;">Output:<br><br>
-          <div name="output"></div><br>
+                });
+              </script>
+              <br>
+              <div id="outputBox" style="display:None;">Output:<br><br>
+                <div name="output"></div><br>
+              </div>
+            </div>
           </div>
+          <div id="faqs" style="display: none;">
+         <a href="quiz/op&exquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
-
+        </div>
       </div>
-      
-      </div>
-      </div>
-      
     </div>
   </div>
-</div>
+  </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js" type="text/javascript" charset="utf-8"></script>
-<script>
+  <script>
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/twilight");
     editor.session.setMode("ace/mode/c_cpp");
     var textarea = $('textarea[name="editor"]');
-editor.getSession().on("change", function () {
-    textarea.val(editor.getSession().getValue());
-});
-  
-</script>
+    editor.getSession().on("change", function() {
+      textarea.val(editor.getSession().getValue());
+    });
+  </script>
+  </div>
+  </div>
+  </div>
   
 </body>
 </html>

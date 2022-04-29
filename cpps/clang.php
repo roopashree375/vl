@@ -43,6 +43,7 @@
  <a class="item">
     About Us
   </a> 
+  
  <?php
     // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
     // else 
@@ -67,9 +68,9 @@
       <a class="item" id="prereq">
         Theory
       </a>
-          <!-- <a class="item" id="faq">
-        Quiz
-      </a> -->
+      <a class="item" id="faq">
+            Quiz
+          </a>
     </div>
   </div>
  <div class="twelve wide stretched column">
@@ -156,32 +157,32 @@ void main()
 
           </form> -->
 
-         <script type="text/javascript">
-          $(document).ready(function(){
-            $("#st").click(function(){
-                  $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
-                  document.f2.extra.value = "runn";
-            });
-          });
-          </script>
           <script type="text/javascript">
-          $(document).ready(function(){
-            $("#subb").click(function(){
-                  $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
-                  document.f2.extra.value = "subb";
-            });
-          });
-          </script>
+                $(document).ready(function() {
+                  $("#st").click(function() {
+                    $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
+                    document.f2.extra.value = "runn";
+                  });
+                });
+              </script>
+              <script type="text/javascript">
+                $(document).ready(function() {
+                  $("#subb").click(function() {
+                    $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
+                    document.f2.extra.value = "subb";
+                  });
+                });
+              </script>
 
-          <script type="text/javascript">
-            $(document).ready(function(){
-              //listen for form submission
-              $('form').on('submit', function(e){
-                //prevent form from submitting and leaving page
-                e.preventDefault();
-                 
-                // AJAX 
-                $.ajax({
+              <script type="text/javascript">
+                $(document).ready(function() {
+                  //listen for form submission
+                  $('form').on('submit', function(e) {
+                    //prevent form from submitting and leaving page
+                    e.preventDefault();
+
+                    // AJAX 
+                    $.ajax({
                       type: "POST", //type of submit
                       cache: false, //important or else you might get wrong data returned to you
                       url: "compile.php", //destination
@@ -189,13 +190,38 @@ void main()
                       data: $('form').serialize(), //target your form's data and serialize for a POST
                       success: function(result) { // data is the var which holds the output of your process.php
 
-                          // locate the div with #result and fill it with returned data from process.php
-                          $('#outputBox').html(result);
+                        // locate the div with #result and fill it with returned data from process.php
+                        $('#outputBox').html(result);
                       }
+                    });
                   });
-              });
-          });
-          </script>
+                });
+              </script>
+              <br>
+              <div id="outputBox" style="display:None;">Output:<br><br>
+                <div name="output"></div><br>
+              </div>
+            </div>
+          </div>
+          <div id="faqs" style="display: none;">
+         <a href="quiz/clangquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.session.setMode("ace/mode/c_cpp");
+    var textarea = $('textarea[name="editor"]');
+    editor.getSession().on("change", function() {
+      textarea.val(editor.getSession().getValue());
+    });
+  </script>
           <br>
           <div id="outputBox" style="display:None;">Output:<br><br>
           <div name="output"></div><br>
