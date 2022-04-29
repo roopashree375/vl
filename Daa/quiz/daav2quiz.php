@@ -21,7 +21,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <script src="../css/Semantic/semantic.min.js"></script>
     <script src="../js/script.js"></script>
     <link rel="icon" href="../images\dscelogo.png">
-    <title>Quiz On Design and Algorithm </title>
+    <title>Quiz On Introduction to Computer Hardware and Software </title>
 
 </head>
 
@@ -39,7 +39,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 Home
             </a>
             <a class="item" href="../../daa.php">
-                Design and algorithm
+                C Programming For Problem Solving
             </a>
             <a class="item">
                 About Us
@@ -70,8 +70,8 @@ if (session_status() == PHP_SESSION_NONE) {
                 <button class="nxtBtn" onclick="checkAnswer()">next ></button>
             </div>
         </div>
-        <script src="data.js"></script>
-        <script src="index.js"></script>
+        <script src="daav2data.js"></script>
+        <script src="daav2index.js"></script>
     </div>
 </body>
 
