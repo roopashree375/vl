@@ -46,7 +46,7 @@ if (session_status() == PHP_SESSION_NONE) {
             </a>
         </div>
         <div>
-            <h1>QUIZ ON CCOMPUTER HARDWARE AND SOFTWARE</h1>
+            <h1>QUIZ ON COMPUTER HARDWARE AND SOFTWARE</h1>
         </div>
         <br>
         <br>
