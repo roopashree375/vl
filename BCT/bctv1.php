@@ -35,7 +35,7 @@
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
     <div class="ui  light grey inverted secondary huge menu">
-      <a class="header item" href="index.php">
+      <a class="header item" href="../index.php">
         Home
       </a>
       <a class="item" href="bct.php">
