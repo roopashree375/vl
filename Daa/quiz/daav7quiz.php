@@ -21,7 +21,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <script src="../css/Semantic/semantic.min.js"></script>
     <script src="../js/script.js"></script>
     <link rel="icon" href="../images\dscelogo.png">
-    <title>Quiz On Design and Data Analysis </title>
+    <title>Quiz On Design and Data Analysis</title>
 
 </head>
 
@@ -70,7 +70,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <button class="nxtBtn" onclick="checkAnswer()">next ></button>
             </div>
         </div>
-        <script src="daav4data.js"></script>
+        <script src="daav7data.js"></script>
         <script src="../../quizlogic.js"></script>
     </div>
 </body>
