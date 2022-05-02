@@ -21,7 +21,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <script src="../css/Semantic/semantic.min.js"></script>
     <script src="../js/script.js"></script>
     <link rel="icon" href="../images\dscelogo.png">
-    <title>Quiz On Introduction to Computer Hardware and Software </title>
+    <title>Quiz On Design and Analysis Algorithm</title>
 
 </head>
 
@@ -39,7 +39,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 Home
             </a>
             <a class="item" href="../../daa.php">
-                C Programming For Problem Solving
+                Design and Analysis Algorithm
             </a>
             <a class="item">
                 About Us
