@@ -70,7 +70,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <button class="nxtBtn" onclick="checkAnswer()">next ></button>
             </div>
         </div>
-        <script src="daav2data.js"></script>
+        <script src="daav5data.js"></script>
         <script src="../../quizlogic.js"></script>
     </div>
 </body>
