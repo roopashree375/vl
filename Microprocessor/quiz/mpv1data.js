@@ -3,7 +3,7 @@ var jsonData = [
         "q" : "",
         "opt1" : "",
         "opt2" : " ",
-        "opt3" : "",
+        "opt3" : " ",
         "answer" : ""
     },
     {
