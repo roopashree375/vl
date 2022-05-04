@@ -56,6 +56,9 @@ if (session_status() == PHP_SESSION_NONE) {
             Video
           </a>
 
+          <a class="item" id="faq">
+            Quiz
+</a>
         </div>
       </div>
       <div class="twelve wide stretched column">
@@ -65,7 +68,10 @@ if (session_status() == PHP_SESSION_NONE) {
             <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/ux471bmvMpI">
             </iframe>
           </div>
-
+          <div id="faqs" style="display: none;">
+         <a href="quiz/quiz3.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
+            
         </div>
       </div>
     </div>
