@@ -55,6 +55,10 @@
             Video
           </a>
 
+          <a class="item" id="faq">
+            Quiz
+          </a>
+
         </div>
       </div>
       <div class="twelve wide stretched column">
@@ -63,6 +67,10 @@
           <div id="lis" style="padding: 15px; height: 400px;">
             <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/_7-TdOiZ3FQ">
             </iframe>
+          </div>
+
+          <div id="faqs" style="display: none;">
+         <a href="ccquiz/quiz4.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
 
         </div>
