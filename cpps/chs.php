@@ -168,7 +168,7 @@ if (session_status() == PHP_SESSION_NONE) {
             </div>
           </div>
           <div id="faqs" style="display: none;">
-         <a href="quiz/chsquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+            <a href="quiz/chsquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
         </div>
       </div>
