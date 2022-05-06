@@ -18,11 +18,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
   <script src="../css/Semantic/semantic.min.js"></script>
-  <script src="../js/jquery-3.4.1.min.js"></script>../
+  <script src="../js/jquery-3.4.1.min.js"></script>
   <script src="../js/script.js"></script>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
-  <title>What is Smart Contracts</title>
+  <title>Experiment 1</title>
 </head>
 
 <body>
@@ -38,50 +38,53 @@
       <a class="header item" href="index.php">
         Home
       </a>
-      <a class="item" href="bct.php">
-        Blockchain Technologies
+      <a class="item" href="cba.php">
+        Cloud & BigData Analytics Laboratory
       </a>
       <a class="item">
         About Us
       </a>
-
-
-      <!-- <?php
-       if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-       else 
-       { 
-         echo "<a class=\"item\">"; 
-         echo $_SESSION['username'];
-         echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-       }
-      ?> -->
+      <?php
+      // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
+      // else 
+      // { 
+      //   echo "<a class=\"item\">"; 
+      //   echo $_SESSION['username'];
+      //   echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
+      // }
+      ?>
     </div>
   </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-      What is Smart Contracts
+      Experiment 1
     </h2>
     <div class="ui stackable grid">
       <div class="four wide column">
         <div class="ui secondary vertical pointing menu" id="Menus">
           <a class="active item" id="intro">
-            Video
+          Experiment
           </a>
+
+
           <a class="item" id="faq">
             Quiz
-          </a> 
+      </a> 
         </div>
       </div>
       <div class="twelve wide stretched column">
         <div class="ui segment">
 
           <div id="int">
-            <iframe src="https://www.youtube.com/embed/_J6G5g-nKg0" width="640" height="480" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://drive.google.com/file/d/1vVBirmJgW_u3bs6-yn67dZaNaaq79AvM/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
 
           <div id="faqs" style="display: none;">
-         <a href="quiz/bctv5quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+         <a href="quiz/exp1quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
+
+
+
 
         </div>
       </div>
@@ -103,4 +106,5 @@
       textarea.val(editor.getSession().getValue());
     });
   </script>
+
 </html>

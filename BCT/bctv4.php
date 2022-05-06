@@ -46,15 +46,15 @@
       </a>
 
 
-      <?php
-      // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-      // else 
-      // { 
-      //   echo "<a class=\"item\">"; 
-      //   echo $_SESSION['username'];
-      //   echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-      // }
-      ?>
+      <!-- <?php
+       if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
+       else 
+       { 
+         echo "<a class=\"item\">"; 
+         echo $_SESSION['username'];
+         echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
+       }
+      ?> -->
     </div>
   </div>
   <div class="ui container" id="cont">
@@ -67,12 +67,9 @@
           <a class="active item" id="intro">
             Video
           </a>
-
-
-
-          <!-- <a class="item" id="faq">
-        Quiz
-      </a> -->
+          <a class="item" id="faq">
+            Quiz
+          </a>
         </div>
       </div>
       <div class="twelve wide stretched column">
@@ -83,7 +80,9 @@
           </div>
 
 
-
+          <div id="faqs" style="display: none;">
+         <a href="quiz/bctv4quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
 
 
 
@@ -99,4 +98,15 @@
 
 </body>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.session.setMode("ace/mode/c_cpp");
+    var textarea = $('textarea[name="editor"]');
+    editor.getSession().on("change", function() {
+      textarea.val(editor.getSession().getValue());
+    });
+  </script>
 </html>
