@@ -55,6 +55,10 @@ if (session_status() == PHP_SESSION_NONE) {
             Video
           </a>
 
+          <a class="item" id="faq">
+            Quiz
+          </a>
+
         </div>
       </div>
       <div class="twelve wide stretched column">

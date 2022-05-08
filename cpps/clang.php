@@ -37,7 +37,7 @@
   <a class="header item" href="../index.php">
     Home
   </a>
-  <a class="item" href="cpps.php">
+  <a class="item" href="../../cpps.php">
   C Programming For Problem Solving
   </a>
  <a class="item">

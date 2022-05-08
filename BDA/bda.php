@@ -1,11 +1,11 @@
 <?php
- if (session_status() == PHP_SESSION_NONE) {
-     session_start();
-     if (!isset($_SESSION['username'])) {
-         header("Location: index.php");
-         exit;
-     }
- }
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+    if (!isset($_SESSION['username'])) {
+        header("Location: index.php");
+        exit;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -66,9 +66,6 @@
                     </a>
                     <a class="item" id="faq">
                         FAQ's
-                    </a>
-                    <a class="item" id="quiz">
-                        QUIZ
                     </a>
                 </div>
             </div>
