@@ -62,9 +62,9 @@
                     <a class="item" target="_blank" id="list">
                         Compiler
                     </a>
-                    <!-- <a class="item" id="faq">
-        Quiz
-      </a> -->
+                    <a class="item" id="faq">
+            Quiz
+          </a>
                 </div>
             </div>
             <div class="twelve wide stretched column">
@@ -236,10 +236,14 @@ void main()
                         </div>
 
                     </div>
-
+                    <div id="faqs" style="display: none;">
+                        <a href="quiz/matrixmulquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+                    </div>
                 </div>
             </div>
-
+            <div id="faqs" style="display: none;">
+                        <a href="quiz/primequiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+                    </div>
         </div>
     </div>
     </div>

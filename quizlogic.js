@@ -6,6 +6,8 @@ generate(0);
 // generate from json array data with index
 function goBack(index)
 {
+    if(correctCount<0)
+      correctCount=0;
     if(i>0)
     {
         i--;
@@ -14,6 +16,8 @@ function goBack(index)
     }
 }
 function generate(index) {
+    if(correctCount<0)
+      correctCount=0;
     document.getElementById("question").innerHTML = jsonData[index].q;
     document.getElementById("optt1").innerHTML = jsonData[index].opt1;
     document.getElementById("optt2").innerHTML = jsonData[index].opt2;
@@ -21,6 +25,8 @@ function generate(index) {
 }
 
 function checkAnswer() {
+    if(correctCount<0)
+      correctCount=0;
     if (document.getElementById("opt1").checked && jsonData[i].opt1 == jsonData[i].answer) {
        correctCount++;
     }
@@ -34,6 +40,8 @@ function checkAnswer() {
     i++;
     if(jsonData.length-1 < i){
       var  percent = (correctCount/i)*100;
+      if(correctCount<0)
+      correctCount=0;
       document.write("<div style = 'margin : 250px ;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); transition: 0.3s;'><div id ='it' style='font-size : 80px ;padding: 2px 16px;'><strong>Your Score is ");
       document.write(correctCount+" out of "+i);
       document.write("</strong></div></div>");

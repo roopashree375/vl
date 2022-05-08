@@ -21,7 +21,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <script src="../css/Semantic/semantic.min.js"></script>
     <script src="../js/script.js"></script>
     <link rel="icon" href="../images\dscelogo.png">
-    <title>Quiz On Introduction to Computer Hardware and Software </title>
+    <title>Quiz On Plaindromic Number</title>
 
 </head>
 
@@ -38,15 +38,15 @@ if (session_status() == PHP_SESSION_NONE) {
             <a class="header item" href="../../index.php">
                 Home
             </a>
-            <a class="item" href="../../cpps.php">
-                C Programming For Problem Solving
+            <a class="item" href="../../cpp.php">
+                C Programming Laboratory For Problem Solving
             </a>
             <a class="item">
                 About Us
             </a>
         </div>
         <div>
-            <h1>QUIZ ON COMPUTER HARDWARE AND SOFTWARE</h1>
+            <h1>QUIZ ON PALINDROMIC NUMBER</h1>
         </div>
         <br>
         <br>
@@ -71,7 +71,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <button class="nxtBtn" onclick="checkAnswer()">next ></button>
             </div>
         </div>
-        <script src="chsdata.js"></script>
+        <script src="palindromedata.js"></script>
         <script src="../../quizlogic.js"></script>
     </div>
 </body>
