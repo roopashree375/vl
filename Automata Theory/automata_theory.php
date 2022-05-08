@@ -67,9 +67,7 @@ if (session_status() == PHP_SESSION_NONE) {
           <a class="item" id="faq">
             FAQ's
           </a>
-          <a class="item" id="quiz">
-            QUIZ
-          </a>
+          
         </div>
       </div>
       <div class="twelve wide stretched column">
