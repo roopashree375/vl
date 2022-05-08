@@ -45,7 +45,8 @@ if (session_status() == PHP_SESSION_NONE) {
   </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-      Introduction to Internet of things
+
+      Introduction to IOT 
     </h2>
     <div class="ui stackable grid">
       <div class="four wide column">
@@ -55,15 +56,26 @@ if (session_status() == PHP_SESSION_NONE) {
             Video
           </a>
 
+          <a class="item" id="faq">
+            Quiz
+</a>
+
         </div>
       </div>
       <div class="twelve wide stretched column">
         <div class="ui segment">
 
           <div id="lis" style="padding: 15px; height: 400px;">
-            <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/6mBO2vqLv38">
+            <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen"  src="https://www.youtube.com/embed/6mBO2vqLv38" >
+
             </iframe>
           </div>
+
+          <div id="faqs" style="display: none;">
+         <a href="quiz/quiz1.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
+            
+
 
         </div>
       </div>

@@ -90,11 +90,11 @@
 
           <div id="lis" style="display: none;">
             <div class="ui bulleted list">
-              <a class="item" href="https://drive.google.com/file/d/1vVBirmJgW_u3bs6-yn67dZaNaaq79AvM/view?usp=sharing">Experiment 1</a>
-              <a class="item" href="https://drive.google.com/file/d/1AalxbkZRnFjSAv2985kecJxZSmxsKUkU/view?usp=sharing">Experiment 2</a>
-              <a class="item" href="https://drive.google.com/file/d/1O5mT4Yczc372Die3abw4OzGVStmmfL_V/view?usp=sharing">Experiment 3</a>
-              <a class="item" href="https://drive.google.com/file/d/1IhUTk3eb0POioLVGDIx4BjF6KfPofmpk/view?usp=sharing">Experiment 4 Hadoop Modes </a>
-              <a class="item" href="https://drive.google.com/file/d/1kE9UZRq5md5K66VxtsTLerk-p18GxcMD/view?usp=sharing">Experiment 5 File Management in Hadoop</a>
+              <a class="item" href="exp1.php">Experiment 1</a>
+              <a class="item" href="exp2.php">Experiment 2</a>
+              <a class="item" href="exp3.php">Experiment 3</a>
+              <a class="item" href="exp4.php">Experiment 4 Hadoop Modes </a>
+              <a class="item" href="exp5.php">Experiment 5 File Management in Hadoop</a>
               <a class="item" href="MapReduce.php">Experiment 6 Map Reduce Program</a>
             </div>
           </div>

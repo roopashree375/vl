@@ -202,9 +202,9 @@ void main()
                 <div name="output"></div><br>
               </div>
             </div>
-          </div>
-          <div id="faqs" style="display: none;">
+            <div id="faqs" style="display: none;">
          <a href="quiz/clangquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
           </div>
         </div>
       </div>
