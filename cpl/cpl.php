@@ -124,7 +124,7 @@
       <div class="ui icon dropdown button">
         <span class="text">String Concatination</span>
         <div class="menu">
-          <a class="item" href="stringconcatination.php">Binary Search Tree</a>
+          <a class="item" href="stringconcatination.php">String Concatination</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">

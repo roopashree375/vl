@@ -27,7 +27,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 <body>
     <h1 class="ui header" style="text-align:center" id="head">
-        <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
+        <a class="ui circular image" href="http://dsce.edu.in"><img src="../../images/dscelogo.jpg"></a>
         <a href="titles.php">Virtual Labs</a>
         <br>
         <p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
@@ -50,17 +50,17 @@ if (session_status() == PHP_SESSION_NONE) {
         </div>
         <br>
         <br>
-        <div class="qPanel">
+        <div class="qPanel" checked="false">
             <div class="ques" id="question">
             </div>
             <br>
-            <div><input type="radio" id="opt1" name="options">
+            <div><input type="radio" id="opt1" name="options" >
                 <span id="optt1"></span>
             </div>
-            <div><input type="radio" id="opt2" name="options">
+            <div><input type="radio" id="opt2" name="options" >
                 <span id="optt2"></span>
             </div>
-            <div><input type="radio" id="opt3" name="options">
+            <div><input type="radio" id="opt3" name="options" >
                 <span id="optt3"></span>
             </div>
             <br>

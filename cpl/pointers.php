@@ -32,24 +32,12 @@
             <a class="item" href="cpl.php">
                 C programming laboratory
             </a>
-            <a class="item">
-                About Us
-            </a>
-            <?php
-            // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-            // else 
-            // { 
-            //   echo "<a class=\"item\">"; 
-            //   echo $_SESSION['username'];
-            //   echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-            // }
-            ?>
         </div>
     </div>
     <div class="ui container" id="cont">
         <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-        Pointers to compute the sum, mean and standard
-deviation  
+            Pointers to compute the sum, mean and standard
+            deviation
         </h2>
         <div class="ui stackable grid">
             <div class="four wide column">
@@ -63,17 +51,17 @@ deviation
                     <a class="item" target="_blank" id="list">
                         Compiler
                     </a>
-                    <!-- <a class="item" id="faq">
-        Quiz
-      </a> -->
+                    <a class="item" id="faq">
+                Quiz
+            </a>
                 </div>
             </div>
             <div class="twelve wide stretched column">
                 <div class="ui segment">
 
                     <div id="int">
-                    Write a C program using pointers to compute the sum, mean and standard
-deviation of all elements stored in an array of n real numbers.
+                        Write a C program using pointers to compute the sum, mean and standard
+                        deviation of all elements stored in an array of n real numbers.
                         <br><br>
                     </div>
 
@@ -95,9 +83,9 @@ Standard deviation:
                                 <strong>Algorithm:
                                     <br>
                                     <br>
-    Input: array elements.
+                                    Input: array elements.
                                     <br>
-    Output: sum, mean,standard deviation for the given elements.
+                                    Output: sum, mean,standard deviation for the given elements.
                                 </strong>
                                 <pre>
 Step 1. Start
@@ -127,16 +115,16 @@ Step 9. Stop
                     <div id="lis" style="display: none;">
                         <div class="ui form">
                             <div id="compilerData">
-                            Program 10: Write a C program using pointers to compute the sum, mean and standard
-deviation of all elements stored in an array of n real numbers.
-<br/>
-                                            <br/>
+                                Program 10: Write a C program using pointers to compute the sum, mean and standard
+                                deviation of all elements stored in an array of n real numbers.
+                                <br />
+                                <br />
                                 <div class="ui segment">
                                     <div class="ui two column very relaxed grid">
                                         <div class="column">
                                             <strong>Sample Input</strong><br>
                                             Enter the number of
-elements : 5<br>Enter the details of Employee : 1
+                                            elements : 5<br>Enter the details of Employee : 1
                                             <br>Enter array
                                             elements : 1 2 3 4 5
                                         </div>
@@ -241,11 +229,14 @@ void main()
                         </div>
 
                     </div>
-
+                    <div id="faqs" style="display: none;">
+                        <a href="quiz/pointersquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+                    </div>
                 </div>
             </div>
-
         </div>
+
+    </div>
     </div>
     </div>
     </div>

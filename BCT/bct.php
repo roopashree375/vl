@@ -67,9 +67,9 @@
                     <a class="item" id="faq">
                         FAQ's
                     </a>
-                    <a class="item" id="quiz">
+                    <!--<a class="item" id="quiz">
                         QUIZ
-                    </a>
+                    </a>-->
                 </div>
             </div>
             <div class="twelve wide stretched column">

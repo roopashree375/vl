@@ -1,13 +1,11 @@
 <?php
- if(session_status()==PHP_SESSION_NONE)
- {
-   session_start();
-   if(!isset($_SESSION['username']))
-   {
-     header("Location: index.php");
-     exit;
-   }
- }
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+    if (!isset($_SESSION['username'])) {
+        header("Location: index.php");
+        exit;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,9 +63,9 @@
                     <a class="active item" id="intro">
                         Video
                     </a>
-                    <!-- <a class="item" id="faq">
+                    <a class="item" id="faq">
                         Quiz
-                    </a> -->
+                    </a>
                 </div>
             </div>
             <div class="twelve wide stretched column">
@@ -77,12 +75,24 @@
                         <iframe src="https://www.youtube.com/embed/dP5c6Kr0WV8" width="640" height="480" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
 
+                    <div id="faqs" style="display: none;">
+                        <a href="quiz/wsnv7quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/twilight");
+        editor.session.setMode("ace/mode/c_cpp");
+        var textarea = $('textarea[name="editor"]');
+        editor.getSession().on("change", function() {
+            textarea.val(editor.getSession().getValue());
+        });
+    </script>
 </body>
 
 </html>

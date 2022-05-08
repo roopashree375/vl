@@ -60,7 +60,7 @@
        </div>
          <div class="content">
            <span class="CardBody">
-           Contains 6 Programs with Applications in C Programming Language
+           Contains 10 Programs with Applications in C Programming Language
            </span>
            <br><br>
            <a class="ui button" href="cpl/cpl.php" >Go</a>

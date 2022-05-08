@@ -70,9 +70,9 @@
           </a>
 
 
-          <!-- <a class="item" id="faq">
+          <a class="item" id="faq">
         Quiz
-      </a> -->
+      </a> 
         </div>
       </div>
       <div class="twelve wide stretched column">
@@ -86,7 +86,9 @@
             <iframe src="https://drive.google.com/file/d/1-Or5w6_D-VgpKEPcG3OCNP4E7oeM4iIy/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
 
-
+          <div id="faqs" style="display: none;">
+         <a href="quiz/exp6quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
 
 
 
@@ -100,5 +102,14 @@
   </div>
 
 </body>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.session.setMode("ace/mode/c_cpp");
+    var textarea = $('textarea[name="editor"]');
+    editor.getSession().on("change", function() {
+      textarea.val(editor.getSession().getValue());
+    });
+  </script>
 
 </html>
