@@ -38,8 +38,8 @@ if (session_status() == PHP_SESSION_NONE) {
             <a class="header item" href="../../index.php">
                 Home
             </a>
-            <a class="item" href="../../iot.php">
-                IOT
+            <a class="item" href="../cloudcomputing.php">
+                CS
             </a>
             <a class="item">
                 About Us

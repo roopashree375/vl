@@ -68,6 +68,9 @@ if (session_status() == PHP_SESSION_NONE) {
             </iframe>
           </div>
 
+          <div id="faqs" style="display: none;">
+         <a href="csquiz/quiz3.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
         </div>
       </div>
     </div>
