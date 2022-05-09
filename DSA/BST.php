@@ -34,10 +34,10 @@
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
-  <a class="item" href="datastructures.php">
+  <a class="item" href="../datastructures.php">
     Data Structures
   </a>
  <a class="item">
@@ -70,9 +70,9 @@
       <a class="item" target="_blank" id="list">
         Compiler
       </a>
-      <!-- <a class="item" id="faq">
+      <a class="item" id="faq">
         Quiz
-      </a> -->
+      </a>
     </div>
   </div>
  <div class="twelve wide stretched column">
@@ -237,9 +237,10 @@ void main()
           <div name="output"></div><br>
           </div>
           </div>
-
+          <div id="faqs" style="display: none;">
+                        <a href="quiz/bstquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+                    </div>
       </div>
-      
       </div>
       </div>
       

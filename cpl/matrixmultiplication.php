@@ -242,7 +242,7 @@ void main()
                 </div>
             </div>
             <div id="faqs" style="display: none;">
-                        <a href="quiz/primequiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+                        <a href="quiz/electricityquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
                     </div>
         </div>
     </div>
