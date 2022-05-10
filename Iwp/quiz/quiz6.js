@@ -20,7 +20,7 @@ var jsonData = [
         "opt2" : " PHP stands for Pretext Hypertext Processor",
         "opt3" : " PHP stands for Hypertext Preprocessor",
         "answer" :"PHP stands for Hypertext Preprocessor "
-    }
+    },
 
     
 ];

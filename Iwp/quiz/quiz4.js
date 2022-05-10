@@ -20,7 +20,7 @@ var jsonData = [
         "opt2" : "  It is an ordered list of objects",
         "opt3" : " It is an ordered list of string",
         "answer" :"It is an ordered list of values "
-    }
+    },
 
     
 ];

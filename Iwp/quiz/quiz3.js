@@ -20,7 +20,7 @@ var jsonData = [
         "opt2" : "  Message passing ",
         "opt3" : " Time Sharing",
         "answer" :"Time Sharing "
-    }
+    },
 
     
 ];

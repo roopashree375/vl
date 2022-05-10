@@ -20,7 +20,7 @@ var jsonData = [
         "opt2" : "  Style Information",
         "opt3" : "  Store Information",
         "answer" :"Style Information "
-    }
+    },
 
     
 ];

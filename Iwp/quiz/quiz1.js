@@ -20,7 +20,7 @@ var jsonData = [
         "opt2" : " circuit switching ",
         "opt3" : " both packet switching and circuit switching",
         "answer" :" packet switching "
-    }
+    },
 
     
 ];
