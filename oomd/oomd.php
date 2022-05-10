@@ -56,7 +56,7 @@
         Objective
       </a>
       <a class="item" id="list">
-        List of Experiments
+        List of Tutorials
       </a>
       <a class="item" id="faq">
         FAQ's
@@ -72,8 +72,7 @@
 <br> <br>
 There are 3 types of models in the object oriented modeling and design are: Class Model, State Model, and Interaction Model
 <br> <br>
-     <!-- <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/FR4QIeZaPeM" frameborder="0">
-</iframe> -->
+ 
       </div>
       <div id="lis" style="display: none;">
         <div class="ui bulleted list">
@@ -103,7 +102,7 @@ There are 3 types of models in the object oriented modeling and design are: Clas
       so that no other part of the code can access this data except that function.</div>
       <div id="faqs" style="display: none;">
       <div class="ui styled accordion">
-          <div class="title" id="dion1">
+          <div class="title">
             <i class="dropdown icon"></i>Why C++ is preferred language for OOP?
           </div>
           <div>
