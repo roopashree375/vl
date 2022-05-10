@@ -72,7 +72,7 @@ if(session_status()==PHP_SESSION_NONE)
       <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/3mtr0ouSwRo">
 </iframe>      </div>
 <div id="faqs" style="display: none;">
-         <a href="quiz/atv1quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+         <a href="quiz/madv2quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
       
     </div>

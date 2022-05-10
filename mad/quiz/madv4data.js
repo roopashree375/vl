@@ -1,26 +1,26 @@
 var jsonData = [
     {
-        "q" : "   ",
-        "opt1" : "",
-        "opt2" : " ",
-        "opt3" : "",
+        "q" : "  OHA in android stands for - ",
+        "opt1" : "Open Handset Alliance",
+        "opt2" : "Open Health Academy ",
+        "opt3" : "Open Handset Association",
         
         
-        "answer" : " "
+        "answer" : " Open Handset Alliance"
     },
     {
-        "q" : "",
-        "opt1" : "  ",
-        "opt2" : "  ",
-        "opt3" : "  ",
-        "answer" : "  "
+        "q" : "Which of the following is the name of the Android version 1.5?",
+        "opt1" : " Cupcake ",
+        "opt2" : " Eclair ",
+        "opt3" : " Donut ",
+        "answer" : " Cupcake "
     },
     {
-        "q" : "",
-        "opt1" : "",
-        "opt2" : "   ",
-        "opt3" : "",
-        "answer" :" " 
+        "q" : "Which of the following is the topmost layer of android architecture?",
+        "opt1" : "Applications",
+        "opt2" : "Linux Kernel   ",
+        "opt3" : "Applications Framework",
+        "answer" :" Applications" 
     }
 
     
