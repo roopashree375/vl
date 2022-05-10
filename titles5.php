@@ -149,7 +149,7 @@
         <div class="ui raised card" id="car6">
        <div class="content" id="Card6">
       <div class="header">
-         <a href="oomd.php" >
+         <a href="oomd/oomd.php" >
              Object oriented modeling and design
          </a>
       </div>
@@ -159,7 +159,7 @@
            Object-oriented modeling is an approach to modeling an application that is used at the beginning of the software life cycle.
            </span>
            <br><br>
-           <a class="ui button" href="oomd.php" >Go</a>
+           <a class="ui button" href="oomd/oomd.php" >Go</a>
          </div>
 
       </div>
