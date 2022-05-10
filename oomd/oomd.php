@@ -87,16 +87,7 @@ There are 3 types of models in the object oriented modeling and design are: Clas
 
         </div>
       </div>
-      <!-- <div id="lis" style="display: none;">
-        <div class="ui bulleted list">
-          <a class="item" href="createtable.php">Create a table</a>
-          <a class="item" href="#">Alter table</a>
-          <a class="item" href="#">Insert</a>
-          <a class="item" href="#">Use of AND,OR</a>
-          <a class="item" href="#">Row Level Functions</a>
-          <a class="item" href="#">String Handling functions</a>
-        </div>
-      </div> -->
+
 
       <div id="pre" style="display: none;"> The main aim of OOMD is to bind together the data and the functions that operate on them
       so that no other part of the code can access this data except that function.</div>
@@ -124,7 +115,7 @@ There are 3 types of models in the object oriented modeling and design are: Clas
           </div> -->
         </div>
       </div>
-
+</div>
     </div>
   </div>
 </div>
