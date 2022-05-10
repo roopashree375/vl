@@ -44,8 +44,8 @@ if (session_status() == PHP_SESSION_NONE) {
     Item
   </a>
   <a class="item">
-    Item -->
-      </a>
+    Item 
+      </a> -->
     </div>
   </div>
   <div class="ui container" id="cont">
