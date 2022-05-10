@@ -63,7 +63,7 @@
         Objective
       </a>
       <a class="item" id="list">
-        Important videos
+        List of Tutorials
       </a>
       <a class="item" id="faq">
         FAQ's
@@ -87,7 +87,7 @@
 
 
 
-     <div id="int" align="justify">
+     <div id="pre" style="display: none;">
        Ultimately, the aims and objectives of mobile applications in work settings is to improve productivity, and this is aided though
       the more efficient interactions and improved morale that a well-developed app can bring.
 
@@ -96,7 +96,7 @@
 
       <div id="lis" style="display: none;">
         <div class="ui bulleted list">
-          <a class="item" hre="./madv1.php">Overview to Mobile Application Development</a>
+          <a class="item" href="./madv1.php">Overview to Mobile Application Development</a>
            <a class="item" href="./madv2.php">Introduction to Android</a>
            <a class="item" href="./madv3.php">Introduction to Android Studio</a>
            <a class="item" href="./madv4.php">User Interaction </a>
@@ -109,7 +109,7 @@
 
 
 
-      <div id="pre" style="display: none;">
+      <div id="faqs" style="display: none;">
           <div class="ui styled accordion">
             <div class="title">
               <i class="dropdown icon"></i> What is Android?
