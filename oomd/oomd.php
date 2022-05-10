@@ -105,15 +105,15 @@ There are 3 types of models in the object oriented modeling and design are: Clas
           <div class="title">
             <i class="dropdown icon"></i>Why C++ is preferred language for OOP?
           </div>
-          <div>
-            <p style="padding: 10px;display: none;" id="accord1">C++ is a very powerful language that supports the object oriented programming. The most important feature of C++ is class. Inheritance and polymorphism makes C++ a truly object oriented programming language</p>
+          <div class="content">
+            <p style="transition hidden">C++ is a very powerful language that supports the object oriented programming. The most important feature of C++ is class. Inheritance and polymorphism makes C++ a truly object oriented programming language</p>
           </div>
 
-          <div class="title" id="dion2">
+          <div class="title" >
             <i class="dropdown icon"></i>Name any two object oriented languages?
           </div>
-          <div>
-            <p style="padding: 10px;display: none;" id="accord2">C++ , java , small talk and C# are most popular object oriented programming languages.</p>
+          <div class="content">
+            <p style="transition hidden">C++ , java , small talk and C# are most popular object oriented programming languages.</p>
           </div>
 
           <!-- <div class="title" id="dion3">
