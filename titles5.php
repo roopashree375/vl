@@ -18,9 +18,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="js/jquery-3.4.1.min.js"></script>
-        <link rel="stylesheet" href="css/Semantic/semantic.min.css">
+        
         <script src="css/Semantic/semantic.min.js"></script>
         <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/Semantic/semantic.min.css">
         <link rel="icon" href="images\dscelogo.png">
         <title>Virtual-Labs</title>
 </head>
@@ -39,16 +40,10 @@
  <a class="item">
     About Us
   </a>
-  <a class="header item" href="titles5.php">
-    5th semester
+  <a class="header item" href="titles.php">
+    Go Back
   </a>
-   <!-- <a class="item">
-   <?php echo $_SESSION["username"]; ?>
-  </a>
-  <a class="item" href="logoutprocess.php">
-    Logout
-  </a> -->
-</div>
+ 
 </div>
 <div id="toTop"><i class="chevron up icon"></i></div>
 <div class="ui container" id="CardGrid">
@@ -174,7 +169,7 @@
         <div class="ui raised card">
        <div class="content" id="Card7">
       <div class="header">
-         <a href="mad.php" >
+         <a href="mad/mad.php" >
             Mobile application development
          </a>
       </div>
@@ -184,7 +179,7 @@
            Mobile application development is the process of creating software applications that run on a mobile device.
            </span>
            <br><br>
-           <a class="ui button" href="mad.php">Go</a>
+           <a class="ui button" href="mad/mad.php">Go</a>
          </div>
 
       </div>
