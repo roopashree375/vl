@@ -69,16 +69,17 @@
               FAQ's
             </a>
 
-            <a class="item" id="faq">
-              Quiz
-            </a>
+            
           </div>
         </div>
         <div class="twelve wide stretched column">
           <div class="ui segment">
 
             <div id="int" align="justify">
-              To learn about basics of how to use Cloud Services.
+
+
+            <p>Cloud Computing is the delivery of computing services such as servers, storage, databases, networking, software, analytics, intelligence, and more, over the Cloud (Internet).</p>
+            
             </div>
 
 
@@ -92,8 +93,15 @@
               </div>
             </div>
 
-            <div id="pre" style="display: none;">Demonstrate the understanding of basic concepts of cloud computing and cloud
-              infrastructures<br></div>
+            <div id="pre" style="display: none;">
+
+            <li>  To learn about basics of how to use Cloud Services</li>
+            <li>To gain knowledge on Virtualization</li>
+            <li>To acquire knowledge about Task Scheduling algorithms.</li>
+            <li>To gain basic understanding of Map-Reduce concept to applications</li>
+            <li> To gain knowledge in cloud resource virtualization and scheduling.</li>
+              
+            </div>
 
             <div id="faqs" style="display: none;">
               <div class="ui styled accordion">
