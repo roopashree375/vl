@@ -81,19 +81,19 @@
 
       <div id="lis" style="display: none;">
         <div class="ui bulleted list">
-           <a class="item" href="https://www.youtube.com/watch?v=BkedAnQfJ_U">Agents and Environments</a>
-           <a class="item" href="https://www.youtube.com/watch?v=6490tKrGEic">Propositional Logic </a>
-           <a class="item" href="https://www.youtube.com/watch?v=QizsAE4fBpQ">Difference between AI,ML,DL</a>
+           <a class="item" href="AIML/aiml1.php">Agents and Environments</a>
+           <a class="item" href="AIML/aiml2.php">Propositional Logic </a>
+           <a class="item" href="AIML/aiml3.php">Difference between AI,ML,DL</a>
 
-          <a class="item" href="https://www.youtube.com/watch?v=aVwcNDKXcHU">Forward Chaining and Backward Chaining</a>
+          <a class="item" href="AIML/aiml4.php">Forward Chaining and Backward Chaining</a>
 
-          <a class="item" href="https://www.youtube.com/watch?v=E5RjzSK0fvY">Supervised Learning : Linear Regression</a>
+          <a class="item" href="AIML/aiml5.php">Supervised Learning : Linear Regression</a>
 
-           <a class="item" href="https://www.youtube.com/watch?v=DAFljjxmyZw"> Supervised Learning : Classification in ML</a>
+           <a class="item" href="AIML/aiml6.php"> Supervised Learning : Classification in ML</a>
 
-         <a class="item" href="https://www.youtube.com/watch?v=UhVn2WrzMnI">Unsupervised Learning : Clustering</a>
-          <a class="item" href="https://www.youtube.com/watch?v=vpOLiDyhNUA">Neural Network</a>
-          <a class="item" href="https://www.youtube.com/watch?v=A_o4YnUfWPI">Deep Learning: CNN,ANN,RNN</a>
+         <a class="item" href="AIML/aiml7.php">Unsupervised Learning : Clustering</a>
+          <a class="item" href="AIML/aiml8.php">Neural Network</a>
+          <a class="item" href="AIML/aiml9.php">Deep Learning: CNN,ANN,RNN</a>
 
 
         </div>
