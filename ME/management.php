@@ -89,10 +89,10 @@ if (session_status() == PHP_SESSION_NONE) {
           
           <a class="item" href="./me1.php">What is Business model</a>
           <a class="item" href="./me2.php">Who is an Entrepreneur</a>
-          <a class="item" href="./me3.php">Marketing of Innovation</a>
+          
           <a class="item" href="./me4.php">Sustainablity Innovation and Entrepreneurship</a>
 
-          <a class="item" href="./me5.php">Business Models and value preposition</a>
+          <a class="item" href="./me5.php">Small scale industry in india</a>
 </div>
 </div>
 

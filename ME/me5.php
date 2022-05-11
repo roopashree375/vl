@@ -45,7 +45,7 @@ if (session_status() == PHP_SESSION_NONE) {
   </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-    Business Models and value preposition
+    Small scale industries
       
     </h2>
     <div class="ui stackable grid">
@@ -66,7 +66,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="ui segment">
 
           <div id="lis" style="padding: 15px; height: 400px;">
-           <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/UL86GGHBX5Q" >
+           <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/lMTZTYGDy68" >
 
             </iframe>
           </div>
