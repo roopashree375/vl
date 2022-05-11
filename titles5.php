@@ -109,7 +109,7 @@
         <div class="ui raised card" id="car4">
        <div class="content" id="Card4">
       <div class="header">
-         <a href="sf.php" >
+         <a href="SE/sf.php" >
              Software engineering
          </a>
       </div>
@@ -119,7 +119,7 @@
            Software engineering is the systematic application of engineering for development of software.
            </span>
            <br><br>
-           <a class="ui button" href="sf.php" >Go</a>
+           <a class="ui button" href="SE/sf.php" >Go</a>
          </div>
 
       </div>
@@ -189,7 +189,7 @@
         <div class="ui raised card">
        <div class="content" id="Card8">
       <div class="header">
-         <a href="management.php" >
+         <a href="ME/management.php" >
              Management enterpreneurship
          </a>
       </div>
@@ -199,7 +199,7 @@
            Practice of taking entrepreneurial knowledge and utilizing it for increasing the effectiveness of new business venturing.
            </span>
            <br><br>
-           <a class="ui button" href="management.php">Go</a>
+           <a class="ui button" href="ME/management.php">Go</a>
          </div>
 
       </div>
@@ -227,7 +227,7 @@
         <div class="ui  raised card" id="car5">
        <div class="content" id="Card5">
       <div class="header">
-         <a href="et.php" >
+         <a href="et/et.php" >
              Emerging technologies
          </a>
       </div>
@@ -237,7 +237,7 @@
            Emerging technologies are technologies whose development, practical applications are still not figured out.
            </span>
            <br><br>
-           <a class="ui button" href="et.php" >Go</a>
+           <a class="ui button" href="et/et.php" >Go</a>
          </div>
 
       </div>
