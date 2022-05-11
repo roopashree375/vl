@@ -227,7 +227,7 @@
         <div class="ui  raised card" id="car5">
        <div class="content" id="Card5">
       <div class="header">
-         <a href="et.php" >
+         <a href="et/et.php" >
              Emerging technologies
          </a>
       </div>
@@ -237,7 +237,7 @@
            Emerging technologies are technologies whose development, practical applications are still not figured out.
            </span>
            <br><br>
-           <a class="ui button" href="et.php" >Go</a>
+           <a class="ui button" href="et/et.php" >Go</a>
          </div>
 
       </div>
