@@ -22,7 +22,7 @@ if(session_status()==PHP_SESSION_NONE)
   <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
-  <title>INTERNET & WEB PROGRAMMING</title>
+  <title>Logic Design</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
@@ -51,7 +51,7 @@ if(session_status()==PHP_SESSION_NONE)
 </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-    Internet & Web Programming
+    Logic Design
     </h2>
     <div class="ui stackable grid">
   <div class="four wide column">
@@ -75,57 +75,55 @@ if(session_status()==PHP_SESSION_NONE)
     <div class="ui segment">
       
       <div id="int" align="justify">
-      The Internet is a huge collection of computers connected in a communications network. Web programming refers to the writing, markup and coding involved in Web development, which includes Web content, Web client and server scripting and network security. <br> <br>
+      logic design, basic organization of the circuitry of a digital computer. All digital computers are based on a two-valued logic system—1/0, on/off, yes/no<br> <br>
       
       </div>
       
       <div id="lis" style="display: none;">
         <div class="ui bulleted list">
      
-          <a class="item" href="./iwpv1.php">What is the Internet?</a>
-          <a class="item" href="./iwpv2.php">What is World Wide Web?</a>
-          <a class="item" href="./iwpv3.php">History of the Internet</a>
-          <a class="item" href="./iwpv4.php">What is JavaScript and where can we use it</a>
-          <a class="item" href="./iwpv5.php">What is XML?</a>
-          <a class="item" href="./iwpv6.php">Introduction to PHP</a>
+          <a class="item" href="./LDv1.php">Positive and Negetive Logic</a>
+          <a class="item" href="./LDv2.php">Karnaugh Map (K' Map)</a>
+          <a class="item" href="./LDv3.php">Quine-McCluskey Minimization Technique (Tabular Method)</a>
+          <a class="item" href="./LDv4.php">Multiplexer ll Demultiplexer ll Decoder ll Encoder ll Combinational circuit ll</a>
+          <a class="item" href="./LDv5.php">Basic Flip-Flop Circuit Using NOR Gates</a>
+          <a class="item" href="./LDv6.php">Introduction to Registers</a>
+          <a class="item" href="./LDv7.php">Application of Logic Gates</a>
           
-
-          
-
           
         </div>
       </div>
       
-      <div id="pre" style="display: none;"><p>1. Identify the elements and attributes of creating a webpage.</p>
-<p>2. Create web pages using XHTML and Cascading Styles sheets.</p> 
-<p>3. Create XML documents using CSS style sheets.</p>
-<p>4. Understand the client and server side programming.</p> <br></div>
+      <div id="pre" style="display: none;"><p>1. To optimize simple logic using Karnaugh maps, understand "don't care".</p>
+<p>2. design combinational logics using basic and universal gates</p> 
+<p>3. Familiar with basic sequential logic components and their usage and able to analyze sequential logic circuits.</p>
+<p>4.Design various counters by analyzing the concept of sequential logic components.</p> <br></div>
       
       <div id="faqs" style="display: none;">
         <div class="ui styled accordion">
           <div class="title">
-            <i class="dropdown icon"></i>What is the Internet?
+            <i class="dropdown icon"></i>What is logic design?
           </div>
           <div class="content">
-            <p class="transition hidden">The Internet is a vast network that connects computers all over the world. Through the Internet, people can share information and communicate from anywhere with an Internet connection.</p>
+            <p class="transition hidden">logic design, basic organization of the circuitry of a digital computer. All digital computers are based on a two-valued logic system—1/0, on/off, yes/no </p>
           </div>
           
           <div class="title" >
-            <i class="dropdown icon"></i>What is a WWW explain?</div>
+            <i class="dropdown icon"></i>What is K-map explain?</div>
           <div class="content">
-            <p class="transition hidden">The World Wide Web—commonly referred to as WWW, W3, or the Web—is an interconnected system of public webpages accessible through the Internet. The Web is not the same as the Internet: the Web is one of many applications built on top of the Internet.</p>
+            <p class="transition hidden">A Karnaugh map (K-map) is a pictorial method used to minimize Boolean expressions without having to use Boolean algebra theorems and equation manipulations. A K-map can be thought of as a special version of a truth table . Using a K-map, expressions with two to four variables are easily minimized.</p>
           </div>
 
           <div class="title" >
-            <i class="dropdown icon"></i>What is JavaScript and why it is used? </div>
+            <i class="dropdown icon"></i>What is Multiplexer in logic design? </div>
           <div class="content">
-            <p class="transition hidden"> <p>Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language by 97.0% of all websites.</p>
+            <p class="transition hidden"> <p>The Multiplexer, shortened to “MUX” or “MPX”, is a combinational logic circuit designed to switch one of several input lines through to a single common output line by the application of a control signal.</p>
           </div>
 
           <div class="title" >
-            <i class="dropdown icon"></i>What is PHP and why it is used?</div>
+            <i class="dropdown icon"></i>What is a flip-flop explain?</div>
           <div class="content">
-            <p class="transition hidden">PHP(short for Hypertext PreProcessor) is the most widely used open source and general purpose server side scripting language used mainly in web development to create dynamic websites and applications. It was developed in 1994 by Rasmus Lerdorf.</p>
+            <p class="transition hidden">A flip-flop is a device which stores a single bit (binary digit) of data; one of its two states represents a "one" and the other represents a "zero". Such data storage can be used for storage of state, and such a circuit is described as sequential logic in electronics.</p>
           </div>
 
         </div>

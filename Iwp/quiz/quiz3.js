@@ -4,7 +4,6 @@ var jsonData = [
         "opt1" : "  Advanced Research Project Agency Network",
         "opt2" : " Advanced Research Programmed Auto Network",
         "opt3" : " Advanced Research Project Automatic Network",
-        
         "answer" : "Advanced Research Project Agency Network"
     },
     {
@@ -20,7 +19,7 @@ var jsonData = [
         "opt2" : "  Message passing ",
         "opt3" : " Time Sharing",
         "answer" :"Time Sharing "
-    },
+    }
 
     
 ];

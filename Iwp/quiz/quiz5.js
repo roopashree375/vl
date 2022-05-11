@@ -4,7 +4,6 @@ var jsonData = [
         "opt1" : " EXtra Modern Link",
         "opt2" : " EXtensible Markup Language",
         "opt3" : "  Example Markup Language",
-        
         "answer" : "EXtensible Markup Language"
     },
     {
@@ -20,7 +19,7 @@ var jsonData = [
         "opt2" : "  Style Information",
         "opt3" : "  Store Information",
         "answer" :"Style Information "
-    },
+    }
 
     
 ];

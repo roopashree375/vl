@@ -22,7 +22,7 @@ if(session_status()==PHP_SESSION_NONE)
   <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
-  <title>What is JavaScript and where can we use it</title>
+  <title>Basic Flip-Flop Circuit Using NOR Gates</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
@@ -35,8 +35,8 @@ if(session_status()==PHP_SESSION_NONE)
   <a class="header item" href="../index.php">
     Home
   </a>
- <a href="./iwp.php" class="item">
- INTERNET & WEB PROGRAMMING
+ <a href="./LD.php" class="item">
+ Logic Design
   </a> 
    <a class="item">
     About Us
@@ -45,7 +45,7 @@ if(session_status()==PHP_SESSION_NONE)
 </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-    What is JavaScript and where can we use it
+    Basic Flip-Flop Circuit Using NOR Gates
     </h2>
     <div class="ui stackable grid">
   <div class="four wide column">
@@ -68,10 +68,10 @@ if(session_status()==PHP_SESSION_NONE)
     <div class="ui segment">
       
       <div id="lis" style="padding: 15px; height: 400px;">  
-      <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/dlfrWbYk1v0">
+      <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/wLKwfMyShTc">
 </iframe>      </div>
 <div id="faqs" style="display: none;">
-         <a href="quiz/iwpv4quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+         <a href="quiz/LDv5quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
     </div>
   </div>

@@ -4,7 +4,6 @@ var jsonData = [
         "opt1" : "  JavaScript is a scripting language used to make the website interactive",
         "opt2" : " JavaScript is an assembly language used to make the website interactive",
         "opt3" : " JavaScript is a compiled language used to make the website interactive",
-        
         "answer" : "JavaScript is a scripting language used to make the website interactive"
     },
     {
@@ -20,7 +19,7 @@ var jsonData = [
         "opt2" : "  It is an ordered list of objects",
         "opt3" : " It is an ordered list of string",
         "answer" :"It is an ordered list of values "
-    },
+    }
 
     
 ];
