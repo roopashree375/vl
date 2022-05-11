@@ -40,9 +40,7 @@
     <a class="item">
       About Us
     </a>
-    <a class="item">
-      About Us
-    </a>
+    
     <a class="header item" href="titles.php">
       Go Back
     </a>
