@@ -4,7 +4,6 @@ var jsonData = [
         "opt1" : " World Whole Web",
         "opt2" : "Wide World Web",
         "opt3" : " World Wide Web ",
-        
         "answer" : "World Wide Web"
     },
     {
@@ -20,7 +19,7 @@ var jsonData = [
         "opt2" : " Telephone ",
         "opt3" : " Circuit",
         "answer" :" Packet "
-    },
+    }
 
     
 ];
