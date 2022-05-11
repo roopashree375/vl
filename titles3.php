@@ -109,7 +109,7 @@
         <div class="ui raised card" id="car4">
        <div class="content" id="Card4">
       <div class="header">
-         <a href="Logic design\logicdesign1.php" >
+         <a href="LD\LD.php" >
              Logic Design
          </a>
       </div>
@@ -119,7 +119,7 @@
              Contains educational videos on Logic Design (LD)
            </span>
            <br><br>
-           <a class="ui button" href="Logic design\logicdesign1.php" >Go</a>
+           <a class="ui button" href="LD\LD.php" >Go</a>
          </div>
   
       </div>

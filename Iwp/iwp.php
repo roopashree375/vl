@@ -27,7 +27,7 @@ if(session_status()==PHP_SESSION_NONE)
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
       <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
-  <a href="../titles.php">Virtual Labs</a>
+  <a href="../titles3.php">Virtual Labs</a>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>

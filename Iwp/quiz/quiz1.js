@@ -4,7 +4,6 @@ var jsonData = [
         "opt1" : " a single network",
         "opt2" : "a vast collection of different networks",
         "opt3" : " interconnection of local area networks ",
-        
         "answer" : "a vast collection of different networks"
     },
     {
@@ -20,7 +19,7 @@ var jsonData = [
         "opt2" : " circuit switching ",
         "opt3" : " both packet switching and circuit switching",
         "answer" :" packet switching "
-    },
+    }
 
     
 ];

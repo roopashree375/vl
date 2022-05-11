@@ -12,31 +12,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <link rel="stylesheet" href="css/Semantic/semantic.min.css">
-  <script src="css/Semantic/semantic.min.js"></script>
-  <script src="js/script.js"></script>
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="icon" href="images\dscelogo.png">
-  <title>Software engineering</title>
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/semantic.min.js"></script>
+  <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="icon" href="../images/dscelogo.png">
+  <title>Software Engineering</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
       <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
-  <a href="titles.php">Virtual Labs</a>
+  <a href="../titles5.php">Virtual Labs</a>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
- <a class="item">
+ <a class="item" href="../index.php">
     About Us
   </a>
+
+
+  <a class="header item" href="../titles5.php">
+    Go Back
+  </a>
+
     <?php
     // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
     // else
@@ -75,19 +81,19 @@
       <div id="int" align="justify">
       Software Engineering is an engineering branch related to the evolution of software product using well-defined scientific principles, techniques, and procedures.
       The result of software engineering is an effective and reliable software product.
-      Software Engineering is an engineering branch related to the evolution of software product using well-defined scientific principles, techniques, and procedures.
+      Software EngineSering is an engineering branch related to the evolution of software product using well-defined scientific principles, techniques, and procedures.
        The result of software engineering is an effective and reliable software product.
     </div>
 
     <div id="lis" style="display: none;">
         <div class="ui bulleted list">
-          <a class="item" href="https://www.youtube.com/watch?v=kcvEiMFOcoE">Introduction To Software Engineering</a>
-          <a class="item" href="https://www.youtube.com/watch?v=CKkGoLBa9ek">Computer Aided Software Engineering</a>
-          <a class="item" href="https://www.youtube.com/watch?v=ul6nW1g3xK0">Requirements Gathering And Analysis</a>
-          <a class="item" href="https://www.youtube.com/watch?v=sGxgZxwuHzc">Software Design </a>
-          <a class="item" href="https://www.youtube.com/watch?v=0mUyAWXwcYQ">Software Development Methodologies</a>
-          <a class="item" href="https://www.youtube.com/watch?v=fxXZf4zDjGQ">Verification And Validation,Software Testing</a>
-          <a class="item" href="https://www.youtube.com/watch?v=ciTu06q3iW0">Software Evolution</a>
+          <a class="item" href="./sf1.php">Introduction To Software Engineering</a>
+          <a class="item" href="./sf2.php">Computer Aided Software Engineering</a>
+          <a class="item" href="./sf3.php">Requirements Gathering And Analysis</a>
+          <a class="item" href="./sf4.php">Software Design </a>
+          <a class="item" href="./sf5.php">Software Development Methodologies</a>
+          <a class="item" href="./sf6.php">Verification And Validation,Software Testing</a>
+          <a class="item" href="./sf7.php">Software Evolution</a>
         </div>
       </div>
 

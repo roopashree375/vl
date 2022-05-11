@@ -119,7 +119,7 @@
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                            Contain 6 Experiment based on cloud & BigData Concepts.
+                            Contain 6 Experiment based on cloud & Big Data Concepts.
                         </span>
                         <br><br>
                         <a class="ui button" href="CLOUD&BIGDATA-LAB/cba.php">Go</a>

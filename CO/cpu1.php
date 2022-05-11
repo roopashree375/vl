@@ -28,7 +28,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 <body>
   <h1 class="ui header" style="text-align:center" id="head">
-    <a class="ui circular image" href="http://dsce.edu.in"><img src="../../images/dscelogo.jpg"></a>
+    <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
     <a href="titles.php">Virtual Labs</a>
   </h1>
   <div id="toTop"><i class="chevron up icon"></i></div>
@@ -113,78 +113,23 @@ if (session_status() == PHP_SESSION_NONE) {
             <br>
           </div>
           <div id="faqs" style="display: none;">
-            <form name="Quiz1">
-              <p>1.What are the two other parts of the CPU?<br>
-                <label><input type="radio" name="q1" value="0">RAM & ROM
-                </label><br>
-                <label><input type="radio" name="q1" value="0">Hard Drive & Motherboard</label><br>
-                <label><input type="radio" name="q1" value="1"> The ALU and Cache</label><br>
-
-              </p><br>
-              <p>2.Which level of cache is the fastest but has the smallest capacity?
-                <br>
-                <label><input type="radio" name="q2" value="1"> Level 1
-                </label><br>
-                <label><input type="radio" name="q2" value="0">Level 2</label><br>
-                <label><input type="radio" name="q2" valur="0">Level 3</label><br>
-                <label><input type="radio" name="q2" value="0">Level 4</label><br>
-              </p><br>
-              <p>3. What are registers used for?
-                <br>
-                <label><input type="radio" name="q3" value="1">To temporarily hold bits of data needed by the CPU
-                </label><br>
-                <label><input type="radio" name="q3" value="0">To make sure that the CPU runs properly.</label><br>
-                <label><input type="radio" name="q3" value="0">To make the CPU faster.</label><br>
-
-              </p><br>
-              <p>4.What is the main function of the boot program?
-                <br>
-                <label><input type="radio" name="q4" value="0">To load programs that are being used.
-                </label><br>
-                <label><input type="radio" name="q4" value="0">To shut the computer down.</label><br>
-                <label><input type="radio" name="q4" value="1"> To get the computer up and running and get the operating system loaded</label><br>
-                <label><input type="radio" name="q4" value="0">To load Microsoft Office.</label><br>
-              </p><br>
-              <p>5.What happens at the Decode step of the fetch-decode-execute cycle?
-
-                <br>
-                <label><input type="radio" name="q5" value="1">The CPU makes sense of the instructions
-                </label><br>
-                <label><input type="radio" name="q5" value="0">The CPU fetches the information from RAM.</label><br>
-                <label><input type="radio" name="q5" value="0">The instructions are executed.</label><br>
-
-              </p><br>
-              <button id="quizSub" class="ui left floated button">Submit</button>
-            </form>
+          <a href="quiz/cpu1quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
         </div>
       </div>
     </div>
-    <script language="javascript">
-      let qs = document.getElementById('quizSub');
-      qs.addEventListener('click', () => {
-        var j, i;
-        var quiz = document.getElementById('Quiz1');
-        var score = 0;
-        var val = new Array(6);
-        var q = new Array(6);
-        q[1] = document.getElementsByName('q1');
-        q[2] = document.getElementsByName('q2');
-        q[3] = document.getElementsByName('q3');
-        q[4] = document.getElementsByName('q4');
-        q[5] = document.getElementsByName('q5');
-        for (i = 1; i <= 5; i++) {
-          for (j = 0; j < q[i].length; j++) {
-            if (q[i][j].checked) {
-              if (q[i][j].value == 1) {
-                score++;
-              }
-            }
-          }
-        }
-        alert("score=" + score);
-      })
-    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.session.setMode("ace/mode/c_cpp");
+    var textarea = $('textarea[name="editor"]');
+editor.getSession().on("change", function () {
+    textarea.val(editor.getSession().getValue());
+});
+</script>
 </body>
+
 
 </html>
