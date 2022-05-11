@@ -22,12 +22,12 @@
   <script src="../js/questions.js"></script>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images/dscelogo.png">
-  <title>Gross Net salary</title>
+  <title>Interfaces</title>
   
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
       <a href="titles.php">Virtual Labs</a> 
   <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
@@ -67,12 +67,12 @@
       <a class="item" id="prereq">
         Theory
       </a>
-      <!-- <a class="item" target="_blank" id="list">
+     <!--<a class="item" target="_blank" id="list">
         Compiler
-      </a> -->
-      <!-- <a class="item" id="faq">
+      </a>-->
+      <a class="item" id="faq">
         Quiz
-      </a> -->
+      </a> 
     </div>
   </div>
  <div class="twelve wide stretched column">
@@ -110,7 +110,7 @@
       <div class="ui form">
         <div id="compilerData">
          <b>Compile your java program here<b>
-         </div><br>
+         <!--</div><br>
           <form action="../compile.php" id="form" name="f2" method="POST" ><br>
           <label class="writeCode">Write Your Code</label><br><br>     
           <textarea name="code" rows=15 cols=80 onkeydown=insertTab(this,event) class="field codeBlock" id="editor code"rows="10" cols="50">
@@ -138,65 +138,14 @@ class Simple
 
           </form><br>
           <div id="outputBox" style="display:None;">Output:<br><br>
-          <div name="output"></div><br>
+          <div name="output"></div><br>-->
           </div>
           </div>
 
       </div>
       
       <div id="faqs" style="display: none;">
-      <form name="quiz" id="quiz" action="../quizProcess.php" method="POST">
-      <?php
-        $servername = "localhost:3306";
-        $db_username = "root";
-        $password = "1234";
-        $dbname = "virtuallabsdsce";
-
-        // Create connection
-        $conn = new mysqli($servername, $db_username, $password, $dbname);
-
-        // Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
-
-        $usn=$_SESSION["usn"];
-        $query = "select * from user_scores where usn='$usn' and topic_name='st'";
-        $res=$conn->query($query);
-        
-        if ($res->num_rows == 1)
-        { 
-          $row = $res->fetch_assoc();
-          echo "Quiz already attemped!<br><br>Your score: ".$row["quiz_score"];
-        }
-        else{
-        $a= [1,2,3,4,5,6,7,8];
-        $opt = ['a','b','c','d']; 
-        $questionno = 1;
-        shuffle($a);
-        foreach($a as $i)
-        {
-          $query = "select question from questions_ds where question_no like \"st$i\"";
-          $question_name = $conn->query($query);
-          $row = $question_name->fetch_assoc();
-          echo "<p>".$questionno.". ".$row['question']."<br>";
-          shuffle($opt);
-          foreach($opt as $j)
-          {
-            $option_name = $conn->query("select options_name from answer_ds where option_no like \"st$i$j\"");
-            $row =$option_name->fetch_assoc();
-            echo "<label><input type=\"radio\" name=\"st".$i."\" value=\"st".$i.$j."\">".$row['options_name']."</label><br>";
-          }
-          echo "<span id=\"st".$i."\"></span></p><br>";
-          $questionno += 1;
-        }
-        
-        echo "<input type=\"hidden\" name=\"quizID\" value=\"ds.st.8\">";
-        echo "<div id=\"result\"><input type=\"submit\" id=\"quizSub\" class=\"ui left floated button\" value=\"Submit\"></div>";
-        }
-        $conn->close();
-        ?>
-        </form>
+      <a href="quiz/interfacequiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
         </div>
       </div>
       </div>

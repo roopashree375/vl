@@ -27,7 +27,7 @@
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
       <a href="titles.php">Virtual Labs</a> 
   <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
@@ -70,9 +70,9 @@
       <!-- <a class="item" target="_blank" id="list">
         Compiler
       </a> -->
-      <!-- <a class="item" id="faq">
+      <a class="item" id="faq">
         Quiz
-      </a> -->
+      </a>
     </div>
   </div>
  <div class="twelve wide stretched column">
@@ -139,6 +139,10 @@ class Simple
           </div>
 
       </div>
+      
+      <div id="faqs" style="display: none;">
+         <a href="quiz/abstractclassquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
       </div>
       </div>
       
