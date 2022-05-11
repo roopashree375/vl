@@ -58,7 +58,7 @@
         Objective
       </a>
       <a class="item" id="list">
-        List of Experiments
+        List of Tutorials
       </a>
       <a class="item" id="faq">
         FAQ's
