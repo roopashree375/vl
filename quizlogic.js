@@ -32,6 +32,7 @@ function checkAnswer() {
     i++;
     if (jsonData.length - 1 < i) {
         var percent = (correctCount / i) * 100;
+        console.log(correctCount);
         document.write("<div style = 'margin : 250px ;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); transition: 0.3s;'><div id ='it' style='font-size : 80px ;padding: 2px 16px;'><strong>Your Score is ");
         document.write(correctCount + " out of " + i);
         document.write("</strong></div></div>");

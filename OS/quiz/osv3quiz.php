@@ -17,17 +17,17 @@ if (session_status() == PHP_SESSION_NONE) {
     <link rel="stylesheet" href="../../css/Semantic/semantic.min.css">
     <link rel="stylesheet" href="../../css/home.css">
     <link rel="stylesheet" href="../../css/quiz.css">
-    <script src="../js/jquery-3.4.1.min.js"></script>
-    <script src="../css/Semantic/semantic.min.js"></script>
-    <script src="../js/script.js"></script>
-    <link rel="icon" href="../images\dscelogo.png">
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../css/Semantic/semantic.min.js"></script>
+    <script src="../../js/script.js"></script>
+    <link rel="icon" href="../../images\dscelogo.png">
     <title>Quiz On Operating System</title>
 
 </head>
 
 <body>
     <h1 class="ui header" style="text-align:center" id="head">
-        <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
+        <a class="ui circular image" href="http://dsce.edu.in"><img src="../../images/dscelogo.jpg"></a>
         <a href="titles.php">Virtual Labs</a>
         <br>
         <p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
@@ -63,6 +63,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div><input type="radio" id="opt3" name="options">
                 <span id="optt3"></span>
             </div>
+            <br/>
             <div class="rgtCss">
                 <button class="preBtn" onclick="goBack()">< back</button>
             </div>
