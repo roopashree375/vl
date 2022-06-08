@@ -15,23 +15,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <link rel="stylesheet" href="css/Semantic/semantic.min.css">
-  <script src="js/semantic.min.js"></script>
-  <script src="js/script.js"></script>
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="icon" href="images\dscelogo.png">
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
+  <script src="../js/semantic.min.js"></script>
+  <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="icon" href="../images\dscelogo.png">
   <title>Computer Networks</title>
 </head>
 <body>
   <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
       <a href="titles.php">Virtual Labs</a>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="../index.php">
     Home
   </a>
  <a class="item">
@@ -78,22 +78,22 @@
 
        <div id="lis" style="display: none;">
         <div class="ui bulleted list">
-          <a class="item" href="https://www.youtube.com/watch?v=JxqcBvOuztg&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=1">LAB 1</a>
-          <a class="item" href="https://www.youtube.com/watch?v=Pi3tu1KQ_y8&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=2">LAB 2</a>
-          <a class="item" href="https://www.youtube.com/watch?v=uffY03yIkEw&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=3">LAB 3 DYN RIP</a>
-          <a class="item" href="https://www.youtube.com/watch?v=foTvP5yDfZE&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=4">LAB 4 STATIC3</a>
-          <a class="item" href="https://www.youtube.com/watch?v=tS3YjcyqMfQ&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=9">LAB 5 SUBNET INTRO</a>
-          <a class="item" href="https://www.youtube.com/watch?v=X9GSE757CmM&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=10">LAB 6 SUBNET 2</a>
-          <a class="item" href="https://www.youtube.com/watch?v=9HdSCw0-rIQ&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=6">LAB 9 STATIC NAT</a>
-          <a class="item" href="https://www.youtube.com/watch?v=icpfP6192gA&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=8">LAB 10 STATIC DYNAMIC NAT</a>
-          <a class="item" href="https://www.youtube.com/watch?v=DlcL0rlHIQE&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=5">LAB 11 PAT</a>
-          <a class="item" href="https://www.youtube.com/watch?v=DlcL0rlHIQE&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=16">LAB 12 DNS</a>
-          <a class="item" href="https://www.youtube.com/watch?v=DlcL0rlHIQE&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=15">LAB 13 DN2 ROOT DNS </a>
-          <a class="item" href="https://www.youtube.com/watch?v=DlcL0rlHIQE&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=14">LAB 14 DNS Hierachy</a>
-          <a class="item" href="https://www.youtube.com/watch?v=DlcL0rlHIQE&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=13">LAB 15 DHCP1</a>
-          <a class="item" href="https://www.youtube.com/watch?v=A6DGLxJxqEI&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=7">LAB 16 DHCP 2</a>
-          <a class="item" href="https://www.youtube.com/watch?v=DlcL0rlHIQE&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=12">LAB 17 VLAN1</a>
-          <a class="item" href="https://www.youtube.com/watch?v=DlcL0rlHIQE&list=PLzb0Nzkr0fjJoGlE0jC4JZ_ff1YQ488aC&index=11">LAB 18 VLAN2 Router on stick</a>
+          <a class="item" href="lab1.php">LAB 1</a>
+          <a class="item" href="lab2.php">LAB 2</a>
+          <a class="item" href="lab3-dyn-rip.php">LAB 3 DYN RIP</a>
+          <a class="item" href="lab4-static3.php">LAB 4 STATIC3</a>
+          <a class="item" href="lab5-subnet-intro.php">LAB 5 SUBNET INTRO</a>
+          <a class="item" href="lab6-subnet-2.php">LAB 6 SUBNET 2</a>
+          <a class="item" href="lab9-static-nat.php">LAB 9 STATIC NAT</a>
+          <a class="item" href="lab10-static-dynamic-nat.php">LAB 10 STATIC DYNAMIC NAT</a>
+          <a class="item" href="lab11-pat.php">LAB 11 PAT</a>
+          <a class="item" href="lab12-dns.php">LAB 12 DNS</a>
+          <a class="item" href="lab13-dn2-root-dns.php">LAB 13 DN2 ROOT DNS </a>
+          <a class="item" href="lab14-dns-hierachy.php">LAB 14 DNS Hierachy</a>
+          <a class="item" href="lab15-dhcp1.php">LAB 15 DHCP1</a>
+          <a class="item" href="lab16-dhcp2.php">LAB 16 DHCP 2</a>
+          <a class="item" href="lab17-vlan1.php">LAB 17 VLAN1</a>
+          <a class="item" href="lab18-vlan2-router-on-sticks.php">LAB 18 VLAN2 Router on stick</a>
         </div>
       </div>
 
