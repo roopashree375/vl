@@ -1,16 +1,12 @@
-
-
 <!DOCTYPE html>
 <?php
- if(session_status()==PHP_SESSION_NONE)
- {
-   session_start();
- if(!isset($_SESSION['username']))
- {
-   header("Location: index.php");
-   exit;
- }
- }
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
+  if (!isset($_SESSION['username'])) {
+    header("Location: index.php");
+    exit;
+  }
+}
 ?>
 <html>
 
@@ -208,17 +204,17 @@
         <div class="ui raised card" id="car6">
           <div class="content" id="Card6">
             <div class="header">
-              <a href="dbms.php">
+              <a href="DBMS LAB/dbmslab.php">
                 Database Management Laboratory
               </a>
             </div>
           </div>
           <div class="content">
             <span class="CardBody">
-              Contains 12 Experiments On Database Management in Oracle SQL
+              Contains Experiments On Database Management in SQL
             </span>
             <br><br>
-            <a class="ui button" href="dbms.php">Go</a>
+            <a class="ui button" href="DBMS LAB/dbmslab.php">Go</a>
           </div>
 
         </div>
@@ -302,7 +298,7 @@
         </div>
       </div>
 
-      
+
       <div class="four wide column">
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
@@ -319,10 +315,10 @@
             <br><br>
             <a class="ui button" href="cn.php">Go</a>
           </div>
-          
+
         </div>
       </div>
-      
+
       <div class="four wide column">
         <div class="ui raised card" id="car6">
           <div class="content" id="Card6">
@@ -339,10 +335,10 @@
             <br><br>
             <a class="ui button" href="oomd.php">Go</a>
           </div>
-          
+
         </div>
       </div>
-      
+
       <div class="four wide column">
         <div class="ui raised card">
           <div class="content" id="Card7">
@@ -496,7 +492,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="four wide column">
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
@@ -515,7 +511,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="four wide column">
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
@@ -534,7 +530,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="four wide column">
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
@@ -603,7 +599,7 @@
           </div>
           <div class="content">
             <span class="CardBody">
-            Blockchain Technologies
+              Blockchain Technologies
             </span>
             <br><br>
             <a class="ui button" href="BCT/bct.php">Go</a>
@@ -622,7 +618,7 @@
           </div>
           <div class="content">
             <span class="CardBody">
-            Cloud and Big Data Laboratory
+              Cloud and Big Data Laboratory
             </span>
             <br><br>
             <a class="ui button" href="CLOUD&BIGDATA-LAB/cba.php">Go</a>
