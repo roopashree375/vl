@@ -22,7 +22,7 @@
   <script src="../js/script.js"></script>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
-  <title>LAB 1</title>
+  <title>LAB 1 ROUTING</title>
 </head>
 
 <body>
@@ -57,7 +57,7 @@
   </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-      LAB 1
+      LAB 1 ROUTING
     </h2>
     <div class="ui stackable grid">
       <div class="four wide column">
@@ -69,11 +69,9 @@
           Video 2
           </a>
           <a class="item" id="list">
-          Video 3
+          Video 3 & 4
           </a>
-          <a class="item" id="nikki">
-          Video 4
-          </a>
+         
 
 
           <a class="item" id="faq">
@@ -92,14 +90,14 @@
           </div>
           <div id="lis" style="display: none;">
             <iframe src="https://drive.google.com/file/d/1q8h90zSFhLsGYo_2HQmKruDzy3vNi7iL/preview" width="640" height="480" allow="autoplay"></iframe>
+              <br><br>
+              <iframe src="https://drive.google.com/file/d/1TMf8E9TXLqrGj44kVWxxUg9ALVrWQkUK/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
-          <div id="nik" style="display: none;">
-            <iframe src="https://drive.google.com/file/d/1TMf8E9TXLqrGj44kVWxxUg9ALVrWQkUK/preview" width="640" height="480" allow="autoplay"></iframe>
-          </div>
+          
 
-          <!--<div id="faqs" style="display: none;">
-         <a href="quiz/exp1quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
-          </div>-->
+          <div id="faqs" style="display: none;">
+         <a href="quiz/lab1quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
 
 
 

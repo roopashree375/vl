@@ -22,7 +22,7 @@
   <script src="../js/script.js"></script>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
-  <title>LAB 11 PAT</title>
+  <title>LAB 5 VLAN</title>
 </head>
 
 <body>
@@ -57,14 +57,18 @@
   </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-    LAB 11 PAT
+    LAB 5 VLAN
     </h2>
     <div class="ui stackable grid">
       <div class="four wide column">
         <div class="ui secondary vertical pointing menu" id="Menus">
           <a class="active item" id="intro">
-          Video
+          Video 1
           </a>
+          <a class="item" id="prereq">
+          Video 2 
+          </a>
+          
 
 
           <a class="item" id="faq">
@@ -76,12 +80,17 @@
         <div class="ui segment">
 
           <div id="int">
-            <iframe src="https://drive.google.com/file/d/1OoCaXc3UPVN1svs4Pru34qwWZtMN9Le1/preview" width="640" height="480" allow="autoplay"></iframe>
+          <iframe width="560" height="315" src="https://drive.google.com/file/d/1npUcoU6OeDuHzBstjbCSGOFuUL6spCf4/preview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
           </div>
+          <div id="pre" style="display: none;">
+            <iframe src="https://drive.google.com/file/d/1EY5g0n8zsWioQHmwNoZ3g-SRPROwtHt3/preview" width="640" height="480" allow="autoplay"></iframe>
+          </div>
+          
 
-          <!--<div id="faqs" style="display: none;">
-         <a href="quiz/exp1quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
-          </div>-->
+          <div id="faqs" style="display: none;">
+         <a href="quiz/lab5quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+          </div>
 
 
 

@@ -78,22 +78,16 @@
 
        <div id="lis" style="display: none;">
         <div class="ui bulleted list">
-          <a class="item" href="lab1.php">LAB 1</a>
-          <a class="item" href="lab2.php">LAB 2</a>
-          <a class="item" href="lab3-dyn-rip.php">LAB 3 DYN RIP</a>
-          <a class="item" href="lab4-static3.php">LAB 4 STATIC3</a>
-          <a class="item" href="lab5-subnet-intro.php">LAB 5 SUBNET INTRO</a>
-          <a class="item" href="lab6-subnet-2.php">LAB 6 SUBNET 2</a>
-          <a class="item" href="lab9-static-nat.php">LAB 9 STATIC NAT</a>
-          <a class="item" href="lab10-static-dynamic-nat.php">LAB 10 STATIC DYNAMIC NAT</a>
-          <a class="item" href="lab11-pat.php">LAB 11 PAT</a>
-          <a class="item" href="lab12-dns.php">LAB 12 DNS</a>
-          <a class="item" href="lab13-dn2-root-dns.php">LAB 13 DN2 ROOT DNS </a>
-          <a class="item" href="lab14-dns-hierachy.php">LAB 14 DNS Hierachy</a>
-          <a class="item" href="lab15-dhcp1.php">LAB 15 DHCP1</a>
-          <a class="item" href="lab16-dhcp2.php">LAB 16 DHCP 2</a>
-          <a class="item" href="lab17-vlan1.php">LAB 17 VLAN1</a>
-          <a class="item" href="lab18-vlan2-router-on-sticks.php">LAB 18 VLAN2 Router on stick</a>
+          <a class="item" href="lab1.php">LAB 1 ROUTING</a>
+          <a class="item" href="lab2.php">LAB 2 SUBNET</a>
+          <a class="item" href="lab3.php">LAB 3 NAT PAT</a>
+          <a class="item" href="lab4.php">LAB 4 DNS</a>
+          <a class="item" href="lab5.php">LAB 5 VLAN</a>
+          <a class="item" href="lab6.php">LAB 6 STOP AND WAIT</a>
+          <a class="item" href="lab7.php">LAB 7 DVR</a>
+          <a class="item" href="lab8.php">LAB 8 CRC</a>
+          <a class="item" href="lab9.php">LAB 9 LEAK</a>
+          
         </div>
       </div>
 
