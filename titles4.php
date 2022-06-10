@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <?php
- if(session_status()==PHP_SESSION_NONE)
- {
-   session_start();
-   if(!isset($_SESSION['username']))
-   {
-     header("Location: index.php");
-     exit;
-   }
- }
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+    if (!isset($_SESSION['username'])) {
+        header("Location: index.php");
+        exit;
+    }
+}
 ?>
 <html>
 
@@ -51,20 +49,20 @@
     <div class="ui container" id="CardGrid">
         <div class="ui stackable grid">
             <div class="four wide column">
-                <div class="ui raised card" id="car1">
-                    <div class="content" id="Card1">
+                <div class="ui raised card" id="car6">
+                    <div class="content" id="Card6">
                         <div class="header">
-                            <a href="dbmstheory/dbmstheory.php">
-                                Database Management System Theory
+                            <a href="DBMS LAB/dbmslab.php">
+                                Database Management Laboratory
                             </a>
                         </div>
                     </div>
                     <div class="content">
                         <span class="CardBody">
-                            It contains the topics related to database managment system.
+                            Contains Experiments On Database Management in SQL
                         </span>
                         <br><br>
-                        <a class="ui button" href="dbmstheory/dbmstheory.php">Go</a>
+                        <a class="ui button" href="DBMS LAB/dbmslab.php">Go</a>
                     </div>
                 </div>
             </div>

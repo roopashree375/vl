@@ -130,7 +130,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
             <div class="header">
-              <a href="cn.php">
+              <a href="cn-lab/cn.php">
                 Computer Networks Laboratory
               </a>
             </div>
@@ -140,7 +140,7 @@ if (session_status() == PHP_SESSION_NONE) {
               Contains 12 Experiments On Computer Networks in Cisco Packet Tracer
             </span>
             <br><br>
-            <a class="ui button" href="cn.php">Go</a>
+            <a class="ui button" href="cn-lab/cn.php">Go</a>
           </div>
 
         </div>
