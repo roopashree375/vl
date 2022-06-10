@@ -396,7 +396,7 @@
               Contains 10 labs on AIML.
             </span>
             <br><br>
-            <a class="ui button" href="aimllab.php">Go</a>
+            <a class="ui button" href="./AIMLLAB/aimllab.php">Go</a>
           </div>
 
         </div>

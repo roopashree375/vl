@@ -22,7 +22,7 @@
   <script src="../js/script.js"></script>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images/dscelogo.png">
-  <title>C-Lab</title>
+  <title>AIML-Lab</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
   </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-      COMPUTER PROGRAMMING LABORATORY (Practice)
+      ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING LABORATORY (Practice)
     </h2>
     <div class="ui stackable grid">
       <div class="four wide column">
@@ -77,13 +77,11 @@
         <div class="ui clearing segment">
 
           <div id="int">
-            C is a general-purpose programming language that is extremely popular, simple, and flexible to use.
-            It is a structured programming language that is
-            machine-independent and extensively used to write various applications,
-            Operating Systems like Windows, and many other complex programs like Oracle database, Git, Python interpreter, and more.
-            It is said that ‘C’ is a god’s programming language. One can say, C is a base for the programming.
-            If you know ‘C,’ you can easily grasp the knowledge of the other programming languages that uses
-            the concept of ‘C’.
+          Artificial intelligence and machine learning are the part of computer science that are 
+          correlated with each other. These two technologies are the most trending technologies 
+          which are used for creating intelligent systems. Machine learning is a subfield of 
+          artificial intelligence, which enables machines to learn from past data or experiences
+          without being explicitly programmed.
           </div>
 
           <div id="lis" style="display: none;">
@@ -95,9 +93,9 @@
                 </div>
               </button><br>
               <div class="ui icon dropdown button">
-                <span class="text">electricity board charges</span>
+                <span class="text">Simple linear regression model</span>
                 <div class="menu">
-                  <a class="item" href="electricity.php">electricity</a>
+                  <a class="item" href="slrm.php">Simple linear Regression</a>
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
@@ -152,31 +150,30 @@
           </div>
 
           <div id="pre" style="display: none;">
-            1. Analyze and design problem solving techniques using flowcharts and algorithms.
-            <br />
-            2. Develop programs using different data types in C
-            <br />
-            3. Develop programs to solve real time problems
-            <br />
-            4. Lean to test and debug a program
-            <br />
+          The basic objective of AI (also called heuristic programming, machine intelligence, 
+          or the simulation of cognitive behavior) is to enable computers to perform such intellectual
+           tasks as decision making, problem solving, perception, understanding human communication
+             (in any language, and translate among them
           </div>
 
           <div id="faqs" style="display: none;">
             <div class="ui styled accordion">
               <div class="title" id="dion1">
-                <i class="dropdown icon"></i>What is a datastructure?
+                <i class="dropdown icon"></i>What do you understand by Artificial Intelligence
               </div>
               <div>
-                <p style="padding: 10px;display: none;" id="accord1">In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.</p>
+                <p style="padding: 10px;display: none;" id="accord1">>Artificial intelligence is computer science technology that emphasizes creating intelligent machine that can mimic human behavior. Here Intelligent machines can be defined as the machine that can behave like a human, think like a human, and also capable of decision making. It is made up of two words, "Artificial" and "Intelligence," which means the "man-made thinking ability.</p>
               </div>
 
               <div class="title" id="dion2">
-                <i class="dropdown icon"></i>What are some types of datastructures?
+                <i class="dropdown icon"></i>What are the types of Machine Learning?
               </div>
               <div>
-                <p style="padding: 10px;display: none;" id="accord2">There are many datastructures. Some of them are: <br>
-                  Array<br>List<br>Union<br>Trees</p>
+                <p style="padding: 10px;display: none;" id="accord2">Supervised Learning: Supervised learning is a type of Machine learning in which the machine needs external supervision to learn from data. The supervised learning models are trained using the labeled dataset. Regression and Classification are the two main problems that can be solved with Supervised Machine Learning. <br/> <br>
+
+Unsupervised Learning: It is a type of machine learning in which the machine does not need any external supervision to learn from the data, hence called unsupervised learning. The unsupervised models can be trained using the unlabelled dataset. These are used to solve the Association and Clustering problems. <br> <br>
+
+Reinforcement Learning: In Reinforcement learning, an agent interacts with its environment by producing actions, and learn with the help of feedback. The feedback is given to the agent in the form of rewards, such as for each good action, he gets a positive reward, and for each bad action, he gets a negative reward. There is no supervision provided to the agent. Q-Learning algorithm is used in reinforcement learning.</p>
               </div>
             </div>
           </div>
