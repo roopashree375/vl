@@ -153,46 +153,6 @@ in ascending order using Bubble Sort.
 
         <a href="https://www.onlinegdb.com/" target=_blank style="font-size:20px; margin: 10px; float: left;" class="ui green button">Online Compiler</a>
         <a href="https://www.youtube.com/embed/YbJDGpqW2r4" target=_blank style="font-size:20px; margin: 10px; float: right;" class="ui green button">Solution</a><br><br><br>
-
-        <!-- <form action="compile.php" id="form" name="f2" method="POST" ><br>
-          <label class="writeCode">Write Your Code</label><br><br>
-          <div class="ui  large segment"  id="editor" style="height:500px;">
-          <textarea class="field codeBlock"  id="editor" name="code" rows="10" cols="50">
-#include&lt;stdio.h&gt;
-void main()
-{
-
-}</textarea><br><br>
-
-<div class="ui large segment" style="height:500px;">
-<div id="editor">/*Type your code here: */
-#include&lt;stdio.h&gt;
-void main()
-{
-
-}
-</div>
-</div>
-<div>
-<textarea name="editor" style="display: none;" >
-</div>
-<textarea style="display: none;"></textarea>
-
-<button class="ui left floated button" onclick="myFunction()">Custom Input</button>
-          <div id="inputs" style="display:None;">
-          <br><br>
-          <label for="in" class="writeCode"><br>Enter Your Input</label><br><br>
-          <textarea class="field codeBlock" name="input" rows="10" cols="50"></textarea><br><br><br>
-          </div>
-
-        <input type="hidden" name="extra" value="Content of the extra variable" >
-         <input type="hidden" name="lang" value="c" >
-         <input type="hidden" name="prog" value="stack" >
-          <input type="submit" id="st" class="ui left floated button" value="Run Code" onclick="myFunction2()">
-          <input type="submit" id="subb" class="ui left floated button" value="Submit" onclick="myFunction2()"><br><br><br>
-
-          </form> -->
-
          <script type="text/javascript">
           $(document).ready(function(){
             $("#st").click(function(){
@@ -240,7 +200,9 @@ void main()
           </div>
 
       </div>
-      
+      <div id="faqs" style="display: none;">
+                        <a href="quiz/bubblesortquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+                    </div>
       </div>
       </div>
       

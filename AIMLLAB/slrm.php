@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,253 +13,122 @@
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
   <title>Linear Regression</title>
-  
+
 </head>
+
 <body>
-<h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
-      <a href="titles.php">Virtual Labs</a> 
-  <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
-</h1>
+  <h1 class="ui header" style="text-align:center" id="head">
+    <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
+    <a href="titles.php">Virtual Labs</a>
+    <br>
+    <p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
+  </h1>
   <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
-  <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="../index.php">
-    Home
-  </a>
-  <a class="item" href="aimllab.php">
-    AIML programming laboratory
-  </a>
- <a class="item">
-    About Us
-  </a> 
- <?php
-    // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-    // else 
-    // { 
-    //   echo "<a class=\"item\">"; 
-    //   echo $_SESSION['username'];
-    //   echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-    // }
-    ?>
-</div>
-</div>
+    <div class="ui  light grey inverted secondary huge menu">
+      <a class="header item" href="../index.php">
+        Home
+      </a>
+      <a class="item" href="aimllab.php">
+        AIML programming laboratory
+      </a>
+      <a class="item">
+        About Us
+      </a>
+
+    </div>
+  </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-     Sorting By BubbleSort Technique
+      Simple Linear Regression
     </h2>
     <div class="ui stackable grid">
-  <div class="four wide column">
-    <div class="ui secondary vertical pointing menu" id="Menus">
-      <a class="active item" id="intro">
-        ProblemStatement
-      </a>
-      <a class="item" id="prereq">
-        Theory
-      </a>
-      <a class="item" target="_blank" id="list">
-        Compiler
-      </a>
-      <!-- <a class="item" id="faq">
-        Quiz
-      </a> -->
-    </div>
-  </div>
- <div class="twelve wide stretched column">
-    <div class="ui segment">
-      
-      <div id="int">
-      Design and develop a C program thatread N integer numbers and arrange them
-in ascending order using Bubble Sort.
-        <br><br>
+      <div class="four wide column">
+        <div class="ui secondary vertical pointing menu" id="Menus">
+          <a class="active item" id="intro">
+            ProblemStatement
+          </a>
+          <a class="item" id="prereq">
+            Theory
+          </a>
+          <a class="item" target="_blank" id="list">
+            Vedio
+          </a>
+          <a class="item" id="faq">
+            Quiz
+          </a>
+        </div>
       </div>
-      
-      <div id="pre" style="display: none;">
-        <div class="ui bulleted list">
-          <div class="item">
-             <strong>Programming Approach:</strong>
-             <br>
-             <p>
-             Bubble sort algorithm takes the array of numbers as input and compares the
-adjacent numbers and performs swapping of numbers which are not in order and prints
-the array of numbers in ascending order
-             </p>
-            </div>
-            <br>
-            <div class="item">
-              <strong>Algorithm:
-                <br>
-                Input: A list of  sorted or unsorted numbers. 
-                <br>
-                Output: A list of sorted numbers either in ascending or descending manner.
-              </strong>
-              <pre>
-            Step 1: [Initialize]
-                    Start
-            Step 2: [Input]
-                    Read n
-            Step 3: [Input Unsorted array]
-                    Read elements to array a[]
-            Step 4: Print elements of array a[]
-            Step 5: [Iterate array a[] in two loops.
-                    Outer loop gives number of pass.
-                    Inner loop does Swap task.
-                    In each pass, compare each pair of adjacent items.
-                    If formal elements are greater than latter one, swap them]
-                    For each value I in array a[i] to n do for each value j
-                    in array a[j] to n-1 
-                    do [Compare each pair of adjacent elements]
-                    If (a[j]>a[j+1]) 
-                    then[Swap these elements using temp variable] 
-                    temp <- a[j]
-                    a[j] <- a[j+1]
-                    a[j+1] <- temp
-                    End if
-                    End for
-                    End for
-            Step 6: Print array with sorted elements
-            Step 7: [Finished]
-                    End.
-              </pre>
-            </div>
-            <strong>Flow Chart:</strong>
-            <div>
-            <img height="50%" width="70%"  src="images/p4.jpg" frameborder="0"></img>
-            </div>
-          </div>
-          <br>
-      </div>
-      
-      <div id="lis" style="display: none;">
-      <div class="ui form">
-        <div id="compilerData">
-        Program 4. Design and develop a C program thatread N integer numbers and arrange them
-in ascending order using Bubble Sort.
-
-<br>
+      <div class="twelve wide stretched column">
         <div class="ui segment">
-         <div class="ui two column very relaxed grid">
-              <div class="column">
-                <strong>Sample Input</strong><br>
-                Enter the number of elements:4<br>Enter the 4 elements of array:87 100 20 3
+
+          <div id="int">
+            Apply:
+            <br />
+            <pre>
+a) Simple linear regression model for headBrain dataset and
+predict brain weight based on head size using the least square
+method.
+Find out
+(i) R^2 score for the predicted model
+(ii) Display the all the data points along with the fit model
+<br/>
+b) Simple linear regression model for housing_prices_SLR
+dataset and predict house price based on the area of the house
+using the library scikit_learn.
+Find out
+(i) Analyze the R^2score of predicted training and test models
+score.
+(ii) Display the all the data points along with fit model
+    </pre>
+            <br><br>
+          </div>
+
+          <div id="pre" style="display: none;">
+            <div class="ui bulleted list">
+              <div class="item">
+                <pre>
+Regression models describe the relationship between variables by fitting
+a line to the observed data. Linear regression models use a straight line,
+while logistic and nonlinear regression models use a curved line. 
+Regression allows you to estimate how a dependent variable changes
+as the independent variable(s) change.
+Simple linear regression is used to estimate the relationship between 
+two quantitative variables.
+You can use simple linear regression when you want to know:
+1. How strong the relationship is between two variables
+   (e.g. the relationship between rainfall and soil erosion).
+2. The value of the dependent variable at a certain value of the independent
+   variable (e.g. the amount of soil erosion at a certain level of rainfall).
+              </pre>
               </div>
-              <div class="column">
-                <strong>Sample Output</strong><br>
-                The sorted array in ascending order is: 3 20 87 100
-              </div>
-         </div>
-         <div class="ui vertical divider">and</div>
-         </div>
-        </div><br>
-
-        <a href="https://www.onlinegdb.com/" target=_blank style="font-size:20px; margin: 10px; float: left;" class="ui green button">Online Compiler</a>
-        <a href="https://www.youtube.com/embed/YbJDGpqW2r4" target=_blank style="font-size:20px; margin: 10px; float: right;" class="ui green button">Solution</a><br><br><br>
-
-        <!-- <form action="compile.php" id="form" name="f2" method="POST" ><br>
-          <label class="writeCode">Write Your Code</label><br><br>
-          <div class="ui  large segment"  id="editor" style="height:500px;">
-          <textarea class="field codeBlock"  id="editor" name="code" rows="10" cols="50">
-#include&lt;stdio.h&gt;
-void main()
-{
-
-}</textarea><br><br>
-
-<div class="ui large segment" style="height:500px;">
-<div id="editor">/*Type your code here: */
-#include&lt;stdio.h&gt;
-void main()
-{
-
-}
-</div>
-</div>
-<div>
-<textarea name="editor" style="display: none;" >
-</div>
-<textarea style="display: none;"></textarea>
-
-<button class="ui left floated button" onclick="myFunction()">Custom Input</button>
-          <div id="inputs" style="display:None;">
-          <br><br>
-          <label for="in" class="writeCode"><br>Enter Your Input</label><br><br>
-          <textarea class="field codeBlock" name="input" rows="10" cols="50"></textarea><br><br><br>
+            </div>
           </div>
+          <div id="lis" style="display: none;">
+            <div class="ui form">
+              <div id="compilerData">
+                <iframe src="https://drive.google.com/file/d/1dsIc1ofFr8VCnXD80wvTdOsrwmRNfjXM/preview" width="640" height="480" allow="autoplay"></iframe>
+              </div><br>
+            </div>
 
-        <input type="hidden" name="extra" value="Content of the extra variable" >
-         <input type="hidden" name="lang" value="c" >
-         <input type="hidden" name="prog" value="stack" >
-          <input type="submit" id="st" class="ui left floated button" value="Run Code" onclick="myFunction2()">
-          <input type="submit" id="subb" class="ui left floated button" value="Submit" onclick="myFunction2()"><br><br><br>
-
-          </form> -->
-
-         <script type="text/javascript">
-          $(document).ready(function(){
-            $("#st").click(function(){
-                  $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
-                  document.f2.extra.value = "runn";
-            });
-          });
-          </script>
-          <script type="text/javascript">
-          $(document).ready(function(){
-            $("#subb").click(function(){
-                  $("#outputBox").html("<div class=\"writeCode\">Loading ......</div>");
-                  document.f2.extra.value = "subb";
-            });
-          });
-          </script>
-
-          <script type="text/javascript">
-            $(document).ready(function(){
-              //listen for form submission
-              $('form').on('submit', function(e){
-                //prevent form from submitting and leaving page
-                e.preventDefault();
-                 
-                // AJAX 
-                $.ajax({
-                      type: "POST", //type of submit
-                      cache: false, //important or else you might get wrong data returned to you
-                      url: "compile.php", //destination
-                      datatype: "html", //expected data format from process.php
-                      data: $('form').serialize(), //target your form's data and serialize for a POST
-                      success: function(result) { // data is the var which holds the output of your process.php
-
-                          // locate the div with #result and fill it with returned data from process.php
-                          $('#outputBox').html(result);
-                      }
-                  });
-              });
-          });
-          </script>
-          <br>
-          <div id="outputBox" style="display:None;">Output:<br><br>
-          <div name="output"></div><br>
           </div>
+          <div id="faqs" style="display: none;">
+                        <a href="quiz/slrmquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
-
+        </div>
       </div>
-      
-      </div>
-      </div>
-      
     </div>
-  </div>
-</div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js" type="text/javascript" charset="utf-8"></script>
-<script>
-    var editor = ace.edit("editor");
-    editor.setTheme("ace/theme/twilight");
-    editor.session.setMode("ace/mode/c_cpp");
-    var textarea = $('textarea[name="editor"]');
-editor.getSession().on("change", function () {
-    textarea.val(editor.getSession().getValue());
-});
-  
-</script>
-  
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js" type="text/javascript" charset="utf-8"></script> -->
+    <script>
+      var editor = ace.edit("editor");
+      editor.setTheme("ace/theme/twilight");
+      editor.session.setMode("ace/mode/c_cpp");
+      var textarea = $('textarea[name="editor"]');
+      editor.getSession().on("change", function() {
+        textarea.val(editor.getSession().getValue());
+      });
+    </script>
+
 </body>
+
 </html>
