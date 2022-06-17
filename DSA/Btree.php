@@ -80,7 +80,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <div id="int">
           Binary Tree is a special datastructure used for data storage purposes. A binary tree has a special condition that each node can have a maximum of two children. A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted array and insertion or deletion operation are as fast as in linked list.
           <br><br>
-          <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/H5JubkIy_p8" frameborder="0">
+          <iframe height="400px" width="100%" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/H5JubkIy_p8">
           </iframe>
           <br><br>
         </div>
