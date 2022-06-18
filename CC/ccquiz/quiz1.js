@@ -31,6 +31,14 @@ var jsonData=[
         "opt2":"Public cloud server",
         "opt3":"Private cloud server",
         "answer":"Merged cloud server",
+    },
+
+    {
+        "q":"Which of the following is the application of cloud computing?",
+        "opt1":"Adobe",
+        "opt2":"Paypal",
+        "opt3":"All of the above",
+        "answer":"All of the above",
     }
 
 

@@ -40,4 +40,13 @@ var jsonData=[
         "opt3":"cyber security",
         "opt4":"cyber security",
     },
+
+    {
+
+        "q":"Which of the following is an objective of network security?",
+        "opt1":"Confidentiality",
+        "opt2":"Integrity",
+        "opt3":"all of the above",
+        "answer":"all of the above",
+    }
 ]

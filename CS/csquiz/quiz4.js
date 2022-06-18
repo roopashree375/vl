@@ -35,4 +35,13 @@ var jsonData=[
         "opt3":"Routers",
         "answer":"Sniffers",
     },
+
+    {
+
+        "q":"Which of the following is not an email-related hacking tool?",
+        "opt1":"Mail Password",
+        "opt2":"Mail Pass view",
+        "opt3":"Sendinc",
+        "answer":"Sendinc",
+    },
 ]

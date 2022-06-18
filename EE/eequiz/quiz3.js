@@ -28,4 +28,22 @@ var jsonData=[
        "answer":"Sales-VariableCosts",
 
     },
+
+   { "q":"How long will it take rs.800 to yield rs.72 in simple interest at 4%.",
+        "opt1":"2.25",
+        "opt2":"3.25",
+        "opt3":"2.5",
+        "answer":"2.25",
+
+    },
+
+    {
+        
+      "q":"Chose the correct formula of sales",
+      "opt1":"Total Variable Cost + Fixed Cost + Profit",
+      "opt2":"selling price-100",
+      "opt3":"contribution+sales",
+      "answer":"Total Variable Cost + Fixed Cost + Profit",
+
+    }
 ]

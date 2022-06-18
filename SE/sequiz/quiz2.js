@@ -28,4 +28,22 @@ var jsonData=[
 
     },
     
+    {
+
+        "q":"A Software consists of",
+        "opt1":"Programs + hardware manuals",
+        "opt2":"Set of instructions + operating procedures",
+        "opt3":"Programs + documentation + operating procedures",
+        "answer":"Programs + documentation + operating procedures",
+    },
+
+    {
+        "q":"The main activity of the design phase of the system life cycle is to",
+        "opt1":"Replace the old system with the new one",
+        "opt2":"Develop and test the new system",
+        "opt3":"Propose alternatives to the current system",
+        "answer":"Propose alternatives to the current system"
+        
+      },
+
 ]

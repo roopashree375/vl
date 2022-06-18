@@ -27,5 +27,24 @@ var jsonData=[
 
 
     },
+    {
+        "q":"System Study involves",
+        "opt1":"Study of an existing system",
+        "opt2":"Identifying current deficiencies and establishing new goals",
+        "opt3":"All of the above",
+        "answer":"All of the above"
+        
+      },
+
+      
+        {
+            "q":"Component level design is concerned with ",
+            "opt1":"Flow oriented analysis",
+            "opt2":"Class based analysis",
+            "opt3":"Both of the above",
+            "answer":"Both of the above",
+            
+          },
+      
     
 ]

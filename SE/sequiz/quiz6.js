@@ -33,6 +33,14 @@ var jsonData=[
        "opt2":"Validation",
        "opt3":"Testing",
        "answer":"Testing",
-    }
+    },
+    {
+        "q":"At the time of system study, flow of charts are drawn using",
+        "opt1":"General symbols",
+        "opt2":"alphabet symbols",
+        "opt3":"Specific symbol",
+        "answer":"General symbols"
+        
+      },
     
 ]

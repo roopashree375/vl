@@ -66,9 +66,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="ui segment">
 
           <div id="lis" style="padding: 15px; height: 400px;">
-            <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen"  src="https://www.youtube.com/embed/CKkGoLBa9ek" >
-
-            </iframe>
+            <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen"  src="https://www.youtube.com/embed/hHvypTnvF5E">          </iframe>
           </div>
 
           <div id="faqs" style="display: none;">

@@ -26,6 +26,23 @@ var jsonData=[
         
 
     },
+    {
+        "q":"The condition outside a system is called",
+        "opt1":"Interface",
+        "opt2":"Boundary",
+        "opt3":"Environment",
+        "answer":"Environment"
+        
+      },
+
+      {
+        "q":"The item of documentation added to the description of the new system is",
+        "opt1":"I/O analysis",
+        "opt2":"Control review",
+        "opt3":"Feedback",
+        "answer":"Feedback"
+        
+      },
 
     {
         "q":"Spiral model was developed by",

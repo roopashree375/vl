@@ -35,4 +35,14 @@ var jsonData=[
         "answer":"60years"
 
     },
+
+    {
+      "q":"Chose the correct formula of sales",
+      "opt1":"Total Variable Cost + Fixed Cost + Profit",
+      "opt2":"selling price-100",
+      "opt3":"contribution+sales",
+      "answer":"Total Variable Cost + Fixed Cost + Profit",
+
+  },
+
 ]

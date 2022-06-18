@@ -21,6 +21,23 @@ var jsonData=[
         "opt2":"Kernel",
         "opt3":"Command",
         "answer":"Kernel",
+    },
+
+    {
+        "q":" Special purpose software are :",
+        "opt1":"Application software",
+        "opt2":"System software",
+        "opt3":"Utility software",
+        "answer":"Application software",
+    },
+
+    {
+
+        "q":" Bottom up parsing involves :",
+        "opt1":"Shift reduces",
+        "opt2":"Operator check",
+        "opt3":"Both of the above",
+        "answer":"Both of the above"
     }
     
     

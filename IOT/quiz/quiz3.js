@@ -28,6 +28,13 @@ var jsonData=[
 
     {
 
+        "q":"The function of a sensor is to",
+        "opt1":"Detect events within specified environment",
+        "opt2":"Separate physical parameters",
+        "opt3":"Track and transfer data to computer processor",
+        "answer":"Detect events within specified environment",
+    },
+    {
         "q":"Abreviate v2I",
         "opt1":"Vehicles communicates with other vehicles through Wifi",
         "opt2":"vehicles to vehicles interface",
@@ -36,4 +43,6 @@ var jsonData=[
 
 
     },
+
+
 ]

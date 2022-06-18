@@ -38,4 +38,12 @@ var jsonData=[
       
       
              },   
+
+             {
+                "q":"MARG sensor is abbreviated as",
+                "opt1":"Magnetic Angular Rate and Gravity",
+                "opt2":"Magnitude Angular Rate and Gravity",
+                "opt3":"Magnetic Angular Resistance and Gravity",
+                "answer":"Magnetic Angular Rate and Gravity",
+            }
     ]

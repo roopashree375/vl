@@ -28,4 +28,21 @@ var jsonData=[
 
     },
     
+    {
+      "q":"What is value proposition BMC?",
+      "opt1":"Value that meet the customer satisfaction",
+      "opt2":"The way we interact with the customer",
+      "opt3":"Service after sales",
+      "answer":"Value that meet the customer satisfaction",
+      
+    },
+
+    {
+      "q":"An Entrepreneur Who Has No Prior Business Ownership Experience",
+      "opt1":"Novice Entrepreneur",
+      "opt2":"Portfolio Entrepreneurs",
+      "opt3":"Imitative Entrepreneur",
+      "answer":"Novice Entrepreneur"
+      
+    },
 ]

@@ -28,5 +28,22 @@ var jsonData=[
         "answer":"Capitalisation"
 
     },
+    {
+        "q":"Buying and selling of manufacturing goods related to which entrepreneur",
+        "opt1":"Novice Entrepreneur",
+        "opt2":"Trading entrepreneur",
+        "opt3":"None of the above",
+        "answer":"Trading entrepreneur"
+        
+      },
+
+      {
+        "q":"Which of the Following are main non-economic factors:",
+        "opt1":"Social factors",
+        "opt2":"Psychological factors",
+        "opt3":"All of the above",
+        "answer":"All of the above",
+        
+      },
     
 ]
