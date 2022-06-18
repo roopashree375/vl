@@ -22,7 +22,7 @@ if(session_status()==PHP_SESSION_NONE)
   <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
-  <title>Multiplexer ll Demultiplexer ll Decoder ll Encoder ll Combinational circuit ll</title>
+  <title>Multiplexer || Demultiplexer || MUX Basics</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
