@@ -20,7 +20,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <script src="../js/jquery-3.4.1.min.js"></script>
     <script src="../css/Semantic/semantic.min.js"></script>
     <script src="../js/script.js"></script>
-    <link rel="icon" href="../images\dscelogo.png">
+    <link rel="icon" href="../images/dscelogo.png">
     <title>Quiz</title>
 
 </head>

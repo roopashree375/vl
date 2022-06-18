@@ -20,7 +20,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <script src="../js/jquery-3.4.1.min.js"></script>
     <script src="../css/Semantic/semantic.min.js"></script>
     <script src="../js/script.js"></script>
-    <link rel="icon" href="../images\dscelogo.png">
+    <link rel="icon" href="../images/dscelogo.png">
     <title>Quiz</title>
 
 </head>
@@ -38,7 +38,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <a class="header item" href="../../index.php">
                 Home
             </a>
-            <a class="item" href="../../iot.php">
+            <a class="item" href="../iot.php">
                 IOT
             </a>
             <a class="item">
@@ -64,7 +64,8 @@ if (session_status() == PHP_SESSION_NONE) {
                 <span id="optt3"></span>
             </div>
             <div class="rgtCss">
-                <button class="preBtn" onclick="goBack()">< back</button>
+                <button class="preBtn" onclick="goBack()">
+                    < back</button>
             </div>
             <div class="lftCss">
                 <button class="nxtBtn" onclick="checkAnswer()">next ></button>

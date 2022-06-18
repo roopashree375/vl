@@ -57,7 +57,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
           <a class="item" id="faq">
             Quiz
-         </a>
+          </a>
 
 
         </div>
@@ -66,12 +66,12 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="ui segment">
 
           <div id="lis" style="padding: 15px; height: 400px;">
-            <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/F5rDaLa8xC8">
+            <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src=" https://www.youtube.com/embed/vUT8lZLZpKg?controls=0">
             </iframe>
           </div>
 
           <div id="faqs" style="display: none;">
-         <a href="eequiz/quiz3.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+            <a href="eequiz/quiz3.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
 
         </div>
