@@ -36,7 +36,7 @@ if (session_status() == PHP_SESSION_NONE) {
       <a class="header item" href="../index.php">
         Home
       </a>
-      <a href="../oomd.php" class="item">
+      <a href="./oomd.php" class="item">
         Object Oriented Modelling Design
       </a>
       <a class="item">
