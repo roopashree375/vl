@@ -22,7 +22,7 @@ if(session_status()==PHP_SESSION_NONE)
   <link rel="stylesheet" href="../css/Semantic/semantic.min.css">
   <link rel="stylesheet" href="../css/home.css">
   <link rel="icon" href="../images\dscelogo.png">
-  <title>Multiplexer ll Demultiplexer ll Decoder ll Encoder ll Combinational circuit ll</title>
+  <title>Multiplexer || Demultiplexer || MUX Basics</title>
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
@@ -45,7 +45,7 @@ if(session_status()==PHP_SESSION_NONE)
 </div>
   <div class="ui container" id="cont">
     <h2 class="ui header" style="font-size:35px; margin-left:10px;">
-    Multiplexer ll Demultiplexer ll Decoder ll Encoder ll Combinational circuit ll
+    Multiplexer || Demultiplexer || MUX Basics
     </h2>
     <div class="ui stackable grid">
   <div class="four wide column">
@@ -68,7 +68,7 @@ if(session_status()==PHP_SESSION_NONE)
     <div class="ui segment">
       
       <div id="lis" style="padding: 15px; height: 400px;">  
-      <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/fXrbYMDevDU">
+      <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/FKvnmxte98A">
 </iframe>      </div>
 <div id="faqs" style="display: none;">
          <a href="quiz/LDv4quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
