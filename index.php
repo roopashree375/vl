@@ -34,13 +34,12 @@
       </a>
       <?php
       session_start();
-       if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-       else 
-       { 
-         echo "<a class=\"item\">"; 
-         echo $_SESSION['username'];
-         echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-       }
+      if (!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
+      else {
+        echo "<a class=\"item\">";
+        echo $_SESSION['username'];
+        echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
+      }
       ?>
 
     </div>
@@ -110,7 +109,7 @@
         <h2 style="margin-top:15px;color:#365CCF;">
           Under the Guidance of :
         </h2>
-        <p style="color:#E9F035;">HOD of Computer Science Dr. Ramesh Babu</p>
+        <p style="color:#E9F035;">HOD of Computer Science, Dr. Ramesh Babu</p>
         <p style="margin-left:20px;color:#E9F035;">Prof. Amutha</p>
         <p style="margin-left:20px;color:#E9F035;">Prof. Anitha </p>
         <p></p>
@@ -121,11 +120,13 @@
       <div class="five wide column" style="text-align:left">
 
         <h2 style=" margin-top:15px;color:#365CCF;">Student Co-ordinators:</h2>
-        <p style=" margin-left:15px;color:#E9F035;">Harshith R S</p>
-        <p style=" margin-left:15px;color:#E9F035;">Hemanth Kumar V</p>
-        <p style=" margin-left:15px;color:#E9F035;">Anush D P</p>
-        <p style=" margin-left:15px;color:#E9F035;">Anoop Satish Gejje</p>
-        <p style=" margin-left:15px;color:#E9F035;">Ajaykumar S Hadimani</p>
+        <p style=" margin-left:15px;color:#E9F035;">Roopashree S P</p>
+        <p style=" margin-left:15px;color:#E9F035;">Rithvik K Bhat</p>
+        <p style=" margin-left:15px;color:#E9F035;">Shreyas P</p>
+        <p style=" margin-left:15px;color:#E9F035;">Pavan N S</p>
+        <p style=" margin-left:15px;color:#E9F035;">Pramod Bhat</p>
+        <p style=" margin-left:15px;color:#E9F035;">Nikhil S</p>
+        <p style=" margin-left:15px;color:#E9F035;">B Padma</p>
 
       </div>
 
