@@ -259,26 +259,6 @@ if (session_status() == PHP_SESSION_NONE) {
       </div>
 
       <div class="four wide column">
-        <div class="ui raised card" id="car3">
-          <div class="content" id="Card3">
-            <div class="header">
-              <a href="nlp.php">
-                Natural language processing
-              </a>
-            </div>
-          </div>
-          <div class="content">
-            <span class="CardBody">
-              NLP is concerned with giving computers the ability to understand text and spoken words.
-            </span>
-            <br><br>
-            <a class="ui button" href="nlp.php">Go</a>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="four wide column">
         <div class="ui raised card" id="car4">
           <div class="content" id="Card4">
             <div class="header">
@@ -393,25 +373,6 @@ if (session_status() == PHP_SESSION_NONE) {
             </span>
             <br><br>
             <a class="ui button" href="./AIMLLAB/aimllab.php">Go</a>
-          </div>
-
-        </div>
-      </div>
-      <div class="four wide column">
-        <div class="ui  raised card" id="car5">
-          <div class="content" id="Card5">
-            <div class="header">
-              <a href="et.php">
-                Emerging technologies
-              </a>
-            </div>
-          </div>
-          <div class="content">
-            <span class="CardBody">
-              Emerging technologies are technologies whose development, practical applications are still not figured out.
-            </span>
-            <br><br>
-            <a class="ui button" href="et.php">Go</a>
           </div>
 
         </div>
