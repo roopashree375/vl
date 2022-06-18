@@ -35,7 +35,7 @@ if (session_status() == PHP_SESSION_NONE) {
       <a class="header item" href="../index.php">
         Home
       </a>
-      <a href="../automata_theory.php" class="item">
+      <a href="./automata_theory.php" class="item">
         Automata Theory and Formal Languages
       </a>
       <a class="item">
@@ -60,8 +60,8 @@ if (session_status() == PHP_SESSION_NONE) {
             Video
           </a>
           <a class="item" id="faq">
-        Quiz
-      </a>
+            Quiz
+          </a>
         </div>
       </div>
       <div class="twelve wide stretched column">
@@ -72,7 +72,7 @@ if (session_status() == PHP_SESSION_NONE) {
             </iframe>
           </div>
           <div id="faqs" style="display: none;">
-         <a href="quiz/atv2quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+            <a href="quiz/atv2quiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
 
         </div>
