@@ -65,12 +65,12 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="ui segment">
 
           <div id="lis" style="padding: 15px; height: 400px;">
-            <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/qeuDVZiZCr4">
+            <iframe style="width:100%; height:100%;" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/0Hm5mla2c0o">
             </iframe>
           </div>
 
           <div id="faqs" style="display: none;">
-         <a href="csquiz/quiz4.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
+            <a href="csquiz/quiz4.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
           </div>
 
         </div>
