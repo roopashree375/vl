@@ -85,7 +85,7 @@ if(session_status()==PHP_SESSION_NONE)
           <a class="item" href="./LDv1.php">Positive and Negetive Logic</a>
           <a class="item" href="./LDv2.php">Karnaugh Map (K' Map)</a>
           <a class="item" href="./LDv3.php">Quine-McCluskey Minimization Technique (Tabular Method)</a>
-          <a class="item" href="./LDv4.php">Multiplexer ll Demultiplexer ll Decoder ll Encoder ll Combinational circuit ll</a>
+          <a class="item" href="./LDv4.php">Multiplexer || Demultiplexer || MUX Basics</a>
           <a class="item" href="./LDv5.php">Basic Flip-Flop Circuit Using NOR Gates</a>
           <a class="item" href="./LDv6.php">Introduction to Registers</a>
           <a class="item" href="./LDv7.php">Application of Logic Gates</a>

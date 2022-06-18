@@ -36,7 +36,7 @@ if(session_status()==PHP_SESSION_NONE)
   <a class="header item" href="../index.php">
     Home
   </a>
- <a href="../dbmstheory.php" class="item">
+ <a href="./dbmstheory.php" class="item">
     Database Management System Theory
   </a> 
    <a class="item">

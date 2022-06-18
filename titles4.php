@@ -68,6 +68,25 @@ if (session_status() == PHP_SESSION_NONE) {
             </div>
 
             <div class="four wide column">
+                <div class="ui raised card" id="car6">
+                    <div class="content" id="Card6">
+                        <div class="header">
+                            <a href="dbmstheory/dbmstheory.php">
+                                Database Management Theory
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <span class="CardBody">
+                            Contains Experiments On Database Management in SQL
+                        </span>
+                        <br><br>
+                        <a class="ui button" href="dbmstheory/dbmstheory.php">Go</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four wide column">
                 <div class="ui raised card" id="car2">
                     <div class="content" id="Card2">
                         <div class="header">

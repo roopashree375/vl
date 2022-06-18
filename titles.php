@@ -165,7 +165,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="ui raised card" id="car4">
           <div class="content" id="Card4">
             <div class="header">
-              <a href="Logic design\logicdesign1.php">
+              <a href="LD/LD.php">
                 Logic Design
               </a>
             </div>
@@ -175,30 +175,13 @@ if (session_status() == PHP_SESSION_NONE) {
               Contains educational videos on Logic Design (LD)
             </span>
             <br><br>
-            <a class="ui button" href="Logic design\logicdesign1.php">Go</a>
+            <a class="ui button" href="LD/LD.php">Go</a>
           </div>
 
         </div>
       </div>
 
-      <div class="four wide column">
-        <div class="ui raised card" id="car2">
-          <div class="content" id="Card2">
-            <div class="header">
-              <a href="Daa\daa.php">
-                Data Analysis And Algorithm
-              </a>
-            </div>
-          </div>
-          <div class="content">
-            <span class="CardBody">
-              Contains 7 Programs with Applications On Data Analysis and algorithm in C Programming Language
-            </span>
-            <br><br>
-            <a class="ui button" href="Daa\daa.php">Go</a>
-          </div>
-        </div>
-      </div>
+  
 
       <div class="four wide column">
         <div class="ui raised card" id="car6">
