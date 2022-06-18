@@ -94,11 +94,7 @@
         </span>
 
       </div>
-      <!-- <img src="images/HOD.jpg" style="border-radius:150px; width:150px; margin-left:50px; margin-right: 15px; display: inline; float: left;"> -->
-      <!-- <p style="display: inline; font-size: 17px;"> The Department of Computer Science and Engineering is positioned to create the technological leaders of tomorrow. Our goal is to ensure that our engineering graduates are well prepared to play the roles of problem solvers, project leaders, entrepreneurs, and above all ethical citizens of a global society. Our objective is to empower our students with latest technical knowledge and skills to meet global challenges. We provide them with the best teaching faculty, state-of-the-art technologies, excellent research and development environment and internships. Our aim is to provide professional grooming and guidance so that our students mould into thorough professionals and inspiring individuals when they enter into the real-time environment. <br><br> -->
-      <!-- <strong>Dr. Ramesh Babu D. R.</strong><br>
-    Vice-Principal,<br>
-    Professor & Head of the Department.</p> <br><br> -->
+      
     </div>
     <a href="titles.php" style="font-size:20px; margin: 10px; float: right;" class="ui green button">Go to Virtual Labs</a><br><br><br>
 
