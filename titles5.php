@@ -87,26 +87,6 @@ if (session_status() == PHP_SESSION_NONE) {
       </div>
 
       <div class="four wide column">
-        <div class="ui raised card" id="car3">
-          <div class="content" id="Card3">
-            <div class="header">
-              <a href="nlp.php">
-                Natural language processing
-              </a>
-            </div>
-          </div>
-          <div class="content">
-            <span class="CardBody">
-              NLP is concerned with giving computers the ability to understand text and spoken words.
-            </span>
-            <br><br>
-            <a class="ui button" href="nlp.php">Go</a>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="four wide column">
         <div class="ui raised card" id="car4">
           <div class="content" id="Card4">
             <div class="header">
@@ -224,25 +204,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
         </div>
       </div>
-      <div class="four wide column">
-        <div class="ui  raised card" id="car5">
-          <div class="content" id="Card5">
-            <div class="header">
-              <a href="et/et.php">
-                Emerging technologies
-              </a>
-            </div>
-          </div>
-          <div class="content">
-            <span class="CardBody">
-              Emerging technologies are technologies whose development, practical applications are still not figured out.
-            </span>
-            <br><br>
-            <a class="ui button" href="et/et.php">Go</a>
-          </div>
 
-        </div>
-      </div>
       <div class="four wide column">
         <div class="ui  raised card" id="car5">
           <div class="content" id="Card5">
@@ -254,7 +216,7 @@ if (session_status() == PHP_SESSION_NONE) {
           </div>
           <div class="content">
             <span class="CardBody">
-            AIML stands for Artificial Intelligence Modelling Language. AIML is an XML based markup language meant to create artificial intelligent applications. AIML makes it possible to create human interfaces while keeping the implementation simple to program, easy to understand and highly maintainable.
+              AIML stands for Artificial Intelligence Modelling Language. AIML is an XML based markup language meant to create artificial intelligent applications. AIML makes it possible to create human interfaces while keeping the implementation simple to program, easy to understand and highly maintainable.
             </span>
             <br><br>
             <a class="ui button" href="aiml.php">Go</a>
