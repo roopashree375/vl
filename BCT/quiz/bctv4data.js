@@ -9,7 +9,7 @@ var jsonData = [
     {
         "q" : "Expand EVM",
         "opt1" : "Ethereum Vertical Machine",
-        "opt2" : "Ethcrcum Viral Machine",
+        "opt2" : "Ethereum Viral Machine",
         "opt3" : "Ethereum Virtual Machine",
         "answer" : "Ethereum Virtual Machine"
     },
