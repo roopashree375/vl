@@ -34,13 +34,12 @@
       </a>
       <?php
       session_start();
-       if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-       else 
-       { 
-         echo "<a class=\"item\">"; 
-         echo $_SESSION['username'];
-         echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-       }
+      if (!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
+      else {
+        echo "<a class=\"item\">";
+        echo $_SESSION['username'];
+        echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
+      }
       ?>
 
     </div>
@@ -95,11 +94,7 @@
         </span>
 
       </div>
-      <!-- <img src="images/HOD.jpg" style="border-radius:150px; width:150px; margin-left:50px; margin-right: 15px; display: inline; float: left;"> -->
-      <!-- <p style="display: inline; font-size: 17px;"> The Department of Computer Science and Engineering is positioned to create the technological leaders of tomorrow. Our goal is to ensure that our engineering graduates are well prepared to play the roles of problem solvers, project leaders, entrepreneurs, and above all ethical citizens of a global society. Our objective is to empower our students with latest technical knowledge and skills to meet global challenges. We provide them with the best teaching faculty, state-of-the-art technologies, excellent research and development environment and internships. Our aim is to provide professional grooming and guidance so that our students mould into thorough professionals and inspiring individuals when they enter into the real-time environment. <br><br> -->
-      <!-- <strong>Dr. Ramesh Babu D. R.</strong><br>
-    Vice-Principal,<br>
-    Professor & Head of the Department.</p> <br><br> -->
+      
     </div>
     <a href="titles.php" style="font-size:20px; margin: 10px; float: right;" class="ui green button">Go to Virtual Labs</a><br><br><br>
 
@@ -110,7 +105,7 @@
         <h2 style="margin-top:15px;color:#365CCF;">
           Under the Guidance of :
         </h2>
-        <p style="color:#E9F035;">HOD of Computer Science Dr. Ramesh Babu</p>
+        <p style="color:#E9F035;">HOD of Computer Science, Dr. Ramesh Babu</p>
         <p style="margin-left:20px;color:#E9F035;">Prof. Amutha</p>
         <p style="margin-left:20px;color:#E9F035;">Prof. Anitha </p>
         <p></p>
@@ -121,11 +116,13 @@
       <div class="five wide column" style="text-align:left">
 
         <h2 style=" margin-top:15px;color:#365CCF;">Student Co-ordinators:</h2>
-        <p style=" margin-left:15px;color:#E9F035;">Harshith R S</p>
-        <p style=" margin-left:15px;color:#E9F035;">Hemanth Kumar V</p>
-        <p style=" margin-left:15px;color:#E9F035;">Anush D P</p>
-        <p style=" margin-left:15px;color:#E9F035;">Anoop Satish Gejje</p>
-        <p style=" margin-left:15px;color:#E9F035;">Ajaykumar S Hadimani</p>
+        <p style=" margin-left:15px;color:#E9F035;">Roopashree S P</p>
+        <p style=" margin-left:15px;color:#E9F035;">Rithvik K Bhat</p>
+        <p style=" margin-left:15px;color:#E9F035;">Shreyas P</p>
+        <p style=" margin-left:15px;color:#E9F035;">Pavan N S</p>
+        <p style=" margin-left:15px;color:#E9F035;">Pramod Bhat</p>
+        <p style=" margin-left:15px;color:#E9F035;">Nikhil S</p>
+        <p style=" margin-left:15px;color:#E9F035;">B Padma</p>
 
       </div>
 
