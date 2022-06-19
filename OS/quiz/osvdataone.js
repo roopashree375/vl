@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "multiprocessor systems  ",
         "opt3" : "larger memory sized systems",
         "answer" :"multiprogramming operating systems"
+    },
+    {
+        "q" : " To access the services of the operating system, the interface is provided by the ___________",
+        "opt1" : " System calls",
+        "opt2" : "Library",
+        "opt3" : "API",
+        "answer" : " System calls"
+    },
+    {
+        "q" : "   Which one of the following errors will be handle by the operating system?",
+        "opt1" : "power failure",
+        "opt2" : "connection failure in the network",
+        "opt3" : "Both",
+        "answer" : "Both"
     }
 
     

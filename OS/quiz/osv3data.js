@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "other threads are allowed to run",
         "opt3" : "other threads are strictly prohibited from running",
         "answer" :"other threads are allowed to run"
+    },
+    {
+        "q" : " When is the Many to One model at an advantage?",
+        "opt1" : "When the program does not need multithreading",
+        "opt2" : " When there is a single processor",
+        "opt3" : "When the program has to be multi-threaded",
+        "answer" : "When the program does not need multithreading"
+    },
+    {
+        "q" : " In the Many to Many model true concurrency cannot be gained because ___________",
+        "opt1" : "the kernel can schedule only one thread at a time",
+        "opt2" : "there are too many threads to handle ",
+        "opt3" : "None",
+        "answer" : "the kernel can schedule only one thread at a time"
     }
 
     
