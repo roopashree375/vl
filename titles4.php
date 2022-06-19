@@ -48,6 +48,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
     <div class="ui container" id="CardGrid">
         <div class="ui stackable grid">
+
             <div class="four wide column">
                 <div class="ui raised card" id="car6">
                     <div class="content" id="Card6">

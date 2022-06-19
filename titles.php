@@ -71,6 +71,24 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="ui raised card" id="car1">
           <div class="content" id="Card1">
             <div class="header">
+              <a href="./English/english.php">
+                English for Diploma Students
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Contains educational videos for learning English
+            </span>
+            <br><br>
+            <a class="ui button" href="./English/english.php">Go</a>
+          </div>
+        </div>
+      </div>
+      <div class="four wide column">
+        <div class="ui raised card" id="car1">
+          <div class="content" id="Card1">
+            <div class="header">
               <a href="cpps.php">
                 C Programming For Problem Solving
               </a>
@@ -181,7 +199,7 @@ if (session_status() == PHP_SESSION_NONE) {
         </div>
       </div>
 
-  
+
 
       <div class="four wide column">
         <div class="ui raised card" id="car6">
