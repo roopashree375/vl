@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "read",
         "opt3" : "Write",
         "answer" :"open"
+    },
+    {
+        "q" : " A system call is a routine built into the kernel and performs a basic function ",
+        "opt1" : "True",
+        "opt2" : "False ",
+        "opt3" : "None",
+        "answer" : "True"
+    },
+    {
+        "q" : " There are ___ modes of opening a file",
+        "opt1" : "4",
+        "opt2" : " 3 ",
+        "opt3" : " 2",
+        "answer" : "3"
     }
 
     

@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "Longest Job First",
         "opt3" : "None of these",
         "answer" :"Shortest Job First"
+    },
+    {
+        "q" : "Complex scheduling algorithms ____________",
+        "opt1" : "are very appropriate for very large computers",
+        "opt2" : " use many resources ",
+        "opt3" : "None",
+        "answer" : "are very appropriate for very large computers"
+    },
+    {
+        "q" : "Orders are processed in the sequence they arrive if _______ rule sequences the jobs.",
+        "opt1" : "first come, first served",
+        "opt2" : "  earliest due date",
+        "opt3" : "Both",
+        "answer" : "first come, first served"
     }
 
     
