@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : " Column",
         "opt3" : " Tuple",
         "answer" :" Column"
+    },
+    {
+        "q" : "What is the method of specifying a primary key in a schema description?",
+        "opt1" : "By underlining it using a bold line",
+        "opt2" : " By writing it in bold letters",
+        "opt3" : "  By writing it in capital letters",
+        "answer" :"By underlining it using a bold line "
+    },
+    {
+        "q" : "If a relation consists of a foreign key, then it is called a referenced relation of the foreign key dependency.",
+        "opt1" : "True",
+        "opt2" : "False",
+        "opt3" : " None",
+        "answer" :" False"
     }
 
     

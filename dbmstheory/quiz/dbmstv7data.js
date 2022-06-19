@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : "processing  ",
         "opt3" : "scalability",
         "answer" :"replication "
+    },
+    {
+        "q" : "“Sharding” a database across many server instances can be achieved with _______________",
+        "opt1" : " SAN  ",
+        "opt2" : " LAN ",
+        "opt3" : " MAN",
+        "answer" : "  SAN "
+    },
+    {
+        "q" : " Which of the following are the simplest NoSQL databases?",
+        "opt1" : " Key-value  ",
+        "opt2" : " Wide-column",
+        "opt3" : "None ",
+        "answer" : "   Key-value"
     }
 
     

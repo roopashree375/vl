@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : " smallmoney",
         "opt3" : "Both of these ",
         "answer" :"Both of these "
+    },
+    {
+        "q" : "A column of type __________ may contain rows of different data types.",
+        "opt1" : "sql_variant",
+        "opt2" : " ntext ",
+        "opt3" : " int",
+        "answer" :" sql_variant"
+    },
+    {
+        "q" : "_________ is a spatial data type.",
+        "opt1" : "sql_variant",
+        "opt2" : "geometry ",
+        "opt3" : "None ",
+        "answer" :"sql_variant"
     }
 
     
