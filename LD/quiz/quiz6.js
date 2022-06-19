@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "3",
         "opt3" : "4",
         "answer" :"4"
+    },
+    {
+        "q" : "Registers capable of shifting in one direction is ___________",
+        "opt1" : "Universal shift register",
+        "opt2" : " Unidirectional shift register",
+        "opt3" : "Unipolar shift register",
+        "answer" :"Unidirectional shift register"
+    },
+    {
+        "q" : "A register that is used to store binary information is called ___________",
+        "opt1" : "Data register",
+        "opt2" : "Binary register",
+        "opt3" : "Shift register",
+        "answer" :"Binary register"
     }
 
     
