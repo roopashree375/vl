@@ -26,6 +26,13 @@ var jsonData = [
         "opt2" : "Data and space complexity",
         "opt3" : "processor and memory",
         "answer" : "Time and Space Complexity"
+    },
+    {
+        "q" : "How many passes does an insertion sort algorithm consist of?",
+        "opt1" : "N-1",
+        "opt2" : "N+1",
+        "opt3" : "0",
+        "answer" : "N-1"
     }
    
 ];
