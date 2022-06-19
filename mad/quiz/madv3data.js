@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : " context  ",
         "opt3" : "None",
         "answer" :" contextThemeWrapper" 
+    },
+    {
+        "q" : "which media format is not supported by andriod studio",
+        "opt1" : "AVI",
+        "opt2" : " MP3  ",
+        "opt3" : "MP4",
+        "answer" :" AVI" 
+    },
+    {
+        "q" : "What are the functonalities of Asycntask?",
+        "opt1" : "OnPostExecution()",
+        "opt2" : " OnProgressUpdate()  ",
+        "opt3" : "OnPreExecution()",
+        "answer" :"OnPostExecution()" 
     }
 
     

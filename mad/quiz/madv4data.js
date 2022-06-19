@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : "Linux Kernel   ",
         "opt3" : "Applications Framework",
         "answer" :" Applications" 
+    },
+    {
+        "q" : "AAPT stands for",
+        "opt1" : "Android Asset Packaging Tool.",
+        "opt2" : " Android Asset Providing Tool.  ",
+        "opt3" : "None",
+        "answer" :" Android Asset Packaging Tool." 
+    },
+    {
+        "q" : "JNI in android?",
+        "opt1" : "Java Native Interface",
+        "opt2" : "  Java interface ",
+        "opt3" : "Both",
+        "answer" :"Java Native Interface " 
     }
 
     

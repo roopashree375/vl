@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : "  ProgressDialog ",
         "opt3" : "Both 1 and 2",
         "answer" :" Both 1 and 2" 
+    },
+    {
+        "q" : "Android is based on which kernal",
+        "opt1" : "Linux",
+        "opt2" : "   Macos",
+        "opt3" : "Windows",
+        "answer" :" Linux" 
+    },
+    {
+        "q" : "What is APK in android?",
+        "opt1" : "Android Package Kit",
+        "opt2" : "   Android kit",
+        "opt3" : "Android packages",
+        "answer" :"Android Package Kit" 
     }
 
     

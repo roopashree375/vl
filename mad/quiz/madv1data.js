@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : "    initial",
         "opt3" : "None",
         "answer" :" starting" 
+    },
+    {
+        "q" : " What is Android?",
+        "opt1" : "Android is a stack of software's for mobility",
+        "opt2" : " Virtual machine  ",
+        "opt3" : "None",
+        "answer" :" Android is a stack of software's for mobility" 
+    },
+    {
+        "q" : "How many sizes are supported by Android? ",
+        "opt1" : "Android supports small,normal, large and extra-large sizes",
+        "opt2" : "  Android does not support all sizes  ",
+        "opt3" : "Both",
+        "answer" :"Android supports small,normal, large and extra-large sizes " 
     }
 
     

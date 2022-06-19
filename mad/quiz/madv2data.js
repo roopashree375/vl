@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : "Servers   ",
         "opt3" : "Laptops",
         "answer" :" Mobile devices" 
+    },
+    {
+        "q" : "What is an anonymous class in android?",
+        "opt1" : "A class that does not have a name but have functionalities in it",
+        "opt2" : " interface class  ",
+        "opt3" : "Java class",
+        "answer" :" A class that does not have a name but have functionalities in it" 
+    },
+    {
+        "q" : "How many ports are allocated for new emulator?",
+        "opt1" : "2",
+        "opt2" : " 0  ",
+        "opt3" : "10",
+        "answer" :" 2" 
     }
 
     
