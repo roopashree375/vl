@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : " System Design Life Cycle  ",
         "opt3" : "None",
         "answer" :" Software Development Life Cycle" 
+    },
+    {
+        "q" : "Build & Fix Model is suitable for programming exercises of ___________ LOC ",
+        "opt1" : "100-200",
+        "opt2" : "   200-300",
+        "opt3" : "300-500",
+        "answer" :"100-200 " 
+    },
+    {
+        "q" : " RAD stands for",
+        "opt1" : "Rapid Application Development",
+        "opt2" : "   Relative Application Development",
+        "opt3" : "None",
+        "answer" :" Rapid Application Development" 
     }
 
     

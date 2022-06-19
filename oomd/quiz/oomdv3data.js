@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : "  Collaboration  ",
         "opt3" : "Activity",
         "answer" :"Sequence " 
+    },
+    {
+        "q" : " Interaction Diagram is a combined term for ",
+        "opt1" : "Sequence Diagram + Collaboration Diagram",
+        "opt2" : "  Activity Diagram + State Chart Diagram  ",
+        "opt3" : "None",
+        "answer" :" Sequence Diagram + Collaboration Diagram" 
+    },
+    {
+        "q" : " Which of the following is a structural model that demonstrates the other systems in the environment of the system being developed? ",
+        "opt1" : "system context model",
+        "opt2" : " environmental model   ",
+        "opt3" : " interaction model",
+        "answer" :" system context model" 
     }
 
     

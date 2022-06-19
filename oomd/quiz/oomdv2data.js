@@ -21,7 +21,23 @@ var jsonData = [
         "opt2" : "  System flow ",
         "opt3" : "Data flow",
         "answer" :" Architecture" 
+    },
+    {
+        "q" : " What encapsulates both data and data manipulation functions ?",
+        "opt1" : "Object",
+        "opt2" : "Class  ",
+        "opt3" : "key",
+        "answer" :"Object " 
+    },
+    {
+        "q" : " Inherited object classes are self-contained.",
+        "opt1" : "True",
+        "opt2" : "False  ",
+        "opt3" : "None",
+        "answer" :" False" 
     }
+
+
 
     
 ];
