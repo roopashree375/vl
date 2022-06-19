@@ -36,4 +36,13 @@ var jsonData=[
             "opt3":"Destroy of service",
             "answer":"Denial of service",
     },
+
+    {
+        "q":"Which of the following is a component of cyber security?",
+        "opt1":"Internet Of Things",
+        "opt2":"AI",
+        "opt3":"Database",
+        "answer":"Internet of Things",
+
+    }
 ]

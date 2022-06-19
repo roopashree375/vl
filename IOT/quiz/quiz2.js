@@ -27,4 +27,21 @@ var jsonData=[
 
 
     },
+
+
+    {
+        "q":"Which of the following is not an application of IoT?",
+        "opt1" :"BMP280" ,
+        "opt2" :"Smart Home" ,
+        "opt3" :"Smart City" ,
+        "answer":"BMP280" 
+    },
+
+    {
+        "q":"Which of the following is not a fundamental component of an IoT system?",
+        "opt1" :"Sensors" ,
+        "opt2" :"Tranformers" ,
+        "opt3" :"UserInterface" ,
+        "answer" :"Transformers" 
+    },
 ]

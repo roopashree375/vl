@@ -27,5 +27,24 @@ var jsonData=[
         "answer":"3 steps",
 
     },
+
+    {
+        "q":"What is BMC?",
+        "opt1":"Business Modal Canva",
+        "opt2":"Business Model Canvas",
+        "opt3":"Business Management Collection",
+        "answer":"Business Model Canvas"
+        
+      },
+      
+
+      {
+        "q":"What is value proposition BMC?",
+        "opt1":"Value that meet the customer satisfaction",
+        "opt2":"The way we interact with the customer",
+        "opt3":"Service after sales",
+        "answer":"Value that meet the customer satisfaction",
+        
+      },
     
 ]

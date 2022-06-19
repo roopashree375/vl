@@ -33,11 +33,21 @@ var jsonData=[
 
     {
 
-        "q":"How long will it take any sum to triple itself at 5% simple interest rate? Asssume P=100",
-        "opt1":"60 years",
-        "opt2":"50 years",
-        "opt3":"40 years",
-        "answer":"60years"
+        "q":"In a cash-flow diagram:",
+        "opt1":"Time 0 is considered to be the present",
+        "opt2":"Time 1 is considered to be the end of time period 1",
+        "opt3":"All of the above",
+        "answer":"All of the above",
 
     },
+
+
+    {
+
+        "q":"In a cash flow series:",
+        "opt1":"Either an increase or decrease in the amount of a cash flow is called the gradient",
+        "opt2":" The gradient in the cash flow may be positive or negative",
+        "opt3":"All of the above",
+        "answer":"All of the above",
+    }
 ]

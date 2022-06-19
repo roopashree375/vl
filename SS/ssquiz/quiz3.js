@@ -25,7 +25,28 @@ var jsonData=[
         "answer":"yylex",
           
 
+    },
+
+    {
+
+        "q":"YACC is a computer program for operation system.",
+        "opt1":"Windows",
+        "opt2":"DOS",
+        "opt3":"Unix",
+        "answer":"Unix",
+
+    },
+
+    {
+
+        "q":"The YACC takes C code as input and outputs",
+         "opt1":"Top down parsers",
+         "opt2":"Bottom up parser",
+        "opt3":"Machine code",
+        "answer":"Bottom up parser",
+
     }
+
     
     
     ]

@@ -25,7 +25,25 @@ var jsonData=[
         "opt3":"#",
         "answer":"#",
 
-    }
+    },
+
+    {
+        "q":"The _______ table is created by YACC.",
+        "opt1":"LALR parsing",
+        "opt2":"LL parsing",
+        "opt3":"GLR parsing",
+        "answer":"LALR parsing"
+    },
+
+    {
+        "q":"Which function is used to start and resume scanning in lex program?",
+        "opt1":"yyerror",                                                                        
+         "opt2":"yytext",
+        "opt3":"yylex",
+        "answer":"yylex",
+          
+
+    },
     
     
     ]

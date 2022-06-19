@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : " Table ",
         "opt3" : "Field",
         "answer" :"Values "
+    },
+    {
+        "q" : " Which SQL keyword is used to retrieve a maximum value?",
+        "opt1" : " MAX",
+        "opt2" : " COUNT ",
+        "opt3" : "MIN",
+        "answer" :" MAX "
+    },
+    {
+        "q" : "Which of the following SQL clauses is used to DELETE tuples from a database table?",
+        "opt1" : "DELETE",
+        "opt2" : "TRUNCATE  ",
+        "opt3" : "DROP",
+        "answer" :" DELETE"
     }
 
     

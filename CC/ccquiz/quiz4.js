@@ -33,6 +33,14 @@ var jsonData=[
         "answer":"first come first serve",
 
      },
+
+     {
+         "q":"Applications and services that run on a distributed network using virtualized resources is known as",
+         "opt1":"Cloud Cube",
+         "opt2":"Cloud square",
+         "opt3":"Cloud service",
+         "answer":"Cloud Cube",
+     }
     
      
 ]

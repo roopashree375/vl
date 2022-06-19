@@ -26,5 +26,25 @@ var jsonData=[
        "answer":"Software is always correct",
 
     },
+
+    
+        {
+            "q":"A person who writes a program for running the hardware of a computer is called?",
+            "opt1":"System design",
+            "opt2":"Data processor",
+            "opt3":"Programmer",
+            "answer":"Programmer",
+        },
+
+    
+        {
+            "q":"A system can be defined as ",
+            "opt1":"A collection of people, machines, and methods organized to accomplish a set of functions",
+            "opt2":"An integrated whole that is composed of diverse, interacting specialized structures and sub-functions",
+            "opt3":"All of the above",
+            "answer":"All of the above",
+            
+          },  
+    
     
 ]

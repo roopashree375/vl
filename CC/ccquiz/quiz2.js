@@ -43,6 +43,14 @@ var jsonData=[
 
     },
 
+    {
+        "q":"Applications and services that run on a distributed network using virtualized resources is known as",
+        "opt1":"Parallel computing",
+        "opt2":"Cloud computing",
+        "opt3":"Passive computing",
+        "answer":"Cloud computing",
+    }
+
 
 
 ]

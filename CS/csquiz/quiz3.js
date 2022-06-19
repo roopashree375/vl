@@ -38,4 +38,12 @@ var jsonData=[
 
 
     },
+
+    {
+        "q":"Which of the following is not a type of peer-to-peer cyber-crime?",
+        "opt1":"MiTM",
+        "opt2":"Injecting Trojans to a target victim",
+        "opt3":"Credit card details leak in the deep web",
+        "answer":"Credit card details leak in the deep web",
+    }
 ]

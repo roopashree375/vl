@@ -20,6 +20,20 @@ var jsonData = [
         
         "opt3" : " Dot representation",
         "answer" :"  Concatenation"
+    },
+    {
+        "q" : "Designers use which of the following to tune the performance of systems to support time-critical operations?",
+        "opt1" : " Denormalization ",
+        "opt2" : "Optimization ",
+        "opt3" : " Realization ",
+        "answer" : " Denormalization "
+    },
+    {
+        "q" : "Thus a _______ of course data gives the values of all attributes, such as title and department, of all courses at a particular point in time.",
+        "opt1" : " Snapshot ",
+        "opt2" : " Instance",
+        "opt3" : " None ",
+        "answer" : " Snapshot "
     }
 
     

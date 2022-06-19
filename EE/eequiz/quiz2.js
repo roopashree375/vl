@@ -24,6 +24,26 @@ var jsonData=[
         "answer":"2.25",
 
     },
+  
+
+    {
+
+        "q":"How long will it take any sum to double itself at 5% simple interest rate? Asssume P=100",
+        "opt1":"60 years",
+        "opt2":"50 years",
+        "opt3":"40 years",
+        "answer":"40years"
+
+    },
+
+    {
+        "q":"How long will it take rs.900 to yield rs.81 in simple interest at 4%.",
+        "opt1":"2.25",
+        "opt2":"3.25",
+        "opt3":"2.5",
+        "answer":"2.25",
+
+    }
 
 
    
