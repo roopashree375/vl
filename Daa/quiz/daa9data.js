@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "98",
         "opt3" : "100 ",
         "answer" :" 92"
+    },
+    {
+        "q" : " Where is the n-queens problem implemented?",
+        "opt1" : " chess",
+        "opt2" : "carrom ",
+        "opt3" : " ludo",
+        "answer" :" chess "
+    },
+    {
+        "q" : "  In n-queen problem, how many values of n does not provide an optimal solution?",
+        "opt1" : "1",
+        "opt2" : "2",
+        "opt3" : " 3",
+        "answer" :"2 "
     }
 
     

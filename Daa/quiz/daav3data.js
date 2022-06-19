@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "123",
         "opt3" : "111",
         "answer" :"148"
+    },
+    {
+        "q" : "Quick sort follows Divide-and-Conquer strategy.",
+        "opt1" : "True",
+        "opt2" : "False",
+        "opt3" : "None",
+        "answer" :"True"
+    },
+    {
+        "q" : " What is the worst case time complexity of a quick sort algorithm",
+        "opt1" : " o(n2)",
+        "opt2" : "o(n3)",
+        "opt3" : "o(n)",
+        "answer" :"o(n2)"
     }
 
     

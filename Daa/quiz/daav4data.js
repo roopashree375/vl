@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "Selection Sort",
         "opt3" : "Insertion SOrt",
         "answer" :"Selection Sort"
+    },
+    {
+        "q" : " What is an internal sorting algorithm?",
+        "opt1" : "Algorithm that uses main memory during the sort",
+        "opt2" : "Algorithm that uses tape or disk during the sort",
+        "opt3" : "None",
+        "answer" : "Algorithm that uses main memory during the sort"
+    },
+    {
+        "q" : "What is the worst case complexity of bubble sort? ",
+        "opt1" : "O(n2)",
+        "opt2" : "onlogn",
+        "opt3" : "nlogn",
+        "answer" : "O(n2)"
     }
 
     
