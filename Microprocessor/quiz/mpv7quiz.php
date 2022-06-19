@@ -38,7 +38,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <a class="header item" href="../../index.php">
                 Home
             </a>
-            <a class="item" href="../../microprocessor.php">
+            <a class="item" href="../microprocessor.php">
                 Microprocessors and Microcontrollers
             </a>
             <a class="item">

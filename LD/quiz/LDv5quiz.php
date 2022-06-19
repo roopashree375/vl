@@ -38,7 +38,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <a class="header item" href="../../index.php">
                 Home
             </a>
-            <a class="item" href="../../LD.php">
+            <a class="item" href="../LD.php">
                 Logic Design
             </a>
             <a class="item">
