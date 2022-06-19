@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "The output of a decoder is a binary code for 1-of-N input",
         "opt3" : "The output of a decoder is a binary code for N-of-1 output",
         "answer" :"The output of an encoder is a binary code for 1-of-N input"
+    },
+    {
+        "q" : "One multiplexer can take the place of ___________",
+        "opt1" : "Several SSI logic gates",
+        "opt2" : " Combinational logic circuits",
+        "opt3" : "Several SSI logic gates or combinational logic circuits",
+        "answer" : "Several SSI logic gates or combinational logic circuits"
+    },
+    {
+        "q" : "In a multiplexer, the selection of a particular input line is controlled by ___________",
+        "opt1" : "Data controller",
+        "opt2" : " Selected lines",
+        "opt3" : "Logic gates",
+        "answer" : " Selected lines"
     }
 
     

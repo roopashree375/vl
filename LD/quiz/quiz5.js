@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "3",
         "opt3" : "2",
         "answer" :"3"
+    },
+    {
+        "q" : " A basic S-R flip-flop can be constructed by cross-coupling of which basic logic gates?",
+        "opt1" : "AND or OR gates",
+        "opt2" : "XOR or XNOR gates",
+        "opt3" : "NOR or NAND gates",
+        "answer" :"NOR or NAND gates"
+    },
+    {
+        "q" : "Whose operations are more faster among the following?",
+        "opt1" : "Combinational circuits",
+        "opt2" : "Sequential circuits",
+        "opt3" : "Latches",
+        "answer" :"Combinational circuits"
     }
 
     

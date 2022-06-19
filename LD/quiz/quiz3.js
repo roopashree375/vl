@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "Decay time",
         "opt3" : "Propagation time",
         "answer" :" Propagation time "
+    },
+    {
+        "q" : "Which of the following gate is known as coincidence detector?",
+        "opt1" : "AND gate",
+        "opt2" : "OR gate",
+        "opt3" : "NOR gate",
+        "answer" :" AND gate"
+    },
+    {
+        "q" : "Which of the following will give the sum of full adders as output?",
+        "opt1" : "8 half adders, 8 full adders",
+        "opt2" : "1 half adders, 15 full adders",
+        "opt3" : "16 half adders, 0 full adders",
+        "answer" :"1 half adders, 15 full adders"
     }
 
     

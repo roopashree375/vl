@@ -94,7 +94,7 @@
         </span>
 
       </div>
-      
+
     </div>
     <a href="titles.php" style="font-size:20px; margin: 10px; float: right;" class="ui green button">Go to Virtual Labs</a><br><br><br>
 
@@ -122,7 +122,6 @@
         <p style=" margin-left:15px;color:#E9F035;">Pavan N S</p>
         <p style=" margin-left:15px;color:#E9F035;">Pramod Bhat</p>
         <p style=" margin-left:15px;color:#E9F035;">Nikhil S</p>
-        <p style=" margin-left:15px;color:#E9F035;">B Padma</p>
 
       </div>
 

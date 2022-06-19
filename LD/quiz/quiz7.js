@@ -19,7 +19,21 @@ var jsonData = [
         "opt2" : "Only if both the inputs are low",
         "opt3" : "Only if one input is high and the other is low",
         "answer" :"Only if both the inputs are high"
+    },
+    {
+        "q" : "In serial shifting method, data shifting occurs ____________",
+        "opt1" : "One bit at a time",
+        "opt2" : "simultaneously",
+        "opt3" : "Two bit at a time",
+        "answer" :"One bit at a time"
+    },
+    {
+        "q" : "The NOR gate output will be high if the two inputs are __________",
+        "opt1" : "00",
+        "opt2" : "01",
+        "opt3" : "10",
+        "answer" :"00"
     }
-
+  
     
 ];

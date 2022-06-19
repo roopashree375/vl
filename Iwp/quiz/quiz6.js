@@ -21,11 +21,11 @@ var jsonData = [
         "answer" :"PHP stands for Hypertext Preprocessor "
     },
     {
-        "q" : "Which of the following is the correct syntax to write a PHP code?",
-        "opt1" : "<?php ?>",
-        "opt2" : "<php>",
-        "opt3" : "<? ?>",
-        "answer" :"<? ?>"
+        "q" : " A function in PHP which starts with __ (double underscore) is known as __________",
+        "opt1" : "Default Function",
+        "opt2" : "Magic Function",
+        "opt3" : " User Defined Function",
+        "answer" :"Magic Function"
     },
     {
         "q" : " Which of the following is the correct way to add a comment in PHP code?",

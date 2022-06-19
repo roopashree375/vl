@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : "  Non regular language  ",
         "opt3" : "None of the above",
         "answer" :" None of the above"
+    },
+    {
+        "q" : "The entity which generate Language is termed as:",
+        "opt1" : "Automata",
+        "opt2" : " Tokens",
+        "opt3" : "Grammar",
+        "answer" :"Grammar"
+    },
+    {
+        "q" : "The minimum number of productions required to produce a language consisting of palindrome strings over ∑={a,b} is",
+        "opt1" : "3",
+        "opt2" : " 7  ",
+        "opt3" : "5",
+        "answer" :" 5"
     }
 
     

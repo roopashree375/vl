@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "Implicant",
         "opt3" : "Complement",
         "answer" :" Essential Prime Implicant "
+    },
+    {
+        "q" : "Which of the following method is used to minimize Boolean expressions?",
+        "opt1" : "Fourier transform",
+        "opt2" : "Gray code",
+        "opt3" : "Karnaugh mapping",
+        "answer" :" Karnaugh mapping"
+    },
+    {
+        "q" : "Four adjacent 1 s in a Karnaugh map forms a",
+        "opt1" : "octet",
+        "opt2" : "singlet",
+        "opt3" : "quad",
+        "answer" :" quad"
     }
 
     

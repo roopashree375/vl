@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "Output pulse magnitude < largest input pulse",
         "opt3" : "Output pulse magnitude = largest input pulse",
         "answer" :"Output pulse magnitude = largest input pulse "
+    },
+    {
+        "q" : "Which of the below stated application/s employ Ex-OR gate from the arithmetic functioning point of view?",
+        "opt1" : "Matching Circuit",
+        "opt2" : "Equality Detector",
+        "opt3" : "All of the above",
+        "answer" :"All of the above"
+    },
+    {
+        "q" : "Which gates are sequentially cascaded or involved in an entire logic-array of AND-OR-INVERT (AOI) configuration?",
+        "opt1" : "AND-OR-AND",
+        "opt2" : "AND-OR-NOT",
+        "opt3" : " AND-OR-EX-OR",
+        "answer" :"AND-OR-NOT"
     }
 
     

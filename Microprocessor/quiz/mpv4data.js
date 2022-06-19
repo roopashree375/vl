@@ -26,6 +26,13 @@ var jsonData = [
         "opt2" : "clears the interrupt flag",
         "opt3" : "the control transfers from ISR to main program",
         "answer" : "contents of IP and CS are retrieved"
+    },
+    {
+        "q" : " The INTR interrupt may be",
+        "opt1" : "maskable",
+        "opt2" : "nonmaskable",
+        "opt3" : "maskable and nonmaskable",
+        "answer" :"maskable"
     }
    
 ];

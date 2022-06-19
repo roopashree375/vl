@@ -4,8 +4,6 @@ var jsonData = [
         "opt1" : "The set of even length palindrome over {a,b}",
         "opt2" : " {xxc| where c stands for the complement,{0,1}}",
         "opt3" : "None of the above",
-        
-        
         "answer" : "None of the above"
     },
     {
@@ -21,6 +19,20 @@ var jsonData = [
         "opt2" : "   False",
         "opt3" : "Cant determine",
         "answer" :" True"
+    },
+    {
+        "q" : "Push down automata accepts _________ languages.",
+        "opt1" : "Type 3",
+        "opt2" : "Type 2",
+        "opt3" : "Type 1",
+        "answer" :" Type 2"
+    },
+    {
+        "q" : " A push down automaton with only symbol allowed on the stack along with fixed symbol.",
+        "opt1" : "Embedded PDA",
+        "opt2" : "DPDA",
+        "opt3" : "Counter Automaton",
+        "answer" :" Counter Automaton"
     }
 
     

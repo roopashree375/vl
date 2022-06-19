@@ -26,6 +26,13 @@ var jsonData = [
         "opt2" : "increases & decreases with every push",
         "opt3" : "decreases with every push",
         "answer" : " increases with every push"
+    },
+    {
+        "q" : "How many bytes of bit addressable memory is present in 8051 based microcontrollers?",
+        "opt1" : "8 bytes",
+        "opt2" : "32 bytes",
+        "opt3" : "16 bytes",
+        "answer" : " 16 bytes"
     }
    
 ];

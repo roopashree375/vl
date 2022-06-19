@@ -26,6 +26,13 @@ var jsonData = [
         "opt2" : "HMOS",
         "opt3" : "NMOS",
         "answer" : "PMOS"
+    },
+    {
+        "q" : "Which of the following is not a microprocessor?",
+        "opt1" : "Z8000",
+        "opt2" : "Zilog Z8",
+        "opt3" : "PIC1x",
+        "answer" : "PIC1x"
     }
    
 ];
