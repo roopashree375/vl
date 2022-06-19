@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "  Style Information",
         "opt3" : "  Store Information",
         "answer" :"Style Information "
+    },
+    {
+        "q" : "Is it easier to process XML than HTML?",
+        "opt1" : "Yes",
+        "opt2" : "No",
+        "opt3" : "Can't say",
+        "answer" :"Yes"
+    },
+    {
+        "q" : "Kind of Parsers are",
+        "opt1" : "well-formed",
+        "opt2" : "well-documented",
+        "opt3" : "non-validating and validating",
+        "answer" :"non-validating and validating"
     }
 
     

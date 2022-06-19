@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "  Message passing ",
         "opt3" : " Time Sharing",
         "answer" :"Time Sharing "
+    },
+    {
+        "q" : "Common gateway interface is used to _______",
+        "opt1" : "generate executable files from web content by web server",
+        "opt2" : "generate web pages",
+        "opt3" : "stream videos",
+        "answer" :"generate executable files from web content by web server"
+    },
+    {
+        "q" : "URL stands for _______",
+        "opt1" : "unique reference label",
+        "opt2" : "uniform resource locator",
+        "opt3" : "uniform resource label",
+        "answer" :"uniform resource locator"
     }
 
     
