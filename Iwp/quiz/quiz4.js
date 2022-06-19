@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "  It is an ordered list of objects",
         "opt3" : " It is an ordered list of string",
         "answer" :"It is an ordered list of values "
+    },
+    {
+        "q" : " Which of the following is not javascript data types?",
+        "opt1" : "Null type",
+        "opt2" : "Undefined type",
+        "opt3" : "All of the mentioned",
+        "answer" : "All of the mentioned"
+    },
+    {
+        "q" : "Where is Client-side JavaScript code is embedded within HTML documents?",
+        "opt1" : "A URL that uses the special javascript:code",
+        "opt2" : "A URL that uses the special javascript:protocol",
+        "opt3" : "A URL that uses the special javascript:encoding",
+        "answer" : "A URL that uses the special javascript:protocol"
     }
 
     

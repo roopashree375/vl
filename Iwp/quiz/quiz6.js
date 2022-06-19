@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : " PHP stands for Pretext Hypertext Processor",
         "opt3" : " PHP stands for Hypertext Preprocessor",
         "answer" :"PHP stands for Hypertext Preprocessor "
+    },
+    {
+        "q" : "Which of the following is the correct syntax to write a PHP code?",
+        "opt1" : "<?php ?>",
+        "opt2" : "<php>",
+        "opt3" : "<? ?>",
+        "answer" :"<? ?>"
+    },
+    {
+        "q" : " Which of the following is the correct way to add a comment in PHP code?",
+        "opt1" : "#",
+        "opt2" : "/* */",
+        "opt3" : "All of the above",
+        "answer" :"All of the above"
     }
 
     

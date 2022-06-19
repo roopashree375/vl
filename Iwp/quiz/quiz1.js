@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : " circuit switching ",
         "opt3" : " both packet switching and circuit switching",
         "answer" :" packet switching "
+    },
+    {
+        "q" : " Free of cost repair of software bug available at Internet is called _______",
+        "opt1" : "Version",
+        "opt2" : "Ad-on",
+        "opt3" : "Patch",
+        "answer" :"Patch"
+    },
+    {
+        "q" : " The Internet was originally a project of which agency?",
+        "opt1" : "ARPA",
+        "opt2" : "NSF",
+        "opt3" : "NSA",
+        "answer" :"ARPA"
     }
 
     
