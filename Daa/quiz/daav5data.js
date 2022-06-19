@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "Storing value property",
         "opt3" : " Memoization",
         "answer" :" Memoization"
+    },
+    {
+        "q" : " If a problem can be broken into subproblems which are reused several times, the problem possesses ____________ property.",
+        "opt1" : "Overlapping subproblems ",
+        "opt2" : "Optimal substructure",
+        "opt3" : " None",
+        "answer" :"Overlapping subproblems"
+    },
+    {
+        "q" : "If a problem can be solved by combining optimal solutions to non-overlapping problems, the strategy is called  ",
+        "opt1" : "Divide and conquer ",
+        "opt2" : "Greedy",
+        "opt3" : " None",
+        "answer" :"Divide and conquer "
     }
 
     

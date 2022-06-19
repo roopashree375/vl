@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : "Directed and weighted graphs",
         "opt3" : " Unweighted graphs",
         "answer" :" Graphs having negative weight function"
+    },
+    {
+        "q" : " Dijkstra’s Algorithm cannot be applied on ____",
+        "opt1" : "Graphs having negative weight function ",
+        "opt2" : "Directed and weighted graph",
+        "opt3" : " none",
+        "answer" :"Graphs having negative weight function "
+    },
+    {
+        "q" : " Which of the following is the most commonly used data structure for implementing Dijkstra’s Algorithm?",
+        "opt1" : "Min priority queue ",
+        "opt2" : "Max priority queue",
+        "opt3" : " stack",
+        "answer" :"Min priority queue "
     }
 
     

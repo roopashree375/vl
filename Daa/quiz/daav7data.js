@@ -19,6 +19,20 @@ var jsonData = [
         "opt2" : " O(V)",
         "opt3" : "O(ElogV) ",
         "answer" :"O(VE)"
+    },
+    {
+        "q" : "How many solution/solutions are available for a graph having negative weight cycle?",
+        "opt1" : "No solution ",
+        "opt2" : "one solution",
+        "opt3" : " two solution",
+        "answer" :"No solution"
+    },
+    {
+        "q" : "How many times the for loop in the Bellmann Ford Algorithm gets executed? ",
+        "opt1" : "V-1 ",
+        "opt2" : " E-1",
+        "opt3" : " E",
+        "answer" :"V-1"
     }
 
     
