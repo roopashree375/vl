@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : "  rejected  ",
         "opt3" : "None of the above",
         "answer" :"  rejected"
+    },
+    {
+        "q" : "A push down automaton employs ________ data structure.",
+        "opt1" : " Queue",
+        "opt2" : " Linked List ",
+        "opt3" : " Stack",
+        "answer" :"  Stack"
+    },
+    {
+        "q" : "Which of the following allows stacked values to be sub-stacks rather than just finite symbols?",
+        "opt1" : " Push Down Automaton",
+        "opt2" : "  Nested Stack Automaton ",
+        "opt3" : "Turing Machine",
+        "answer" :" Nested Stack Automaton"
     }
 
     

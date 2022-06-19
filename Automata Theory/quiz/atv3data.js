@@ -21,6 +21,20 @@ var jsonData = [
         "opt2" : " 2   ",
         "opt3" : "1",
         "answer" :"3 "
+    },
+    {
+        "q" : "Which of the following is not a part of 5-tuple finite automata?",
+        "opt1" : "Input alphabet",
+        "opt2" : " Initial State  ",
+        "opt3" : "Output Alphabet",
+        "answer" :"Output Alphabet"
+    },
+    {
+        "q" : "If an Infinite language is passed to Machine M, the subsidiary which gives a finite solution to the infinite input tape is ______________",
+        "opt1" : "Compiler",
+        "opt2" : "Interpreter ",
+        "opt3" : " Loader and Linkers",
+        "answer" :"Compiler"
     }
 
     

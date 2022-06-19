@@ -4,8 +4,6 @@ var jsonData = [
         "opt1" : "reflexive and transitive",
         "opt2" : "reflexive ",
         "opt3" : "symmetric",
-        
-        
         "answer" : " reflexive and transitive"
     },
     {
@@ -21,6 +19,20 @@ var jsonData = [
         "opt2" : "  Interpreter ",
         "opt3" : "Loader and Linkers",
         "answer" :"Compiler "
+    },
+    {
+        "q" : "The number of elements in the set for the Language L={xϵ(∑r) *|length if x is at most 2} and ∑={0,1} is _________",
+        "opt1" : "7",
+        "opt2" :"6",
+        "opt3" : "8",
+        "answer" :"7"
+    },
+    {
+        "q" : " A regular language over an alphabet ∑ is one that cannot be obtained from the basic languages using the operation",
+        "opt1" : " Union",
+        "opt2" : " Concatenation",
+        "opt3" : "All of the mentioned",
+        "answer" :"All of the mentioned "
     }
 
     
