@@ -26,6 +26,13 @@ var jsonData = [
         "opt2" : "6",
         "opt3" : "7",
         "answer" : "5"
+    },
+    {
+        "q" : "The data in the stack is called: ",
+        "opt1" : "pushing data",
+        "opt2" : "pushed",
+        "opt3" : "pulling",
+        "answer" : "pushing data"
     }
    
 ];

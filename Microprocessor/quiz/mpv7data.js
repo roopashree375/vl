@@ -26,6 +26,13 @@ var jsonData = [
         "opt2" : "byte data",
         "opt3" : "Both",
         "answer" : "Both"
+    },
+    {
+        "q" : "All conditional jumps are",
+        "opt1" : "absolute jumps",
+        "opt2" : "long jumps",
+        "opt3" : "short jumps",
+        "answer" : "short jumps"
     }
    
 ];

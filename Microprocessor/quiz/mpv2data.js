@@ -26,6 +26,13 @@ var jsonData = [
         "opt2" : " 8-bits – 16 bits",
         "opt3" : "4-bits – 32 bits",
         "answer" : "8-bits – 64 bits"
+    },
+    {
+        "q" : "Which of the following is correct about 8086 microprocessor?",
+        "opt1" : "Intel’s first x86 processor",
+        "opt2" : " Motrola’s first x86 processor",
+        "opt3" : "NanoXplore x86 processor",
+        "answer" : "Intel’s first x86 processor"
     }
    
 ];

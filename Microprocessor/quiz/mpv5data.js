@@ -26,6 +26,13 @@ var jsonData = [
         "opt2" : "CWR to data bus",
         "opt3" : "None",
         "answer" : " port B to data bus"
+    },
+    {
+        "q" : "The pin that clears the control word register of 8255 when enabled is",
+        "opt1" : "CLEAR",
+        "opt2" : "SET",
+        "opt3" : "RESET",
+        "answer" : "RESET"
     }
    
 ];
