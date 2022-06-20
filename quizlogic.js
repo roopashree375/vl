@@ -18,7 +18,7 @@ function generate(index) {
     document.getElementById("optt3").innerHTML = jsonData[index].opt3;
     document.getElementById("opt1").checked = false;
     document.getElementById("opt2").checked = false;
-    ddocument.getElementById("opt3").checked = false;
+    document.getElementById("opt3").checked = false;
 }
 
 function checkAnswer() {
