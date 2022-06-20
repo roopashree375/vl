@@ -119,6 +119,7 @@
         <p style=" margin-left:15px;color:#E9F035;">Pavan N S</p>
         <p style=" margin-left:15px;color:#E9F035;">Pramod Bhat</p>
         <p style=" margin-left:15px;color:#E9F035;">Nikhil S</p>
+        <p style=" margin-left:15px;color:#E9F035;">Nikki</p>
 
       </div>
 
