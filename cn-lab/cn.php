@@ -37,15 +37,9 @@
  <a class="item">
     About Us
   </a>
-  <?php
-     if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-     else
-     {
-       echo "<a class=\"item\">";
-       echo $_SESSION['username'];
-       echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-     }
-    ?>
+  <a class="header item" href="../titles5.php">
+                Go Back
+</a>
 </div>
 </div>
   <div class="ui container" id="cont">
