@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <?php
- if(session_status()==PHP_SESSION_NONE)
- {
-   session_start();
-   if(!isset($_SESSION['username']))
-   {
-     header("Location: index.php");
-     exit;
-   }
- }
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+    if (!isset($_SESSION['username'])) {
+        header("Location: index.php");
+        exit;
+    }
+}
 ?>
 <html>
 
@@ -39,10 +37,10 @@
             Home
         </a>
         <a class="item">
-            About Us
+            7th Semester
         </a>
         <a class="header item" href="titles.php">
-            Go Back
+            Back
         </a>
     </div>
 

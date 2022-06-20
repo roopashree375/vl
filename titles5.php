@@ -38,10 +38,10 @@ if (session_status() == PHP_SESSION_NONE) {
       Home
     </a>
     <a class="item">
-      About Us
+      5th Semester
     </a>
     <a class="header item" href="titles.php">
-      Go Back
+      Back
     </a>
 
   </div>

@@ -29,9 +29,6 @@
       <a class="header item" href="index.php">
         Home
       </a>
-      <a class="item">
-        About Us
-      </a>
       <?php
       session_start();
       if (!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
@@ -41,6 +38,9 @@
         echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
       }
       ?>
+      <a href="titles.php" style="font-size:20px; margin: 10px 30px; float: right;" class="ui green button">
+        Go to Virtual Labs
+      </a>
 
     </div>
   </div>
@@ -52,7 +52,7 @@
 
 
     <div>
-      <div class="headerr">Few of the Benifits of Using Virtual Labs</div><br>
+      <div class="headerr">Few of the Benefits of Using Virtual Labs</div><br>
       <div style="font-size:17px;" class="ui bulleted list">
         <span class="item">This platform allows students to <strong>remotely access</strong> the labs material.</span>
         <span class="item">This platform facilitates <strong>individual skill development</strong> through additional self learning.</span>
@@ -77,9 +77,6 @@
         <div class="headerr">Advantages of Virtual e-learning
         </div><br>
         <span class="item">Reduces the economic costs of education
-
-
-
 
         </span>
         <span class="item">Increases the sharing of large amounts of information are beneficial for learning
