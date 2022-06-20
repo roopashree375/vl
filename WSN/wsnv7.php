@@ -36,9 +36,6 @@ if (session_status() == PHP_SESSION_NONE) {
             <a class="header item" href="../index.php">
                 Home
             </a>
-            <a class="item">
-                About Us
-            </a>
             <a class="item" href="./wsn.php">
                 Wireless Sensor Network
             </a>

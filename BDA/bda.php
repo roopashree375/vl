@@ -34,9 +34,6 @@ if (session_status() == PHP_SESSION_NONE) {
             <a class="header item" href="../index.php">
                 Home
             </a>
-            <a class="item">
-                About Us
-            </a>
             <a class="header item" href="../titles7.php">
                 Go Back
             </a>

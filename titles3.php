@@ -37,11 +37,10 @@ if (session_status() == PHP_SESSION_NONE) {
       Home
     </a>
     <a class="item">
-      About Us
+      3rd Semester
     </a>
-
-    <a class="header item" href="titles3.php">
-      3rd semester
+    <a class="header item" href="titles.php">
+      Back
     </a>
   </div>
   </div>
