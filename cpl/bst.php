@@ -77,6 +77,7 @@
                     </div>
 
                     <div id="pre" style="display: none;">
+                 
                         <div class="ui bulleted list">
                             <div class="item">
                                 <strong>Mathematical Approach:</strong>
@@ -140,6 +141,7 @@
                             </div>
                         </div>
                         <br>
+                        <div class="ui form">
                     </div>
 
                     <div id="lis" style="display: none;">

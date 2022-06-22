@@ -99,51 +99,51 @@
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
-                <span class="text">Reverse and Check for palindrome</span>
+                <span class="text">Multiple linear Regression Model</span>
                 <div class="menu">
-                  <a class="item" href="palindrome.php">Palindrome</a>
+                  <a class="item" href="mlrm.php">multiple regression</a>
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
-                <span class="text">Bubble Sort.</span>
+                <span class="text">Decision Tree and Naive Bayes</span>
                 <div class="menu">
-                  <a class="item" href="bubblesort.php">BubbleSort</a>
+                  <a class="item" href="naivebayes.php">Decisiontree and naivebayes</a>
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
-                <span class="text">Binary search technique</span>
+                <span class="text">Support Vector Machine</span>
                 <div class="menu">
-                  <a class="item" href="bst.php">Binary Search</a>
+                  <a class="item" href="svm.php">SVM</a>
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
-                <span class="text">Matrix Multiplication</span>
+                <span class="text">Clustering</span>
                 <div class="menu">
-                  <a class="item" href="matrixmultiplication.php">Matrix Multiplication</a>
+                  <a class="item" href="k-means.php">Clustering</a>
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
-                <span class="text">String Concatination</span>
+                <span class="text">Sigmoid Actication Fuunction and Open CV</span>
                 <div class="menu">
-                  <a class="item" href="stringconcatination.php">String Concatination</a>
+                  <a class="item" href="ann.php">Sigmoid and Open CV</a>
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
-                <span class="text">Check if prime</span>
+                <span class="text">Relu activation function</span>
                 <div class="menu">
-                  <a class="item" href="isprime.php">IsPRime</a>
+                  <a class="item" href="keras.php">Relu activation function</a>
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
-                <span class="text">Structure-Employee</span>
+                <span class="text">Leaky Relu activation function</span>
                 <div class="menu">
-                  <a class="item" href="struct.php">Struct</a>
+                  <a class="item" href="leakyrelu.php">Leaky Relu activation function</a>
                 </div>
               </div><br>
               <div class="ui icon dropdown button">
-                <span class="text">Pointers</span>
+                <span class="text">simpleRNN</span>
                 <div class="menu">
-                  <a class="item" href="pointers.php">Pointers</a>
+                  <a class="item" href="rnn.php">simpleRNN</a>
                 </div>
               </div><br>
             </div>

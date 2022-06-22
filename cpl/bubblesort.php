@@ -74,6 +74,11 @@ in ascending order using Bubble Sort.
       </div>
       
       <div id="pre" style="display: none;">
+      <strong>Vedio to understand</strong>
+      <br>
+      <br>
+      <iframe src="https://drive.google.com/file/d/15jC-Ih9WZ78QJ3unJBWRWaWCZHIeGl9c/preview" width="640" height="480" allow="autoplay"></iframe>
+        <br>
         <div class="ui bulleted list">
           <div class="item">
              <strong>Programming Approach:</strong>
@@ -194,11 +199,14 @@ in ascending order using Bubble Sort.
           });
           </script>
           <br>
+        </div>
+    </div>
+    </div>
+    </div>
           <div id="outputBox" style="display:None;">Output:<br><br>
           <div name="output"></div><br>
           </div>
           </div>
-
       </div>
       <div id="faqs" style="display: none;">
                         <a href="quiz/bubblesortquiz.php"><button id="quizbutton"><strong>Take a Quiz and Test your knowledge</strong></button></a>
