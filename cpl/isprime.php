@@ -77,6 +77,11 @@ using library functions. Display the results after every operation.
                     </div>
 
                     <div id="pre" style="display: none;">
+                    <strong>Vedio to understand</strong>
+                     <br>
+                    <br>
+                    <iframe src="https://drive.google.com/file/d/1OWAiGoWzDebn8s026zzM3uml2YtzZ2eW/preview" width="640" height="480" allow="autoplay"></iframe>
+                    <br>
                         <div class="ui bulleted list">
                             <div class="item">
                                 <strong>Mathematical Approach:</strong>

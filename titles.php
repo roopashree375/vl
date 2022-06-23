@@ -42,10 +42,7 @@ if (session_status() == PHP_SESSION_NONE) {
       About Us
     </a>
     <a class="header item" href="titles1.php">
-      1st semester
-    </a>
-    <a class="header item" href="titles2.php">
-      2nd semester
+      1st Year
     </a>
     <a class="header item" href="titles3.php">
       3rd semester

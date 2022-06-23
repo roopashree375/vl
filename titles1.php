@@ -67,7 +67,24 @@ if (session_status() == PHP_SESSION_NONE) {
         </div>
       </div>
 
-
+      <div class="four wide column">
+        <div class="ui raised card" id="car2">
+          <div class="content" id="Card2">
+            <div class="header">
+              <a href="cpl/cpl.php">
+                C Programming Laboratory
+              </a>
+            </div>
+          </div>
+          <div class="content">
+            <span class="CardBody">
+              Contains 10 Programs with Applications in C Programming Language
+            </span>
+            <br><br>
+            <a class="ui button" href="cpl/cpl.php">Go</a>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>

@@ -76,6 +76,11 @@ messages. Ex: Num: 1234, Reverse: 4321, Not a Palindrome.
       </div>
       
       <div id="pre" style="display: none;">
+      <strong>Vedio to understand</strong>
+      <br>
+      <br>
+      <iframe src="https://drive.google.com/file/d/1loZAN7OeV-RPFEkKf2CIBwKY1RD--Af3/preview" width="640" height="480" allow="autoplay"></iframe>
+        <br>
         <div class="ui bulleted list">
           <div class="item">
              <strong>Programming Approach:</strong>

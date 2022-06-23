@@ -79,6 +79,11 @@
           </div>
 
           <div id="pre" style="display: none;">
+          <strong>Vedio to understand</strong>
+            <br>
+            <br>
+            <iframe src="https://drive.google.com/file/d/15jC-Ih9WZ78QJ3unJBWRWaWCZHIeGl9c/preview" width="640" height="480" allow="autoplay"></iframe>
+            <br>
             <div class="ui bulleted list">
               <div class="item">
                 <strong>Mathematical Approach</strong>

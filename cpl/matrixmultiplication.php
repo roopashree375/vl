@@ -78,6 +78,11 @@ Print both the input matrices and resultant matrix appropriately.
                     </div>
 
                     <div id="pre" style="display: none;">
+                    <strong>Vedio to understand</strong>
+                    <br>
+                    <br>
+                    <iframe src="https://drive.google.com/file/d/1yayDOWi9mKZ7zEg_LI7p0qiBrT6ITB2k/preview" width="640" height="480" allow="autoplay"></iframe>
+                    <br>
                         <div class="ui bulleted list">
                             <div class="item">
                                 <strong>Programming Approach:</strong>

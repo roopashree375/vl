@@ -79,6 +79,11 @@ Format.
                     </div>
 
                     <div id="pre" style="display: none;">
+                    <strong>Vedio to understand</strong>
+      <br>
+      <br>
+      <iframe src="https://drive.google.com/file/d/1aLEEK-22XnVpfeLSpUGou1BAuOXg2BNW/preview" width="640" height="480" allow="autoplay"></iframe>
+        <br>
                         <div class="ui bulleted list">
                             <div class="item">
                                 <strong>Programming Approach:</strong>

@@ -77,6 +77,11 @@ read the name of the user, number of units consumed and print out the charges.
       </div>
       
       <div id="pre" style="display: none;">
+      <strong>Vedio to understand</strong>
+      <br>
+      <br>
+      <iframe src="https://drive.google.com/file/d/1GRLBk8XkiLSxfdCn14g3rVO4G911SQZA/preview" width="640" height="480" allow="autoplay"></iframe>
+        <br>
         <div class="ui bulleted list">
           <div class="item">
              <strong>Programming Approach:</strong>
