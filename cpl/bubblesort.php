@@ -59,9 +59,9 @@
       <a class="item" target="_blank" id="list">
         Compiler
       </a>
-      <!-- <a class="item" id="faq">
+      <a class="item" id="faq">
         Quiz
-      </a> -->
+      </a>
     </div>
   </div>
  <div class="twelve wide stretched column">
